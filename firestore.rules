@@ -1,0 +1,111 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Helper function to check if the user is authenticated
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+    
+    // Helper function to check if the document belongs to the requesting user
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+
+    // Helper function to validate timestamps on write (autosave)
+    function hasValidTimestamps() {
+      return (!request.resource.data.keys().hasAll(['createdAt']) || request.resource.data.createdAt is timestamp) &&
+             (!request.resource.data.keys().hasAll(['updatedAt']) || request.resource.data.updatedAt is timestamp);
+    }
+
+    // 1. Users Collection
+    match /users/{userId} {
+      allow read, write: if isOwner(userId) && hasValidTimestamps();
+    }
+
+    // 2. Tests Collection (Read-only for students, globally accessible)
+    match /tests/{testId} {
+      allow read: if isAuthenticated();
+      // Nested subcollections for test questions
+      match /questions/{questionId} {
+        allow read: if isAuthenticated();
+      }
+    }
+
+    // 3. Student Test Goals
+    match /student_test_goals/{goalId} {
+      allow read, write: if isAuthenticated() && 
+                            request.resource.data.userId == request.auth.uid && 
+                            hasValidTimestamps();
+    }
+
+    // 4. Student Attempts
+    match /student_attempts/{attemptId} {
+      allow read, write: if isAuthenticated() && 
+                            request.resource.data.userId == request.auth.uid && 
+                            hasValidTimestamps();
+    }
+
+    // 5. Diagnostic Results
+    match /diagnostic_results/{resultId} {
+      allow read, write: if isAuthenticated() && 
+                            request.resource.data.userId == request.auth.uid && 
+                            hasValidTimestamps();
+    }
+
+    // 6. Learning Plans
+    match /learning_plans/{planId} {
+      allow read, write: if isAuthenticated() && 
+                            request.resource.data.userId == request.auth.uid && 
+                            hasValidTimestamps();
+    }
+
+    // 7. Student Profiles
+    match /student_profiles/{profileId} {
+      allow read, write: if isAuthenticated() && 
+                            request.resource.data.userId == request.auth.uid && 
+                            hasValidTimestamps();
+    }
+
+    // 8. AI Recommendations
+    match /ai_recommendations/{recommendationId} {
+      allow read, write: if isAuthenticated() && 
+                            request.resource.data.userId == request.auth.uid && 
+                            hasValidTimestamps();
+    }
+
+    // 9. Mock Interviews
+    match /mock_interviews/{interviewId} {
+      allow read, write: if isAuthenticated() && 
+                            request.resource.data.userId == request.auth.uid && 
+                            hasValidTimestamps();
+      
+      // Nested transcripts
+      match /transcripts/{transcriptId} {
+        allow read, write: if isAuthenticated() && 
+                              request.resource.data.userId == request.auth.uid;
+      }
+      
+      // Nested evaluations
+      match /evaluations/{evaluationId} {
+        allow read, write: if isAuthenticated() && 
+                              request.resource.data.userId == request.auth.uid;
+      }
+    }
+
+    // 10. Mentor Feedback
+    match /mentor_feedback/{feedbackId} {
+      // Assuming students can read their own feedback, but mentors write it
+      // For now, restricting write to the student's own ID or via Admin SDK
+      allow read: if isAuthenticated() && resource.data.userId == request.auth.uid;
+      allow write: if isAuthenticated() && request.resource.data.userId == request.auth.uid && hasValidTimestamps();
+    }
+
+    // 11. PDF Reports
+    match /pdf_reports/{reportId} {
+      allow read, write: if isAuthenticated() && 
+                            request.resource.data.userId == request.auth.uid && 
+                            hasValidTimestamps();
+    }
+  }
+}
