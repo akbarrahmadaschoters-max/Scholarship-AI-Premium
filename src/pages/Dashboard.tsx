@@ -136,87 +136,99 @@ export const Dashboard = () => {
           </div>
         </div>
 
-        {/* Top Metrics / Progress */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-12">
-          {/* Readiness Score */}
-          <Card hoverEffect className="p-6 col-span-1 md:col-span-2 bg-white relative overflow-hidden flex items-center justify-between">
-            <div>
-              <h3 className="text-sm font-bold text-slate-800 mb-1">Progres Persiapan</h3>
-              {diagnosticComplete ? (
-                <p className="text-xs font-medium text-slate-500 max-w-[200px]">
-                  {readinessScore >= 70 ? 'Great progress! Focus on polishing your essays.' : 'Keep improving your test scores for stronger applications.'}
-                </p>
-              ) : (
-                <p className="text-xs font-medium text-slate-500 max-w-[200px]">Complete the diagnostic to see your readiness score.</p>
-              )}
-            </div>
-            <div className="relative w-28 h-28 flex items-center justify-center shrink-0">
-               <svg viewBox="0 0 36 36" className="w-full h-full text-indigo-100">
-                  <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" strokeWidth="3" />
-                  <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="#4f46e5" strokeWidth="3" strokeDasharray={`${diagnosticComplete ? readinessScore : 0}, 100`} />
-               </svg>
-               <div className="absolute flex flex-col items-center justify-center">
-                 <span className="text-2xl font-black text-slate-800">{diagnosticComplete ? readinessScore : 0}%</span>
-                 <span className="text-[9px] font-bold text-slate-400 uppercase">Selesai</span>
-               </div>
-            </div>
-          </Card>
-          
-          {/* IELTS Card */}
-          <Card hoverEffect className="p-6 border-slate-200 cursor-pointer" onClick={() => (profile?.ieltsScore || ieltsResult) ? navigate('/outcome') : navigate('/diagnostic')}>
-            <h3 className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-1">IELTS Score</h3>
-            <div className="mt-2 flex flex-col gap-2">
-              {profile?.ieltsScore && (
-                <div>
-                  <span className="text-xs font-bold text-slate-400 uppercase">Actual / Target</span>
-                  <div className="flex items-end">
-                    <span className="text-4xl font-extrabold text-blue-600">{profile.ieltsScore}</span>
-                  </div>
-                </div>
-              )}
-              {ieltsResult ? (
-                <div>
-                  <span className="text-xs font-bold text-slate-400 uppercase">Diagnostic Prediction</span>
-                  <div className="flex items-end">
-                    <span className={`font-extrabold ${profile?.ieltsScore ? 'text-2xl text-blue-400' : 'text-4xl text-blue-600'}`}>
-                      {ieltsResult.overallBand.toFixed(1)}
-                    </span>
-                    <span className="text-sm font-semibold text-slate-500 mb-1 ml-2">CEFR: {ieltsResult.cefrLevel}</span>
-                  </div>
-                </div>
-              ) : (
-                !profile?.ieltsScore && <span className="text-sm font-semibold text-slate-400 mt-1">Not yet tested</span>
-              )}
-            </div>
-          </Card>
+        {/* Top Metrics / Progress Hero Card */}
+        <div className="mb-12 rounded-[var(--border-radius-xl)] bg-[linear-gradient(135deg,#0F172A_0%,#1E1B4B_50%,#0F172A_100%)] p-8 md:p-10 relative overflow-hidden shadow-[var(--shadow-lg)]">
+          {/* Background Decorations */}
+          <div className="w-[300px] h-[300px] bg-[rgba(99,102,241,0.15)] rounded-full absolute -top-[80px] -right-[60px] blur-[60px] pointer-events-none" />
+          <div className="w-[200px] h-[200px] bg-[rgba(139,92,246,0.10)] rounded-full absolute top-[40px] right-[80px] blur-[40px] pointer-events-none" />
 
-          {/* SAT Card */}
-          <Card hoverEffect className="p-6 border-slate-200 cursor-pointer" onClick={() => (profile?.satScore || satResult) ? navigate('/outcome') : navigate('/diagnostic')}>
-            <h3 className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-1">SAT Score</h3>
-            <div className="mt-2 flex flex-col gap-2">
-              {profile?.satScore && (
-                <div>
-                  <span className="text-xs font-bold text-slate-400 uppercase">Actual / Target</span>
-                  <div className="flex items-end">
-                    <span className="text-4xl font-extrabold text-violet-600">{profile.satScore}</span>
+          {/* Hero Layout */}
+          <div className="grid grid-cols-1 md:grid-cols-10 gap-8 md:gap-4 lg:gap-8 relative z-10">
+            
+            {/* Column 1 (40%) - Progress */}
+            <div className="md:col-span-4 flex flex-col justify-center">
+              <span className="text-[11px] tracking-[0.08em] text-[var(--color-dark-300)] uppercase font-bold mb-5 block">
+                PREPARATION PROGRESS
+              </span>
+              <div className="flex items-center gap-6">
+                <div className="relative w-[80px] h-[80px] flex items-center justify-center shrink-0">
+                  <svg viewBox="0 0 36 36" className="w-full h-full -rotate-90">
+                    <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="rgba(255,255,255,0.08)" strokeWidth="3" />
+                    <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="var(--color-primary-light)" strokeWidth="3" strokeDasharray={`${readinessScore}, 100`} className="transition-all duration-1000 ease-out" />
+                  </svg>
+                  <div className="absolute flex items-center justify-center">
+                    <span className="text-[18px] font-bold text-white">{readinessScore}%</span>
                   </div>
                 </div>
-              )}
-              {satResult ? (
-                <div>
-                  <span className="text-xs font-bold text-slate-400 uppercase">Diagnostic Prediction</span>
-                  <div className="flex items-end">
-                    <span className={`font-extrabold ${profile?.satScore ? 'text-2xl text-violet-400' : 'text-4xl text-violet-600'}`}>
-                      {satResult.scoreRange}
-                    </span>
-                    <span className="text-sm font-semibold text-slate-500 mb-1 ml-2">{satResult.classification}</span>
+                <div className="flex-1">
+                  <h4 className="text-[20px] font-bold text-white leading-tight mb-1.5">{readinessScore}% Complete</h4>
+                  <p className="text-[13px] text-[var(--color-dark-300)] mb-3">{readinessScore >= 70 ? 'Great progress! Focus on essays.' : 'Keep improving your scores'}</p>
+                  <div className="w-full h-1 bg-white/10 rounded-full overflow-hidden">
+                    <div className="h-full bg-gradient-to-r from-[var(--color-primary)] to-[var(--color-primary-light)] rounded-full transition-all duration-1000 ease-out" style={{ width: `${readinessScore}%` }} />
                   </div>
                 </div>
-              ) : (
-                !profile?.satScore && <span className="text-sm font-semibold text-slate-400 mt-1">Not yet tested</span>
-              )}
+              </div>
             </div>
-          </Card>
+
+            {/* Vertical Divider */}
+            <div className="hidden md:flex md:col-span-1 justify-center items-center">
+              <div className="w-[1px] h-[80px] bg-white/10" />
+            </div>
+
+            {/* Column 2 (30%) - IELTS Score */}
+            <div className="md:col-span-2 flex flex-col justify-center">
+              <span className="text-[11px] tracking-[0.08em] text-[var(--color-dark-300)] uppercase font-bold mb-3 block">
+                IELTS SCORE
+              </span>
+              <div className="flex items-end gap-3 mb-3">
+                <span className="text-[52px] font-[800] text-white tracking-[-0.02em] leading-none">
+                  {displayIeltsScore}
+                </span>
+                {ieltsResult?.cefrLevel && (
+                  <span className="bg-[rgba(99,102,241,0.2)] text-[var(--color-primary-light)] px-2.5 py-0.5 rounded-[4px] text-[12px] font-bold mb-2">
+                    {ieltsResult.cefrLevel}
+                  </span>
+                )}
+              </div>
+              <div className="mt-auto">
+                <div className="text-[12px] text-[var(--color-dark-300)] font-medium mb-2">
+                  Target: 6.5
+                </div>
+                <div className="w-full h-1.5 bg-white/10 rounded-full overflow-hidden">
+                  <div className="h-full bg-[var(--color-primary)] rounded-full" style={{ width: `${Math.min((ieltsScore / 9) * 100, 100)}%` }} />
+                </div>
+              </div>
+            </div>
+
+            {/* Vertical Divider */}
+            <div className="hidden md:flex md:col-span-1 justify-center items-center">
+              <div className="w-[1px] h-[80px] bg-white/10" />
+            </div>
+
+            {/* Column 3 (30%) - SAT Score */}
+            <div className="md:col-span-2 flex flex-col justify-center">
+              <span className="text-[11px] tracking-[0.08em] text-[var(--color-dark-300)] uppercase font-bold mb-3 block">
+                SAT SCORE
+              </span>
+              <div className="flex items-end gap-3 mb-1">
+                <span className="text-[52px] font-[800] text-white tracking-[-0.02em] leading-none">
+                  {displaySatScore === '—' ? '—' : satTotal}
+                </span>
+                {satResult?.classification && (
+                  <span className="bg-[rgba(245,158,11,0.15)] text-[#FCD34D] px-2.5 py-0.5 rounded-[4px] text-[12px] font-bold mb-2 whitespace-nowrap">
+                    {satResult.classification} Range
+                  </span>
+                )}
+              </div>
+              <p className="text-[12px] text-[var(--color-dark-300)] font-medium mb-3 mt-1">
+                {satResult?.scoreRange ? `~${satResult.scoreRange.split('-')[1]} upper estimate` : 'Not tested'}
+              </p>
+              <div className="w-full h-1.5 bg-white/10 rounded-full overflow-hidden mt-auto">
+                <div className="h-full bg-[var(--color-primary)] rounded-full" style={{ width: `${Math.min((satTotal / 1600) * 100, 100)}%` }} />
+              </div>
+            </div>
+
+          </div>
         </div>
 
         {/* Diagnostic Cards Grid */}
