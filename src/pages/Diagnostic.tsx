@@ -19,10 +19,8 @@ const DiagnosticEngineContent = () => {
   React.useEffect(() => {
     if (searchParams.get('mode') === 'retake') {
       setCurrentStep('selection');
-      // Remove the query param so it doesn't get stuck in retake mode on reloads
-      setSearchParams({});
     }
-  }, [searchParams, setCurrentStep, setSearchParams]);
+  }, [searchParams, setCurrentStep]);
 
   return (
     <div className="min-h-screen bg-slate-50 py-12 px-4 sm:px-6 lg:px-8 font-sans">

@@ -3,8 +3,11 @@ import { Card } from '../../components/Card';
 import { Button } from '../../components/Button';
 import { useDiagnostic } from '../../context/DiagnosticContext';
 
+import { useNavigate } from 'react-router-dom';
+
 export const SelectionStep: React.FC = () => {
   const { setCurrentStep, setSatResult, setIeltsResult, setSatAnswers, setIeltsAnswers, saveProgress } = useDiagnostic();
+  const navigate = useNavigate();
 
   const handleRetakeSAT = () => {
     // Clear SAT data to start fresh
@@ -13,6 +16,7 @@ export const SelectionStep: React.FC = () => {
     localStorage.removeItem('sat_result');
     // Clear the daily study plan since one test result is changing
     localStorage.removeItem('daily_study_plan');
+    navigate('/diagnostic');
     setCurrentStep('sat');
     saveProgress();
   };
@@ -24,6 +28,7 @@ export const SelectionStep: React.FC = () => {
     localStorage.removeItem('ielts_result');
     // Clear the daily study plan since one test result is changing
     localStorage.removeItem('daily_study_plan');
+    navigate('/diagnostic');
     setCurrentStep('ielts');
     saveProgress();
   };
