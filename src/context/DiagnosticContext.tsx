@@ -79,7 +79,10 @@ export const useDiagnostic = () => {
 
 export const DiagnosticProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const { currentUser } = useAuth();
-  const [currentStep, setCurrentStep] = useState<DiagnosticStep>('survey');
+  const [currentStep, setCurrentStep] = useState<DiagnosticStep>(() => {
+    if (window.location.search.includes('mode=retake')) return 'selection';
+    return 'survey';
+  });
   const [surveyData, setSurveyData] = useState<SurveyData>({
     satDate: '',
     ieltsDate: '',
@@ -101,7 +104,9 @@ export const DiagnosticProvider: React.FC<{ children: React.ReactNode }> = ({ ch
     if (saved) {
       try {
         const parsed = JSON.parse(saved);
-        if (parsed.currentStep) setCurrentStep(parsed.currentStep);
+        if (parsed.currentStep && !window.location.search.includes('mode=retake')) {
+          setCurrentStep(parsed.currentStep);
+        }
         if (parsed.surveyData) setSurveyData(parsed.surveyData);
         if (parsed.satAnswers) setSatAnswers(parsed.satAnswers);
         if (parsed.ieltsAnswers) setIeltsAnswers(parsed.ieltsAnswers);
@@ -127,7 +132,9 @@ export const DiagnosticProvider: React.FC<{ children: React.ReactNode }> = ({ ch
             const data = snap.data();
             if (data.satResult) setSatResult(data.satResult);
             if (data.ieltsResult) setIeltsResult(data.ieltsResult);
-            if (data.currentStep) setCurrentStep(data.currentStep);
+            if (data.currentStep && !window.location.search.includes('mode=retake')) {
+              setCurrentStep(data.currentStep);
+            }
           }
         } catch (e) {
           console.error('Failed to load from firebase', e);

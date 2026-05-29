@@ -105,7 +105,7 @@ export const Dashboard = () => {
             <Button 
               variant="primary" 
               className="shadow-lg shadow-indigo-200"
-              onClick={() => navigate('/diagnostic')}
+              onClick={() => navigate(diagnosticComplete ? '/diagnostic?mode=retake' : '/diagnostic')}
             >
               {diagnosticComplete ? 'Retake Diagnostic' : 'Start Diagnostic Test'}
             </Button>
