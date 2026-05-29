@@ -1,0 +1,71 @@
+:root {
+  /* === PRIMARY PALETTE === */
+  --color-primary: #6366F1;
+  --color-primary-dark: #4F46E5;
+  --color-primary-light: #818CF8;
+  --color-primary-ghost: rgba(99, 102, 241, 0.08);
+  --color-primary-glow: rgba(99, 102, 241, 0.15);
+
+  /* === NEUTRAL PALETTE === */
+  --color-dark-900: #0F172A;
+  --color-dark-800: #1E293B;
+  --color-dark-700: #334155;
+  --color-dark-500: #64748B;
+  --color-dark-300: #94A3B8;
+  --color-dark-100: #E2E8F0;
+  --color-dark-50:  #F1F5F9;
+  --color-dark-25:  #F8FAFC;
+
+  /* === SEMANTIC COLORS === */
+  --color-success: #10B981;
+  --color-success-ghost: rgba(16, 185, 129, 0.08);
+  --color-warning: #F59E0B;
+  --color-warning-ghost: rgba(245, 158, 11, 0.08);
+  --color-danger: #EF4444;
+  --color-danger-ghost: rgba(239, 68, 68, 0.08);
+  --color-info: #3B82F6;
+  --color-info-ghost: rgba(59, 130, 246, 0.08);
+
+  /* === SURFACES === */
+  --surface-white: #FFFFFF;
+  --surface-light: #F8FAFC;
+  --surface-card: #FFFFFF;
+  --surface-dark: #0F172A;
+  --surface-dark-card: #1E293B;
+
+  /* === BORDERS === */
+  --border-light: 1px solid #E2E8F0;
+  --border-dark: 1px solid rgba(255,255,255,0.08);
+  --border-radius-sm: 8px;
+  --border-radius-md: 12px;
+  --border-radius-lg: 16px;
+  --border-radius-xl: 24px;
+
+  /* === SHADOWS === */
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.05), 0 1px 2px rgba(0,0,0,0.04);
+  --shadow-md: 0 4px 12px rgba(0,0,0,0.06), 0 2px 6px rgba(0,0,0,0.04);
+  --shadow-lg: 0 8px 25px rgba(0,0,0,0.08), 0 4px 12px rgba(0,0,0,0.05);
+  --shadow-primary: 0 8px 25px rgba(99, 102, 241, 0.20);
+  --shadow-glow: 0 0 40px rgba(99, 102, 241, 0.15);
+
+  /* === TYPOGRAPHY === */
+  --font-display: 800;
+  --font-bold: 700;
+  --font-semibold: 600;
+  --font-medium: 500;
+  --font-regular: 400;
+
+  /* === SPACING === */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+
+  /* === TRANSITIONS === */
+  --transition-fast: all 0.15s ease;
+  --transition-base: all 0.2s ease;
+  --transition-slow: all 0.3s ease;
+}
