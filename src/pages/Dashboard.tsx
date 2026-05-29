@@ -1,13 +1,13 @@
 import { useAuth } from '../context/AuthContext';
 import { Card } from '../components/Card';
 import { Button } from '../components/Button';
-import { UniversityCard } from '../components/UniversityCard';
 import { useNavigate, Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import type { SatResult, IeltsResult, DayPlan } from '../context/DiagnosticContext';
 import { generatePDFReport } from '../utils/generatePDF';
 import { db } from '../services/firebase';
 import { doc, getDoc } from 'firebase/firestore';
+import universitiesData from '../data/universities.json';
 
 export const Dashboard = () => {
   const { currentUser, logout } = useAuth();
@@ -84,14 +84,7 @@ export const Dashboard = () => {
     ? Math.min(100, Math.round((ieltsScore / 9) * 50 + (satTotal / 1600) * 50))
     : 0;
 
-  const topUniversities = [
-    { name: "Harvard University", country: "United States", tag: "Highly Competitive", focus: "Essays & Leadership", gradient: "bg-gradient-to-r from-red-900 to-red-700" },
-    { name: "Stanford University", country: "United States", tag: "STEM & Business", focus: "Innovation & SAT", gradient: "bg-gradient-to-r from-red-800 to-red-600" },
-    { name: "MIT", country: "United States", tag: "STEM Strong", focus: "Math & Physics", gradient: "bg-gradient-to-r from-gray-800 to-gray-600" },
-    { name: "University of Oxford", country: "United Kingdom", tag: "Global Top Choice", focus: "Subject Mastery", gradient: "bg-gradient-to-r from-blue-900 to-blue-800" },
-    { name: "NUS", country: "Singapore", tag: "Scholarship Friendly", focus: "ASEAN Scholarship", gradient: "bg-gradient-to-r from-orange-600 to-orange-500" },
-    { name: "University of Melbourne", country: "Australia", tag: "Top 50 Global", focus: "ATAR / IB", gradient: "bg-gradient-to-r from-blue-800 to-blue-600" }
-  ];
+  const topUniversitiesData = universitiesData.slice(0, 4);
 
   return (
     <div className="min-h-screen bg-slate-50 font-sans pb-20">
@@ -443,12 +436,50 @@ export const Dashboard = () => {
               <h3 className="text-2xl font-bold text-slate-900">Top University Targets</h3>
               <p className="text-sm font-medium text-slate-500 mt-1">Explore global institutions tailored for your ambition.</p>
             </div>
-            <Button variant="ghost" size="sm" className="font-semibold text-indigo-600 hidden sm:block">View All Universities &rarr;</Button>
+            <Button variant="ghost" size="sm" onClick={() => navigate('/universities')} className="font-semibold text-indigo-600 hidden sm:block">View All Universities &rarr;</Button>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {topUniversities.map((uni, idx) => (
-              <UniversityCard key={idx} {...uni} />
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {topUniversitiesData.map((u) => (
+              <div 
+                key={u.id} 
+                onClick={() => navigate('/universities')}
+                className="bg-white rounded-3xl overflow-hidden shadow-sm border border-slate-100 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 cursor-pointer group flex flex-col"
+              >
+                {/* Image Cover */}
+                <div className="h-32 overflow-hidden relative bg-slate-200">
+                  <img 
+                    src={`https://picsum.photos/seed/${u.id}/600/400`} 
+                    alt={u.name}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                  <div className="absolute top-3 left-3 bg-white/90 backdrop-blur-sm px-2.5 py-1 rounded-full flex items-center gap-1.5 shadow-sm">
+                    <span className="text-sm">{u.flag}</span>
+                    <span className="text-[10px] font-bold text-slate-700">{u.country}</span>
+                  </div>
+                  <div className="absolute top-3 right-3 bg-indigo-600 text-white px-2 py-1 rounded-full shadow-sm flex items-center gap-1 font-bold text-[10px]">
+                    🏆 #{u.rank}
+                  </div>
+                </div>
+                
+                {/* Card Body */}
+                <div className="p-4 flex flex-col flex-1">
+                  <h3 className="font-bold text-base text-slate-800 leading-tight group-hover:text-indigo-600 transition-colors mb-1 line-clamp-2">
+                    {u.name}
+                  </h3>
+                  <p className="text-xs text-slate-500 font-medium mb-3 flex items-center gap-1">
+                    📍 {u.city} • <span className="italic">{u.type}</span>
+                  </p>
+                  
+                  <div className="mt-auto pt-3 border-t border-slate-100 flex items-center justify-between">
+                    <div className="flex flex-col">
+                      <span className="text-[9px] font-bold text-slate-400 uppercase tracking-wider">Acceptance</span>
+                      <span className="text-xs font-bold text-slate-700">{u.acceptanceRate ? `${u.acceptanceRate}%` : 'N/A'}</span>
+                    </div>
+                    <span className="text-indigo-600 text-[10px] font-bold opacity-0 group-hover:opacity-100 transition-opacity">Explore →</span>
+                  </div>
+                </div>
+              </div>
             ))}
           </div>
         </div>
