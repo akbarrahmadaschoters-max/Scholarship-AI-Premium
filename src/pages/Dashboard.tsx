@@ -233,171 +233,219 @@ export const Dashboard = () => {
 
         {/* Diagnostic Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-          {/* SAT Diagnostic Card */}
-          <Card hoverEffect className="p-0 overflow-hidden border-violet-100">
-            <div className="bg-gradient-to-r from-violet-600 to-purple-500 text-white p-5">
-              <p className="text-violet-200 text-xs font-bold uppercase tracking-widest">SAT Diagnostic</p>
-              <p className="text-lg font-bold mt-1">Digital SAT Practice Test</p>
+          
+          {/* SAT Diagnostic Card (DARK FEATURE CARD) */}
+          <div className="bg-[var(--color-dark-900)] border border-[rgba(255,255,255,0.06)] rounded-[var(--border-radius-lg)] shadow-[var(--shadow-sm)] overflow-hidden transition-[var(--transition-base)] hover:shadow-[var(--shadow-lg)] hover:-translate-y-[2px] hover:border-[var(--color-primary-light)] flex flex-col">
+            <div className="bg-transparent border-b border-[rgba(255,255,255,0.06)] px-[24px] pt-[20px] pb-[16px]">
+              <div className="flex justify-between items-center mb-1">
+                <span className="text-[11px] tracking-[0.06em] uppercase text-[var(--color-primary-light)] font-bold">SAT DIAGNOSTIC</span>
+                <span className="text-[20px]">📝</span>
+              </div>
+              <h3 className="text-[18px] font-[600] text-white">Digital SAT Practice Test</h3>
             </div>
-            <div className="p-5">
+            <div className="px-[24px] pt-[20px] pb-[24px] flex-1 flex flex-col">
               {satResult ? (
-                <div className="space-y-2">
-                  <div className="flex justify-between text-sm">
-                    <span className="text-slate-600">Math</span>
-                    <span className="font-bold text-violet-700">{satResult.mathScore}</span>
+                <div className="space-y-4">
+                  <div className="flex justify-between items-center">
+                    <span className="text-[14px] text-white/80">Math</span>
+                    <span className="text-[24px] font-bold text-white">{satResult.mathScore}</span>
                   </div>
-                  <div className="flex justify-between items-center text-sm">
-                    <span className="text-slate-600">Reading & Writing</span>
-                    <span className="font-bold text-violet-700">{satResult.readingWritingScore}</span>
+                  <div className="flex justify-between items-center">
+                    <span className="text-[14px] text-white/80">Reading & Writing</span>
+                    <span className="text-[24px] font-bold text-white">{satResult.readingWritingScore}</span>
                   </div>
-                  <div className="pt-2 border-t border-slate-100">
+                  <div className="pt-3 border-t border-[rgba(255,255,255,0.06)] mt-auto">
                     <span className={`px-3 py-1 rounded-full text-xs font-bold ${
-                      satResult.classification === 'High' ? 'bg-emerald-50 text-emerald-700' : 
-                      satResult.classification === 'Mid' ? 'bg-amber-50 text-amber-700' : 'bg-red-50 text-red-700'
+                      satResult.classification === 'High' ? 'bg-emerald-500/20 text-emerald-300' : 
+                      satResult.classification === 'Mid' ? 'bg-amber-500/20 text-amber-300' : 'bg-red-500/20 text-red-300'
                     }`}>{satResult.classification}</span>
                   </div>
                 </div>
               ) : (
-                <div>
-                  <p className="text-sm text-slate-500 mb-3">6 questions • Math, Reading & Writing • 45-minute timer</p>
-                  <Button variant="primary" size="sm" onClick={() => navigate('/diagnostic')} className="w-full">
+                <div className="flex flex-col h-full">
+                  <p className="text-[13px] text-white/60 mb-5">6 questions • Math, Reading & Writing • 45-minute timer</p>
+                  <Button variant="primary" size="sm" onClick={() => navigate('/diagnostic')} className="w-full mt-auto">
                     Start SAT Test →
                   </Button>
                 </div>
               )}
             </div>
-          </Card>
+          </div>
 
           {/* IELTS Diagnostic Card */}
-          <Card hoverEffect className="p-0 overflow-hidden border-blue-100">
-            <div className="bg-gradient-to-r from-blue-600 to-blue-500 text-white p-5">
-              <p className="text-blue-200 text-xs font-bold uppercase tracking-widest">IELTS Diagnostic</p>
-              <p className="text-lg font-bold mt-1">Full IELTS Mock Test</p>
+          <div className="bg-[var(--surface-card)] border border-[var(--border-light)] rounded-[var(--border-radius-lg)] shadow-[var(--shadow-sm)] overflow-hidden transition-[var(--transition-base)] hover:shadow-[var(--shadow-lg)] hover:-translate-y-[2px] hover:border-[var(--color-primary-light)] flex flex-col">
+            <div className="bg-transparent border-b border-[var(--border-light)] px-[24px] pt-[20px] pb-[16px]">
+              <div className="flex justify-between items-center mb-1">
+                <span className="text-[11px] tracking-[0.06em] uppercase text-[var(--color-primary)] font-bold">IELTS DIAGNOSTIC</span>
+                <span className="text-[20px]">🎧</span>
+              </div>
+              <h3 className="text-[18px] font-[600] text-[var(--color-dark-900)]">Full IELTS Mock Test</h3>
             </div>
-            <div className="p-5">
+            <div className="px-[24px] pt-[20px] pb-[24px] flex-1 flex flex-col">
               {ieltsResult ? (
-                <div className="space-y-2">
+                <div className="space-y-4">
                   {['Listening', 'Reading', 'Writing', 'Speaking'].map(skill => {
                     const band = ieltsResult[`${skill.toLowerCase()}Band` as keyof IeltsResult] as number;
+                    const fillColor = band < 5.0 ? 'var(--color-danger)' : band <= 6.5 ? 'var(--color-warning)' : 'var(--color-success)';
                     return (
-                      <div key={skill} className="flex items-center justify-between text-sm">
-                        <span className="text-slate-600">{skill}</span>
-                        <div className="flex items-center gap-2">
-                          <div className="w-20 bg-slate-100 rounded-full h-1.5">
-                            <div className="bg-blue-500 h-1.5 rounded-full" style={{ width: `${(band / 9) * 100}%` }} />
-                          </div>
-                          <span className="font-bold text-blue-700 w-6 text-right">{band?.toFixed?.(1) || band}</span>
+                      <div key={skill} className="flex flex-col">
+                        <div className="flex items-center justify-between mb-1">
+                          <span className="text-[14px] text-[var(--color-dark-700)]">{skill}</span>
+                          <span className="text-[14px] font-[600] text-[var(--color-dark-900)]">{band?.toFixed?.(1) || band}</span>
+                        </div>
+                        <div className="w-full h-[6px] bg-[var(--color-dark-100)] rounded-[3px] overflow-hidden">
+                          <div className="h-full rounded-[3px] transition-all duration-1000 ease-out" style={{ width: `${(band / 9) * 100}%`, backgroundColor: fillColor }} />
                         </div>
                       </div>
                     );
                   })}
                 </div>
               ) : (
-                <div>
-                  <p className="text-sm text-slate-500 mb-3">Listening, Reading, Writing & Speaking sections</p>
-                  <Button variant="primary" size="sm" onClick={() => navigate('/diagnostic')} className="w-full">
+                <div className="flex flex-col h-full">
+                  <p className="text-[13px] text-[var(--color-dark-500)] mb-5">Listening, Reading, Writing & Speaking sections</p>
+                  <Button variant="primary" size="sm" onClick={() => navigate('/diagnostic')} className="w-full mt-auto">
                     Start IELTS Test →
                   </Button>
                 </div>
               )}
             </div>
-          </Card>
+          </div>
 
           {/* Weakness Analysis Card */}
-          <Card hoverEffect className="p-0 overflow-hidden border-red-100">
-            <div className="bg-gradient-to-r from-red-600 to-orange-500 text-white p-5">
-              <p className="text-red-200 text-xs font-bold uppercase tracking-widest">Weakness Analysis</p>
-              <p className="text-lg font-bold mt-1">Areas to Improve</p>
+          <div className="bg-[var(--surface-card)] border border-[var(--border-light)] rounded-[var(--border-radius-lg)] shadow-[var(--shadow-sm)] overflow-hidden transition-[var(--transition-base)] hover:shadow-[var(--shadow-lg)] hover:-translate-y-[2px] hover:border-[var(--color-primary-light)] flex flex-col">
+            <div className="bg-transparent border-b border-[var(--border-light)] px-[24px] pt-[20px] pb-[16px]">
+              <div className="flex justify-between items-center mb-1">
+                <span className="text-[11px] tracking-[0.06em] uppercase text-[var(--color-primary)] font-bold">WEAKNESS ANALYSIS</span>
+                <span className="text-[20px]">🔍</span>
+              </div>
+              <h3 className="text-[18px] font-[600] text-[var(--color-dark-900)]">Areas to Improve</h3>
             </div>
-            <div className="p-5">
+            <div className="px-[24px] pt-[20px] pb-[24px] flex-1 flex flex-col">
               {diagnosticComplete ? (
-                <ul className="space-y-2">
-                  {[...(satResult?.weaknesses || []).map(w => `SAT: ${w}`), ...(ieltsResult?.weaknesses || []).map(w => `IELTS: ${w}`)].slice(0, 4).map((w, i) => (
-                    <li key={i} className="flex items-start gap-2 text-sm text-slate-700">
-                      <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-red-400 shrink-0" />
-                      {w}
-                    </li>
+                <div className="flex flex-wrap gap-2">
+                  {[...(satResult?.weaknesses || []).map(w => `SAT: ${w}`), ...(ieltsResult?.weaknesses || []).map(w => `IELTS: ${w}`)].slice(0, 5).map((w, i) => (
+                    <span key={i} className="inline-flex items-center gap-[8px] bg-[var(--color-danger-ghost)] border border-[rgba(239,68,68,0.15)] text-[var(--color-danger)] px-[12px] py-[6px] rounded-[6px] text-[13px] font-medium">
+                      ⚠️ {w}
+                    </span>
                   ))}
-                </ul>
+                </div>
               ) : (
-                <p className="text-sm text-slate-400">Complete diagnostics to see your weak areas.</p>
+                <p className="text-[13px] text-[var(--color-dark-500)]">Complete diagnostics to see your weak areas.</p>
               )}
             </div>
-          </Card>
+          </div>
+
+          {/* Scholarship Readiness Card */}
+          <div className="bg-[var(--surface-card)] border border-[var(--border-light)] rounded-[var(--border-radius-lg)] shadow-[var(--shadow-sm)] overflow-hidden transition-[var(--transition-base)] hover:shadow-[var(--shadow-lg)] hover:-translate-y-[2px] hover:border-[var(--color-primary-light)] flex flex-col">
+            <div className="bg-transparent border-b border-[var(--border-light)] px-[24px] pt-[20px] pb-[16px]">
+              <div className="flex justify-between items-center mb-1">
+                <span className="text-[11px] tracking-[0.06em] uppercase text-[var(--color-primary)] font-bold">SCHOLARSHIP</span>
+                <span className="text-[20px]">🎓</span>
+              </div>
+              <h3 className="text-[18px] font-[600] text-[var(--color-dark-900)]">Readiness Level</h3>
+            </div>
+            <div className="px-[24px] pt-[20px] pb-[24px] flex-1 flex flex-col items-center justify-center text-center">
+              {diagnosticComplete ? (
+                <>
+                  {/* Gauge Visual */}
+                  <div className="relative w-[180px] h-[90px] overflow-hidden mb-4">
+                    <svg viewBox="0 0 100 50" className="w-full h-full">
+                      {/* Background arc */}
+                      <path d="M 10 50 A 40 40 0 0 1 90 50" fill="none" stroke="var(--color-dark-100)" strokeWidth="12" strokeLinecap="round" />
+                      {/* Active arc */}
+                      <path d="M 10 50 A 40 40 0 0 1 90 50" fill="none" 
+                        stroke={readinessScore >= 66 ? "var(--color-success)" : readinessScore >= 33 ? "var(--color-warning)" : "var(--color-danger)"} 
+                        strokeWidth="12" strokeLinecap="round" 
+                        strokeDasharray="125.6" 
+                        strokeDashoffset={125.6 - (readinessScore / 100) * 125.6} 
+                        className="transition-all duration-1000 ease-out" 
+                      />
+                      {/* Needle */}
+                      <g transform={`rotate(${(readinessScore / 100) * 180 - 90} 50 50)`} className="transition-transform duration-1000 ease-out origin-[50px_50px]">
+                        <polygon points="48,50 52,50 50,20" fill="var(--color-dark-800)" />
+                        <circle cx="50" cy="50" r="4" fill="var(--color-dark-800)" />
+                      </g>
+                    </svg>
+                  </div>
+                  <div className={`text-[20px] font-bold mb-1 ${readinessScore >= 66 ? 'text-[var(--color-success)]' : readinessScore >= 33 ? 'text-[var(--color-warning)]' : 'text-[var(--color-danger)]'}`}>
+                    {readinessScore >= 80 ? 'Excellent' : readinessScore >= 66 ? 'Good' : readinessScore >= 33 ? 'Developing' : 'Needs Work'}
+                  </div>
+                  <div className="text-[13px] text-[var(--color-dark-500)]">
+                    Competitive for {readinessScore >= 80 ? 'Top 20' : readinessScore >= 60 ? 'Top 50' : 'Top 100'} universities
+                  </div>
+                </>
+              ) : (
+                <p className="text-[13px] text-[var(--color-dark-500)]">Complete diagnostics to assess scholarship readiness.</p>
+              )}
+            </div>
+          </div>
 
           {/* Daily Study Plan Card */}
-          <Card hoverEffect className="p-0 overflow-hidden border-emerald-100">
-            <div className="bg-gradient-to-r from-emerald-600 to-teal-500 text-white p-5">
-              <p className="text-emerald-200 text-xs font-bold uppercase tracking-widest">Study Schedule</p>
-              <p className="text-lg font-bold mt-1">📅 Daily Study Plan</p>
+          <div className="bg-[var(--surface-card)] border border-[var(--border-light)] rounded-[var(--border-radius-lg)] shadow-[var(--shadow-sm)] overflow-hidden transition-[var(--transition-base)] hover:shadow-[var(--shadow-lg)] hover:-translate-y-[2px] hover:border-[var(--color-primary-light)] flex flex-col">
+            <div className="bg-transparent border-b border-[var(--border-light)] px-[24px] pt-[20px] pb-[16px]">
+              <div className="flex justify-between items-center mb-1">
+                <span className="text-[11px] tracking-[0.06em] uppercase text-[var(--color-primary)] font-bold">STUDY SCHEDULE</span>
+                <span className="text-[20px]">📅</span>
+              </div>
+              <h3 className="text-[18px] font-[600] text-[var(--color-dark-900)]">Daily Study Plan</h3>
             </div>
-            <div className="p-5">
+            <div className="px-[24px] pt-[20px] pb-[24px] flex-1 flex flex-col">
               {studyPlan.length > 0 ? (
-                <div className="space-y-2">
+                <div className="space-y-4">
                   {studyPlan.slice(0, 3).map((day, i) => (
-                    <div key={i} className="text-sm">
-                      <p className="font-semibold text-slate-800">{day.day}, {day.date}</p>
-                      <p className="text-slate-500 text-xs">
-                        {day.tasks.length} tasks • {day.tasks.reduce((s, t) => s + t.duration, 0)} min
-                      </p>
+                    <div key={i} className="flex justify-between items-center border-b border-[var(--border-light)] pb-3 last:border-0 last:pb-0">
+                      <div>
+                        <p className="font-[600] text-[14px] text-[var(--color-dark-900)]">{day.day}, {day.date}</p>
+                        <p className="text-[var(--color-dark-500)] text-[12px] mt-0.5">
+                          {day.tasks.length} tasks
+                        </p>
+                      </div>
+                      <div className="text-right">
+                        <span className="bg-[var(--color-primary-ghost)] text-[var(--color-primary)] text-[12px] font-bold px-2.5 py-1 rounded-md">
+                          {day.tasks.reduce((s, t) => s + t.duration, 0)} min
+                        </span>
+                      </div>
                     </div>
                   ))}
-                  <Button variant="outline" size="sm" onClick={() => navigate('/outcome')} className="w-full mt-2">
+                  <Button variant="outline" size="sm" onClick={() => navigate('/outcome')} className="w-full mt-auto">
                     View Full Plan →
                   </Button>
                 </div>
               ) : (
-                <p className="text-sm text-slate-400">Complete diagnostics to generate your personalized study plan.</p>
+                <p className="text-[13px] text-[var(--color-dark-500)]">Complete diagnostics to generate your personalized study plan.</p>
               )}
             </div>
-          </Card>
-
-          {/* Scholarship Readiness Card */}
-          <Card hoverEffect className="p-0 overflow-hidden border-amber-100">
-            <div className="bg-gradient-to-r from-amber-600 to-yellow-500 text-white p-5">
-              <p className="text-amber-200 text-xs font-bold uppercase tracking-widest">Scholarship</p>
-              <p className="text-lg font-bold mt-1">🎓 Readiness Level</p>
-            </div>
-            <div className="p-5">
-              {diagnosticComplete ? (
-                <div>
-                  <p className={`text-2xl font-black ${readinessScore >= 70 ? 'text-emerald-600' : readinessScore >= 50 ? 'text-amber-600' : 'text-red-600'}`}>
-                    {readinessScore >= 80 ? 'Excellent' : readinessScore >= 60 ? 'Good' : readinessScore >= 40 ? 'Developing' : 'Needs Work'}
-                  </p>
-                  <p className="text-sm text-slate-500 mt-1">
-                    Competitive for {readinessScore >= 80 ? 'Top 20' : readinessScore >= 60 ? 'Top 50' : 'Top 100'} universities
-                  </p>
-                </div>
-              ) : (
-                <p className="text-sm text-slate-400">Complete diagnostics to assess scholarship readiness.</p>
-              )}
-            </div>
-          </Card>
+          </div>
 
           {/* AI Recommendations Card */}
-          <Card hoverEffect className="p-0 overflow-hidden border-indigo-100">
-            <div className="bg-gradient-to-r from-indigo-600 to-indigo-500 text-white p-5">
-              <p className="text-indigo-200 text-xs font-bold uppercase tracking-widest">AI Insights</p>
-              <p className="text-lg font-bold mt-1">🤖 Recommendations</p>
+          <div className="bg-[var(--surface-card)] border border-[var(--border-light)] rounded-[var(--border-radius-lg)] shadow-[var(--shadow-sm)] overflow-hidden transition-[var(--transition-base)] hover:shadow-[var(--shadow-lg)] hover:-translate-y-[2px] hover:border-[var(--color-primary-light)] flex flex-col">
+            <div className="bg-transparent border-b border-[var(--border-light)] px-[24px] pt-[20px] pb-[16px]">
+              <div className="flex justify-between items-center mb-1">
+                <span className="text-[11px] tracking-[0.06em] uppercase text-[var(--color-primary)] font-bold">AI INSIGHTS</span>
+                <span className="text-[20px]">🤖</span>
+              </div>
+              <h3 className="text-[18px] font-[600] text-[var(--color-dark-900)]">Recommendations</h3>
             </div>
-            <div className="p-5">
+            <div className="px-[24px] pt-[20px] pb-[24px] flex-1 flex flex-col">
               {diagnosticComplete ? (
-                <ul className="space-y-2">
+                <div className="space-y-2 flex-1">
                   {[...(satResult?.recommendations || []), ...(ieltsResult?.recommendations || [])].slice(0, 3).map((r, i) => (
-                    <li key={i} className="flex items-start gap-2 text-sm text-slate-700">
-                      <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-indigo-400 shrink-0" />
+                    <div key={i} className="border-l-[3px] border-[var(--color-primary)] bg-[var(--color-primary-ghost)] p-[10px_14px] rounded-[0_8px_8px_0] text-[13px] text-[var(--color-dark-700)] mb-[8px] leading-relaxed">
                       {r}
-                    </li>
+                    </div>
                   ))}
-                  <Button variant="outline" size="sm" onClick={() => navigate('/outcome')} className="w-full mt-2">
-                    View Full Analysis →
-                  </Button>
-                </ul>
+                  <div className="mt-auto pt-2">
+                    <Button variant="outline" size="sm" onClick={() => navigate('/outcome')} className="w-full">
+                      View Full Analysis →
+                    </Button>
+                  </div>
+                </div>
               ) : (
-                <p className="text-sm text-slate-400">Complete diagnostics to get AI-powered recommendations.</p>
+                <p className="text-[13px] text-[var(--color-dark-500)]">Complete diagnostics to get AI-powered recommendations.</p>
               )}
             </div>
-          </Card>
+          </div>
+          
         </div>
 
         {/* University Targets */}
