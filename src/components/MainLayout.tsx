@@ -21,16 +21,8 @@ export const MainLayout: React.FC<{ children: React.ReactNode }> = ({ children }
     const hasExistingData = localStorage.getItem('diagnostic_progress') || localStorage.getItem('sat_result') || localStorage.getItem('ielts_result');
     
     if (hasExistingData) {
-      const confirmRetake = window.confirm("Are you sure you want to start the test? This will override your previous diagnostic test.");
-      if (!confirmRetake) {
-        e.preventDefault();
-        return;
-      }
-      // Clear data to start from beginning
-      localStorage.removeItem('diagnostic_progress');
-      localStorage.removeItem('sat_result');
-      localStorage.removeItem('ielts_result');
-      localStorage.removeItem('daily_study_plan');
+      e.preventDefault();
+      navigate('/diagnostic?mode=retake');
     }
   };
 

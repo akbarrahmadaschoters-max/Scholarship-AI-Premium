@@ -3,7 +3,7 @@ import { db } from '../services/firebase';
 import { useAuth } from './AuthContext';
 import { doc, getDoc, setDoc } from 'firebase/firestore';
 
-export type DiagnosticStep = 'survey' | 'sat' | 'ielts' | 'results';
+export type DiagnosticStep = 'survey' | 'sat' | 'ielts' | 'results' | 'selection';
 
 export interface SurveyData {
   satDate: string;

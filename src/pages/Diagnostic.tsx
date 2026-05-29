@@ -9,8 +9,20 @@ import { ResultStep } from '../features/diagnostic/ResultStep';
 import { IeltsStep } from '../features/diagnostic/IeltsStep';
 
 
+import { SelectionStep } from '../features/diagnostic/SelectionStep';
+import { useSearchParams } from 'react-router-dom';
+
 const DiagnosticEngineContent = () => {
-  const { currentStep } = useDiagnostic();
+  const { currentStep, setCurrentStep } = useDiagnostic();
+  const [searchParams, setSearchParams] = useSearchParams();
+
+  React.useEffect(() => {
+    if (searchParams.get('mode') === 'retake') {
+      setCurrentStep('selection');
+      // Remove the query param so it doesn't get stuck in retake mode on reloads
+      setSearchParams({});
+    }
+  }, [searchParams, setCurrentStep, setSearchParams]);
 
   return (
     <div className="min-h-screen bg-slate-50 py-12 px-4 sm:px-6 lg:px-8 font-sans">
@@ -23,6 +35,7 @@ const DiagnosticEngineContent = () => {
         </div>
       </div>
       
+      {currentStep === 'selection' && <SelectionStep />}
       {currentStep === 'survey' && <SurveyStep />}
       {currentStep === 'sat' && <SatStep />}
       {currentStep === 'ielts' && <IeltsStep />}
