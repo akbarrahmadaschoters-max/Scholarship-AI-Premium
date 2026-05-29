@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
@@ -12,7 +13,81 @@
 }
 
 body {
-  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--color-dark-700);
   background-color: var(--bg-color);
-  color: var(--text-main);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Heading hierarchy */
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--color-dark-900);
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--color-dark-900);
+  letter-spacing: -0.01em;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color-dark-900);
+}
+
+h4 {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--color-dark-900);
+}
+
+/* Stat numbers */
+.stat-number, .tnum {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum";
+  letter-spacing: -0.02em;
+}
+
+/* Label uppercase kecil */
+.category-label {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-dark-500);
+}
+
+/* Badge/pill style */
+.badge-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+/* Page title and subtitle */
+.page-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--color-dark-900);
+  letter-spacing: -0.02em;
+  margin-bottom: 4px;
+}
+
+.page-subtitle {
+  font-size: 14px;
+  color: var(--color-dark-500);
+  font-weight: 400;
+  margin-bottom: 28px;
 }
