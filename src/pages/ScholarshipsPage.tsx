@@ -33,7 +33,7 @@ export const ScholarshipsPage = () => {
             </div>
             <div className="hidden md:flex gap-8 text-sm font-semibold text-slate-500">
               <Link to="/dashboard" className="hover:text-indigo-600 transition-colors">Dashboard</Link>
-              <Link to="/dashboard" className="hover:text-indigo-600 transition-colors">Universities</Link>
+              <Link to="/universities" className="hover:text-indigo-600 transition-colors">Universities</Link>
               <Link to="/scholarships" className="text-indigo-600 border-b-2 border-indigo-600 pb-1">Scholarships</Link>
               <Link to="/interviews" className="hover:text-indigo-600 transition-colors">Interviews</Link>
             </div>

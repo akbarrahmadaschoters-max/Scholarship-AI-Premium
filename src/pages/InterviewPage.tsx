@@ -40,7 +40,7 @@ export const InterviewPage = () => {
           <div className="flex items-center space-x-5">
             <div className="hidden md:flex space-x-6 mr-4 text-sm font-semibold text-slate-600">
               <Link to="/dashboard" className="hover:text-indigo-600 transition-colors">Dashboard</Link>
-              <a href="#" className="hover:text-indigo-600 transition-colors">Universities</a>
+              <Link to="/universities" className="hover:text-indigo-600 transition-colors">Universities</Link>
               <Link to="/scholarships" className="hover:text-indigo-600 transition-colors">Scholarships</Link>
               <Link to="/interviews" className="text-indigo-600 border-b-2 border-indigo-600 pb-1">Interviews</Link>
             </div>

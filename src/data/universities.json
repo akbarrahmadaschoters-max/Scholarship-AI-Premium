@@ -1,0 +1,4217 @@
+[
+  {
+    "id": "mit",
+    "rank": 1,
+    "name": "Massachusetts Institute of Technology (MIT)",
+    "country": "United States",
+    "flag": "🇺🇸",
+    "city": "Cambridge",
+    "type": "Private",
+    "website": "https://www.mit.edu/",
+    "acceptanceRate": 4.1,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": 7,
+        "minTOEFL": 100,
+        "minSAT": 1500,
+        "minGPA": null,
+        "otherTests": [
+          "AP",
+          "IB"
+        ],
+        "notes": "SAT/ACT required. Highly emphasizes math/science background."
+      },
+      "S2": {
+        "minIELTS": 7,
+        "minTOEFL": 100,
+        "minGPA": 3.5,
+        "workExperience": "Recommended for some programs (e.g. Sloan)",
+        "notes": "GRE/GMAT required for most programs."
+      },
+      "S3": {
+        "minIELTS": 7,
+        "minTOEFL": 100,
+        "minGPA": 3.5,
+        "researchProposal": true,
+        "supervisorRequired": false,
+        "notes": "Extremely competitive; requires strong research portfolio."
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "Computer Science",
+        "subjectRank": 1,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": "Top-ranked globally"
+      },
+      {
+        "name": "Engineering",
+        "subjectRank": 1,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": "Includes MechE, ChemE, EE"
+      },
+      {
+        "name": "Business & Management",
+        "subjectRank": 4,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": "MIT Sloan"
+      },
+      {
+        "name": "Physics",
+        "subjectRank": 1,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Data Science",
+        "subjectRank": 1,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Economics",
+        "subjectRank": 1,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Architecture",
+        "subjectRank": 2,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": "Portfolio required"
+      }
+    ],
+    "intakeMonths": [
+      "September"
+    ],
+    "applicationDeadline": {
+      "S1": "November (Early) / January (Regular)",
+      "S2": "December - January",
+      "S3": "December"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia",
+      "fulbright-usa",
+      "jjwbgsp"
+    ]
+  },
+  {
+    "id": "cambridge",
+    "rank": 2,
+    "name": "University of Cambridge",
+    "country": "United Kingdom",
+    "flag": "🇬🇧",
+    "city": "Cambridge",
+    "type": "Public",
+    "website": "https://www.cam.ac.uk/",
+    "acceptanceRate": 21,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": 7.5,
+        "minTOEFL": 110,
+        "minSAT": 1460,
+        "minGPA": null,
+        "otherTests": [
+          "A-Levels",
+          "IB",
+          "AP"
+        ],
+        "notes": "Indonesian SMA curriculum is usually not accepted directly without foundational year or A-Levels/IB."
+      },
+      "S2": {
+        "minIELTS": 7.5,
+        "minTOEFL": 110,
+        "minGPA": 3.7,
+        "workExperience": "Varies (MBA requires 3 years)",
+        "notes": "Requires a 1st Class Honours equivalent."
+      },
+      "S3": {
+        "minIELTS": 7.5,
+        "minTOEFL": 110,
+        "minGPA": 3.7,
+        "researchProposal": true,
+        "supervisorRequired": true,
+        "notes": "Must find a supervisor who agrees to take you before applying."
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "Law",
+        "subjectRank": 3,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": "LNAT required for undergrad"
+      },
+      {
+        "name": "Medicine",
+        "subjectRank": 4,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": "BMAT required"
+      },
+      {
+        "name": "Computer Science",
+        "subjectRank": 6,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Engineering",
+        "subjectRank": 3,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Economics",
+        "subjectRank": 5,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Mathematics",
+        "subjectRank": 1,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": "STEP required"
+      }
+    ],
+    "intakeMonths": [
+      "October"
+    ],
+    "applicationDeadline": {
+      "S1": "October (UCAS)",
+      "S2": "December - February",
+      "S3": "December - February"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia",
+      "chevening-uk",
+      "gates-cambridge",
+      "commonwealth-scholarship"
+    ]
+  },
+  {
+    "id": "oxford",
+    "rank": 3,
+    "name": "University of Oxford",
+    "country": "United Kingdom",
+    "flag": "🇬🇧",
+    "city": "Oxford",
+    "type": "Public",
+    "website": "https://www.ox.ac.uk/",
+    "acceptanceRate": 17.5,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": 7.5,
+        "minTOEFL": 110,
+        "minSAT": 1470,
+        "minGPA": null,
+        "otherTests": [
+          "A-Levels",
+          "IB",
+          "AP"
+        ],
+        "notes": "Admission tests (TSA, MAT, PAT, etc.) required for almost all subjects."
+      },
+      "S2": {
+        "minIELTS": 7.5,
+        "minTOEFL": 110,
+        "minGPA": 3.7,
+        "workExperience": "None",
+        "notes": "Written work often required."
+      },
+      "S3": {
+        "minIELTS": 7.5,
+        "minTOEFL": 110,
+        "minGPA": 3.7,
+        "researchProposal": true,
+        "supervisorRequired": true,
+        "notes": ""
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "Law",
+        "subjectRank": 2,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": "LNAT required"
+      },
+      {
+        "name": "Medicine",
+        "subjectRank": 2,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": "BMAT required"
+      },
+      {
+        "name": "PPE (Philosophy, Politics and Economics)",
+        "subjectRank": 1,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": "TSA required"
+      },
+      {
+        "name": "Computer Science",
+        "subjectRank": 5,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": "MAT required"
+      },
+      {
+        "name": "Business (MBA)",
+        "subjectRank": 10,
+        "availableLevels": [
+          "S2"
+        ],
+        "additionalNotes": "GMAT/GRE required"
+      }
+    ],
+    "intakeMonths": [
+      "October"
+    ],
+    "applicationDeadline": {
+      "S1": "October (UCAS)",
+      "S2": "January",
+      "S3": "January"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia",
+      "chevening-uk",
+      "rhodes-scholarship"
+    ]
+  },
+  {
+    "id": "harvard",
+    "rank": 4,
+    "name": "Harvard University",
+    "country": "United States",
+    "flag": "🇺🇸",
+    "city": "Cambridge",
+    "type": "Private",
+    "website": "https://www.harvard.edu/",
+    "acceptanceRate": 3.4,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": 7.5,
+        "minTOEFL": 100,
+        "minSAT": 1500,
+        "minGPA": null,
+        "otherTests": [
+          "AP",
+          "IB"
+        ],
+        "notes": "SAT/ACT optional temporarily but strongly recommended."
+      },
+      "S2": {
+        "minIELTS": 7.5,
+        "minTOEFL": 100,
+        "minGPA": 3.8,
+        "workExperience": "Varies (HBS requires 2-5 years)",
+        "notes": "GRE/GMAT required."
+      },
+      "S3": {
+        "minIELTS": 7.5,
+        "minTOEFL": 100,
+        "minGPA": 3.8,
+        "researchProposal": true,
+        "supervisorRequired": false,
+        "notes": ""
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "Law",
+        "subjectRank": 1,
+        "availableLevels": [
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": "Harvard Law School"
+      },
+      {
+        "name": "Medicine",
+        "subjectRank": 1,
+        "availableLevels": [
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": "Harvard Medical School"
+      },
+      {
+        "name": "Business",
+        "subjectRank": 1,
+        "availableLevels": [
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": "Harvard Business School"
+      },
+      {
+        "name": "Public Health",
+        "subjectRank": 2,
+        "availableLevels": [
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": "Harvard T.H. Chan"
+      },
+      {
+        "name": "Computer Science",
+        "subjectRank": 8,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      }
+    ],
+    "intakeMonths": [
+      "September"
+    ],
+    "applicationDeadline": {
+      "S1": "November (Early) / January (Regular)",
+      "S2": "December - January",
+      "S3": "December"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia",
+      "fulbright-usa",
+      "jjwbgsp"
+    ]
+  },
+  {
+    "id": "stanford",
+    "rank": 5,
+    "name": "Stanford University",
+    "country": "United States",
+    "flag": "🇺🇸",
+    "city": "Stanford",
+    "type": "Private",
+    "website": "https://www.stanford.edu/",
+    "acceptanceRate": 3.9,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": 7,
+        "minTOEFL": 100,
+        "minSAT": 1500,
+        "minGPA": null,
+        "otherTests": [
+          "AP",
+          "IB"
+        ],
+        "notes": "Holistic review, highly values extracurriculars and leadership."
+      },
+      "S2": {
+        "minIELTS": 7,
+        "minTOEFL": 100,
+        "minGPA": 3.8,
+        "workExperience": "Varies",
+        "notes": "GRE/GMAT required for most programs."
+      },
+      "S3": {
+        "minIELTS": 7,
+        "minTOEFL": 100,
+        "minGPA": 3.8,
+        "researchProposal": true,
+        "supervisorRequired": false,
+        "notes": ""
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "Computer Science",
+        "subjectRank": 2,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": "Silicon Valley pipeline"
+      },
+      {
+        "name": "Business",
+        "subjectRank": 2,
+        "availableLevels": [
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": "Stanford GSB"
+      },
+      {
+        "name": "Engineering",
+        "subjectRank": 2,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Law",
+        "subjectRank": 5,
+        "availableLevels": [
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Environmental Science",
+        "subjectRank": 3,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": "Doerr School of Sustainability"
+      }
+    ],
+    "intakeMonths": [
+      "September"
+    ],
+    "applicationDeadline": {
+      "S1": "November (Early) / January (Regular)",
+      "S2": "December - January",
+      "S3": "December"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia",
+      "fulbright-usa"
+    ]
+  },
+  {
+    "id": "eth-zurich",
+    "rank": 6,
+    "name": "ETH Zurich",
+    "country": "Switzerland",
+    "flag": "🇨🇭",
+    "city": "Zurich",
+    "type": "Public",
+    "website": "https://ethz.ch/en.html",
+    "acceptanceRate": 27,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": 7,
+        "minTOEFL": 100,
+        "minSAT": null,
+        "minGPA": null,
+        "otherTests": [],
+        "notes": "Bachelors are strictly in German. Entrance exam often required."
+      },
+      "S2": {
+        "minIELTS": 7,
+        "minTOEFL": 100,
+        "minGPA": 3.5,
+        "workExperience": "None",
+        "notes": "Masters mostly in English. Requires strict academic match."
+      },
+      "S3": {
+        "minIELTS": 7,
+        "minTOEFL": 100,
+        "minGPA": 3.5,
+        "researchProposal": true,
+        "supervisorRequired": true,
+        "notes": "PhD positions are typically advertised as jobs."
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "Earth & Marine Sciences",
+        "subjectRank": 1,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Computer Science",
+        "subjectRank": 9,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Architecture",
+        "subjectRank": 4,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Engineering",
+        "subjectRank": 7,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Mathematics",
+        "subjectRank": 8,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      }
+    ],
+    "intakeMonths": [
+      "September"
+    ],
+    "applicationDeadline": {
+      "S1": "April",
+      "S2": "November - December (Intl)",
+      "S3": "Year-round"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia",
+      "eth-zurich-excellence",
+      "swiss-excellence"
+    ]
+  },
+  {
+    "id": "imperial-college",
+    "rank": 7,
+    "name": "Imperial College London",
+    "country": "United Kingdom",
+    "flag": "🇬🇧",
+    "city": "London",
+    "type": "Public",
+    "website": "https://www.imperial.ac.uk/",
+    "acceptanceRate": 15,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": 6.5,
+        "minTOEFL": 92,
+        "minSAT": null,
+        "minGPA": null,
+        "otherTests": [
+          "A-Levels",
+          "IB"
+        ],
+        "notes": "Highly focused on STEM. Admissions tests required for Math/Aero/Computing."
+      },
+      "S2": {
+        "minIELTS": 6.5,
+        "minTOEFL": 92,
+        "minGPA": 3.5,
+        "workExperience": "None",
+        "notes": ""
+      },
+      "S3": {
+        "minIELTS": 6.5,
+        "minTOEFL": 92,
+        "minGPA": 3.5,
+        "researchProposal": true,
+        "supervisorRequired": true,
+        "notes": ""
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "Engineering",
+        "subjectRank": 6,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Medicine",
+        "subjectRank": 8,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": "BMAT required"
+      },
+      {
+        "name": "Computer Science",
+        "subjectRank": 14,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Physics",
+        "subjectRank": 10,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Data Science",
+        "subjectRank": 5,
+        "availableLevels": [
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      }
+    ],
+    "intakeMonths": [
+      "October"
+    ],
+    "applicationDeadline": {
+      "S1": "October (Med) / January (UCAS)",
+      "S2": "March - June (Rolling)",
+      "S3": "Year-round"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia",
+      "chevening-uk"
+    ]
+  },
+  {
+    "id": "ucl",
+    "rank": 8,
+    "name": "UCL (University College London)",
+    "country": "United Kingdom",
+    "flag": "🇬🇧",
+    "city": "London",
+    "type": "Public",
+    "website": "https://www.ucl.ac.uk/",
+    "acceptanceRate": 29,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": 6.5,
+        "minTOEFL": 92,
+        "minSAT": null,
+        "minGPA": null,
+        "otherTests": [
+          "A-Levels",
+          "IB"
+        ],
+        "notes": "Offers UPC foundational year for international students."
+      },
+      "S2": {
+        "minIELTS": 6.5,
+        "minTOEFL": 92,
+        "minGPA": 3.3,
+        "workExperience": "None",
+        "notes": ""
+      },
+      "S3": {
+        "minIELTS": 6.5,
+        "minTOEFL": 92,
+        "minGPA": 3.3,
+        "researchProposal": true,
+        "supervisorRequired": true,
+        "notes": ""
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "Education",
+        "subjectRank": 1,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": "IOE Faculty"
+      },
+      {
+        "name": "Architecture",
+        "subjectRank": 1,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": "Bartlett"
+      },
+      {
+        "name": "Medicine",
+        "subjectRank": 9,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Law",
+        "subjectRank": 14,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Psychology",
+        "subjectRank": 5,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      }
+    ],
+    "intakeMonths": [
+      "September"
+    ],
+    "applicationDeadline": {
+      "S1": "January (UCAS)",
+      "S2": "March - May",
+      "S3": "Year-round"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia",
+      "chevening-uk"
+    ]
+  },
+  {
+    "id": "caltech",
+    "rank": 9,
+    "name": "California Institute of Technology (Caltech)",
+    "country": "United States",
+    "flag": "🇺🇸",
+    "city": "Pasadena",
+    "type": "Private",
+    "website": "https://www.caltech.edu/",
+    "acceptanceRate": 3.9,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": 7,
+        "minTOEFL": 100,
+        "minSAT": 1530,
+        "minGPA": null,
+        "otherTests": [
+          "AP",
+          "IB"
+        ],
+        "notes": "Extremely STEM focused. SAT/ACT usually required."
+      },
+      "S2": {
+        "minIELTS": 7,
+        "minTOEFL": 100,
+        "minGPA": 3.5,
+        "workExperience": "None",
+        "notes": "GRE required for most."
+      },
+      "S3": {
+        "minIELTS": 7,
+        "minTOEFL": 100,
+        "minGPA": 3.5,
+        "researchProposal": true,
+        "supervisorRequired": false,
+        "notes": ""
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "Physics",
+        "subjectRank": 6,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Engineering",
+        "subjectRank": 15,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Chemistry",
+        "subjectRank": 8,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Computer Science",
+        "subjectRank": 23,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      }
+    ],
+    "intakeMonths": [
+      "September"
+    ],
+    "applicationDeadline": {
+      "S1": "November (Early) / January (Regular)",
+      "S2": "December",
+      "S3": "December"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia",
+      "fulbright-usa"
+    ]
+  },
+  {
+    "id": "chicago",
+    "rank": 10,
+    "name": "University of Chicago",
+    "country": "United States",
+    "flag": "🇺🇸",
+    "city": "Chicago",
+    "type": "Private",
+    "website": "https://www.uchicago.edu/",
+    "acceptanceRate": 5.4,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": 7,
+        "minTOEFL": 100,
+        "minSAT": 1500,
+        "minGPA": null,
+        "otherTests": [],
+        "notes": "Known for rigorous core curriculum and quirky essay prompts."
+      },
+      "S2": {
+        "minIELTS": 7,
+        "minTOEFL": 100,
+        "minGPA": 3.5,
+        "workExperience": "Varies",
+        "notes": "Booth MBA highly ranked."
+      },
+      "S3": {
+        "minIELTS": 7,
+        "minTOEFL": 100,
+        "minGPA": 3.5,
+        "researchProposal": true,
+        "supervisorRequired": false,
+        "notes": ""
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "Economics",
+        "subjectRank": 4,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": "Chicago School of Economics"
+      },
+      {
+        "name": "Business",
+        "subjectRank": 12,
+        "availableLevels": [
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": "Booth School of Business"
+      },
+      {
+        "name": "Law",
+        "subjectRank": 11,
+        "availableLevels": [
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Physics",
+        "subjectRank": 12,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      }
+    ],
+    "intakeMonths": [
+      "September"
+    ],
+    "applicationDeadline": {
+      "S1": "November / January",
+      "S2": "December - January",
+      "S3": "December"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia",
+      "fulbright-usa"
+    ]
+  },
+  {
+    "id": "nus",
+    "rank": 11,
+    "name": "National University of Singapore (NUS)",
+    "country": "Singapore",
+    "flag": "🇸🇬",
+    "city": "Singapore",
+    "type": "Public",
+    "website": "https://nus.edu.sg/",
+    "acceptanceRate": 16,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": 6.5,
+        "minTOEFL": 92,
+        "minSAT": null,
+        "minGPA": null,
+        "otherTests": [
+          "SMA Ujian Nasional / A-Levels"
+        ],
+        "notes": "Accepts Indonesian SMA curriculum directly with excellent grades."
+      },
+      "S2": {
+        "minIELTS": 6,
+        "minTOEFL": 85,
+        "minGPA": 3,
+        "workExperience": "None",
+        "notes": ""
+      },
+      "S3": {
+        "minIELTS": 6.5,
+        "minTOEFL": 90,
+        "minGPA": 3.5,
+        "researchProposal": true,
+        "supervisorRequired": true,
+        "notes": ""
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "Computer Science",
+        "subjectRank": 6,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Engineering",
+        "subjectRank": 8,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Business",
+        "subjectRank": 13,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Law",
+        "subjectRank": 11,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Architecture",
+        "subjectRank": 7,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      }
+    ],
+    "intakeMonths": [
+      "August",
+      "January"
+    ],
+    "applicationDeadline": {
+      "S1": "February",
+      "S2": "March",
+      "S3": "May / November"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia",
+      "nus-research"
+    ]
+  },
+  {
+    "id": "peking",
+    "rank": 12,
+    "name": "Peking University",
+    "country": "China",
+    "flag": "🇨🇳",
+    "city": "Beijing",
+    "type": "Public",
+    "website": "https://english.pku.edu.cn/",
+    "acceptanceRate": 1,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": 6.5,
+        "minTOEFL": 90,
+        "minSAT": null,
+        "minGPA": null,
+        "otherTests": [
+          "HSK 6"
+        ],
+        "notes": "Most S1 programs taught in Chinese."
+      },
+      "S2": {
+        "minIELTS": 6.5,
+        "minTOEFL": 90,
+        "minGPA": 3,
+        "workExperience": "None",
+        "notes": "Many English-taught programs available."
+      },
+      "S3": {
+        "minIELTS": 6.5,
+        "minTOEFL": 90,
+        "minGPA": 3.2,
+        "researchProposal": true,
+        "supervisorRequired": true,
+        "notes": ""
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "Modern Languages",
+        "subjectRank": 8,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Chemistry",
+        "subjectRank": 13,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Computer Science",
+        "subjectRank": 19,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Public Policy",
+        "subjectRank": 15,
+        "availableLevels": [
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      }
+    ],
+    "intakeMonths": [
+      "September"
+    ],
+    "applicationDeadline": {
+      "S1": "March",
+      "S2": "December - February",
+      "S3": "December - February"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia",
+      "csc-china"
+    ]
+  },
+  {
+    "id": "tsinghua",
+    "rank": 13,
+    "name": "Tsinghua University",
+    "country": "China",
+    "flag": "🇨🇳",
+    "city": "Beijing",
+    "type": "Public",
+    "website": "https://www.tsinghua.edu.cn/en/",
+    "acceptanceRate": 2,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": 6.5,
+        "minTOEFL": 85,
+        "minSAT": null,
+        "minGPA": null,
+        "otherTests": [
+          "HSK 5/6"
+        ],
+        "notes": "STEM-focused. Written entrance exams often required."
+      },
+      "S2": {
+        "minIELTS": 6.5,
+        "minTOEFL": 85,
+        "minGPA": 3,
+        "workExperience": "None",
+        "notes": "Hosts the Schwarzman Scholars program."
+      },
+      "S3": {
+        "minIELTS": 6.5,
+        "minTOEFL": 85,
+        "minGPA": 3.2,
+        "researchProposal": true,
+        "supervisorRequired": true,
+        "notes": ""
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "Engineering",
+        "subjectRank": 9,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Computer Science",
+        "subjectRank": 15,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Architecture",
+        "subjectRank": 9,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Global Affairs",
+        "subjectRank": null,
+        "availableLevels": [
+          "S2"
+        ],
+        "additionalNotes": "Schwarzman College"
+      }
+    ],
+    "intakeMonths": [
+      "September"
+    ],
+    "applicationDeadline": {
+      "S1": "January",
+      "S2": "December - March",
+      "S3": "December - March"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia",
+      "csc-china",
+      "schwarzman-scholars"
+    ]
+  },
+  {
+    "id": "johns-hopkins",
+    "rank": 14,
+    "name": "Johns Hopkins University",
+    "country": "United States",
+    "flag": "🇺🇸",
+    "city": "Baltimore",
+    "type": "Private",
+    "website": "https://www.jhu.edu/",
+    "acceptanceRate": 7.3,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": 7,
+        "minTOEFL": 100,
+        "minSAT": 1500,
+        "minGPA": null,
+        "otherTests": [
+          "AP",
+          "IB"
+        ],
+        "notes": "Pre-med track is world-renowned."
+      },
+      "S2": {
+        "minIELTS": 7,
+        "minTOEFL": 100,
+        "minGPA": 3.3,
+        "workExperience": "None",
+        "notes": ""
+      },
+      "S3": {
+        "minIELTS": 7,
+        "minTOEFL": 100,
+        "minGPA": 3.5,
+        "researchProposal": true,
+        "supervisorRequired": false,
+        "notes": ""
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "Medicine",
+        "subjectRank": 3,
+        "availableLevels": [
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Nursing",
+        "subjectRank": 3,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Public Health",
+        "subjectRank": 1,
+        "availableLevels": [
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": "Bloomberg School of Public Health"
+      },
+      {
+        "name": "International Relations",
+        "subjectRank": 12,
+        "availableLevels": [
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": "SAIS"
+      }
+    ],
+    "intakeMonths": [
+      "September"
+    ],
+    "applicationDeadline": {
+      "S1": "November / January",
+      "S2": "December - March",
+      "S3": "December"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia",
+      "fulbright-usa"
+    ]
+  },
+  {
+    "id": "upenn",
+    "rank": 15,
+    "name": "University of Pennsylvania (Penn)",
+    "country": "United States",
+    "flag": "🇺🇸",
+    "city": "Philadelphia",
+    "type": "Private",
+    "website": "https://www.upenn.edu/",
+    "acceptanceRate": 5.9,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": 7.5,
+        "minTOEFL": 100,
+        "minSAT": 1500,
+        "minGPA": null,
+        "otherTests": [
+          "AP",
+          "IB"
+        ],
+        "notes": "Home to Wharton School of Business."
+      },
+      "S2": {
+        "minIELTS": 7.5,
+        "minTOEFL": 100,
+        "minGPA": 3.5,
+        "workExperience": "Wharton MBA requires 3-5 years",
+        "notes": "GRE/GMAT required."
+      },
+      "S3": {
+        "minIELTS": 7.5,
+        "minTOEFL": 100,
+        "minGPA": 3.5,
+        "researchProposal": true,
+        "supervisorRequired": false,
+        "notes": ""
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "Business",
+        "subjectRank": 5,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": "Wharton"
+      },
+      {
+        "name": "Nursing",
+        "subjectRank": 1,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Medicine",
+        "subjectRank": 14,
+        "availableLevels": [
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Law",
+        "subjectRank": 17,
+        "availableLevels": [
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      }
+    ],
+    "intakeMonths": [
+      "September"
+    ],
+    "applicationDeadline": {
+      "S1": "November / January",
+      "S2": "December - February",
+      "S3": "December"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia",
+      "fulbright-usa"
+    ]
+  },
+  {
+    "id": "edinburgh",
+    "rank": 16,
+    "name": "University of Edinburgh",
+    "country": "United Kingdom",
+    "flag": "🇬🇧",
+    "city": "Edinburgh",
+    "type": "Public",
+    "website": "https://www.ed.ac.uk/",
+    "acceptanceRate": 40,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": 6.5,
+        "minTOEFL": 92,
+        "minSAT": null,
+        "minGPA": null,
+        "otherTests": [
+          "A-Levels",
+          "IB"
+        ],
+        "notes": "Scottish 4-year undergraduate degree system."
+      },
+      "S2": {
+        "minIELTS": 6.5,
+        "minTOEFL": 92,
+        "minGPA": 3,
+        "workExperience": "None",
+        "notes": ""
+      },
+      "S3": {
+        "minIELTS": 7,
+        "minTOEFL": 100,
+        "minGPA": 3.2,
+        "researchProposal": true,
+        "supervisorRequired": true,
+        "notes": ""
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "Veterinary Science",
+        "subjectRank": 8,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "English Language & Literature",
+        "subjectRank": 9,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Computer Science",
+        "subjectRank": 21,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Law",
+        "subjectRank": 13,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      }
+    ],
+    "intakeMonths": [
+      "September"
+    ],
+    "applicationDeadline": {
+      "S1": "January (UCAS)",
+      "S2": "March - June",
+      "S3": "Year-round"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia",
+      "chevening-uk"
+    ]
+  },
+  {
+    "id": "cornell",
+    "rank": 17,
+    "name": "Cornell University",
+    "country": "United States",
+    "flag": "🇺🇸",
+    "city": "Ithaca",
+    "type": "Private",
+    "website": "https://www.cornell.edu/",
+    "acceptanceRate": 7.3,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": 7.5,
+        "minTOEFL": 100,
+        "minSAT": 1450,
+        "minGPA": null,
+        "otherTests": [
+          "AP",
+          "IB"
+        ],
+        "notes": "Ivy League. Has specialized state-funded colleges alongside private."
+      },
+      "S2": {
+        "minIELTS": 7,
+        "minTOEFL": 100,
+        "minGPA": 3.3,
+        "workExperience": "None",
+        "notes": ""
+      },
+      "S3": {
+        "minIELTS": 7,
+        "minTOEFL": 100,
+        "minGPA": 3.5,
+        "researchProposal": true,
+        "supervisorRequired": false,
+        "notes": ""
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "Agriculture & Forestry",
+        "subjectRank": 3,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Veterinary Science",
+        "subjectRank": 2,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Hospitality & Leisure",
+        "subjectRank": 12,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Computer Science",
+        "subjectRank": 20,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      }
+    ],
+    "intakeMonths": [
+      "September"
+    ],
+    "applicationDeadline": {
+      "S1": "November / January",
+      "S2": "January",
+      "S3": "December"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia",
+      "fulbright-usa"
+    ]
+  },
+  {
+    "id": "toronto",
+    "rank": 18,
+    "name": "University of Toronto",
+    "country": "Canada",
+    "flag": "🇨🇦",
+    "city": "Toronto",
+    "type": "Public",
+    "website": "https://www.utoronto.ca/",
+    "acceptanceRate": 43,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": 6.5,
+        "minTOEFL": 100,
+        "minSAT": null,
+        "minGPA": null,
+        "otherTests": [
+          "SMA / A-Levels / IB"
+        ],
+        "notes": "Accepts Indonesian SMA curriculum directly."
+      },
+      "S2": {
+        "minIELTS": 7,
+        "minTOEFL": 93,
+        "minGPA": 3.3,
+        "workExperience": "None",
+        "notes": "Final year of bachelor's must be at least B+ average."
+      },
+      "S3": {
+        "minIELTS": 7,
+        "minTOEFL": 93,
+        "minGPA": 3.5,
+        "researchProposal": true,
+        "supervisorRequired": true,
+        "notes": ""
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "Computer Science",
+        "subjectRank": 12,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Medicine",
+        "subjectRank": 15,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Education",
+        "subjectRank": 7,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": "OISE"
+      },
+      {
+        "name": "Engineering",
+        "subjectRank": 25,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      }
+    ],
+    "intakeMonths": [
+      "September"
+    ],
+    "applicationDeadline": {
+      "S1": "January",
+      "S2": "January - March",
+      "S3": "January"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia"
+    ]
+  },
+  {
+    "id": "columbia",
+    "rank": 19,
+    "name": "Columbia University",
+    "country": "United States",
+    "flag": "🇺🇸",
+    "city": "New York",
+    "type": "Private",
+    "website": "https://www.columbia.edu/",
+    "acceptanceRate": 4.1,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": 7.5,
+        "minTOEFL": 105,
+        "minSAT": 1500,
+        "minGPA": null,
+        "otherTests": [
+          "AP",
+          "IB"
+        ],
+        "notes": "Core curriculum is a hallmark of Columbia College."
+      },
+      "S2": {
+        "minIELTS": 7.5,
+        "minTOEFL": 100,
+        "minGPA": 3.5,
+        "workExperience": "None",
+        "notes": "SIPA requires GRE."
+      },
+      "S3": {
+        "minIELTS": 7.5,
+        "minTOEFL": 100,
+        "minGPA": 3.5,
+        "researchProposal": true,
+        "supervisorRequired": false,
+        "notes": ""
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "History",
+        "subjectRank": 6,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Law",
+        "subjectRank": 9,
+        "availableLevels": [
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "English",
+        "subjectRank": 8,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Business",
+        "subjectRank": 14,
+        "availableLevels": [
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": "Columbia Business School"
+      }
+    ],
+    "intakeMonths": [
+      "September"
+    ],
+    "applicationDeadline": {
+      "S1": "November / January",
+      "S2": "January",
+      "S3": "December"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia",
+      "fulbright-usa"
+    ]
+  },
+  {
+    "id": "yale",
+    "rank": 20,
+    "name": "Yale University",
+    "country": "United States",
+    "flag": "🇺🇸",
+    "city": "New Haven",
+    "type": "Private",
+    "website": "https://www.yale.edu/",
+    "acceptanceRate": 4.6,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": 7,
+        "minTOEFL": 100,
+        "minSAT": 1500,
+        "minGPA": null,
+        "otherTests": [
+          "AP",
+          "IB"
+        ],
+        "notes": "Residential college system similar to Oxford/Cambridge."
+      },
+      "S2": {
+        "minIELTS": 7,
+        "minTOEFL": 100,
+        "minGPA": 3.5,
+        "workExperience": "None",
+        "notes": ""
+      },
+      "S3": {
+        "minIELTS": 7,
+        "minTOEFL": 100,
+        "minGPA": 3.5,
+        "researchProposal": true,
+        "supervisorRequired": false,
+        "notes": ""
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "Law",
+        "subjectRank": 4,
+        "availableLevels": [
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": "Yale Law School is highly prestigious"
+      },
+      {
+        "name": "History",
+        "subjectRank": 4,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "English",
+        "subjectRank": 4,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Politics",
+        "subjectRank": 10,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      }
+    ],
+    "intakeMonths": [
+      "September"
+    ],
+    "applicationDeadline": {
+      "S1": "November / January",
+      "S2": "December",
+      "S3": "December"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia",
+      "fulbright-usa"
+    ]
+  },
+  {
+    "id": "princeton",
+    "rank": 21,
+    "name": "Princeton University",
+    "country": "United States",
+    "flag": "🇺🇸",
+    "city": "Princeton",
+    "type": "Private",
+    "website": "https://www.princeton.edu/",
+    "acceptanceRate": 4,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": 8,
+        "minTOEFL": 108,
+        "minSAT": 1520,
+        "minGPA": null,
+        "otherTests": [
+          "AP",
+          "IB"
+        ],
+        "notes": "Very undergrad focused."
+      },
+      "S2": {
+        "minIELTS": 8,
+        "minTOEFL": 108,
+        "minGPA": 3.8,
+        "workExperience": "None",
+        "notes": "No law, medical, or business school."
+      },
+      "S3": {
+        "minIELTS": 8,
+        "minTOEFL": 108,
+        "minGPA": 3.8,
+        "researchProposal": true,
+        "supervisorRequired": false,
+        "notes": ""
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "Mathematics",
+        "subjectRank": 5,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Physics",
+        "subjectRank": 7,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Politics",
+        "subjectRank": 5,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": "SPIA"
+      },
+      {
+        "name": "Economics",
+        "subjectRank": 8,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      }
+    ],
+    "intakeMonths": [
+      "September"
+    ],
+    "applicationDeadline": {
+      "S1": "November / January",
+      "S2": "December",
+      "S3": "December"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia",
+      "fulbright-usa"
+    ]
+  },
+  {
+    "id": "tokyo",
+    "rank": 22,
+    "name": "The University of Tokyo",
+    "country": "Japan",
+    "flag": "🇯🇵",
+    "city": "Tokyo",
+    "type": "Public",
+    "website": "https://www.u-tokyo.ac.jp/en/",
+    "acceptanceRate": 34,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": 6.5,
+        "minTOEFL": 80,
+        "minSAT": null,
+        "minGPA": null,
+        "otherTests": [
+          "EJU (for Japanese taught)"
+        ],
+        "notes": "PEAK program is taught in English."
+      },
+      "S2": {
+        "minIELTS": 6.5,
+        "minTOEFL": 80,
+        "minGPA": 3,
+        "workExperience": "None",
+        "notes": "Many English programs available (e.g. GraSPP)."
+      },
+      "S3": {
+        "minIELTS": 6.5,
+        "minTOEFL": 80,
+        "minGPA": 3.2,
+        "researchProposal": true,
+        "supervisorRequired": true,
+        "notes": ""
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "Modern Languages",
+        "subjectRank": 9,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Physics",
+        "subjectRank": 11,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Engineering",
+        "subjectRank": 14,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Chemistry",
+        "subjectRank": 16,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      }
+    ],
+    "intakeMonths": [
+      "April",
+      "September"
+    ],
+    "applicationDeadline": {
+      "S1": "December",
+      "S2": "December - February",
+      "S3": "Year-round"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia",
+      "mext-japan",
+      "jjwbgsp"
+    ]
+  },
+  {
+    "id": "snu",
+    "rank": 23,
+    "name": "Seoul National University",
+    "country": "South Korea",
+    "flag": "🇰🇷",
+    "city": "Seoul",
+    "type": "Public",
+    "website": "https://en.snu.ac.kr/",
+    "acceptanceRate": 15,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": 6,
+        "minTOEFL": 80,
+        "minSAT": null,
+        "minGPA": null,
+        "otherTests": [
+          "TOPIK"
+        ],
+        "notes": "Korean language proficiency heavily preferred for undergrad."
+      },
+      "S2": {
+        "minIELTS": 6,
+        "minTOEFL": 80,
+        "minGPA": 3,
+        "workExperience": "None",
+        "notes": "GSIS offers English-taught programs."
+      },
+      "S3": {
+        "minIELTS": 6,
+        "minTOEFL": 80,
+        "minGPA": 3,
+        "researchProposal": true,
+        "supervisorRequired": true,
+        "notes": ""
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "Materials Science",
+        "subjectRank": 16,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Engineering",
+        "subjectRank": 18,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Social Policy",
+        "subjectRank": 25,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      }
+    ],
+    "intakeMonths": [
+      "March",
+      "September"
+    ],
+    "applicationDeadline": {
+      "S1": "July",
+      "S2": "March",
+      "S3": "March"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia",
+      "kgsp-korea"
+    ]
+  },
+  {
+    "id": "kaist",
+    "rank": 24,
+    "name": "KAIST",
+    "country": "South Korea",
+    "flag": "🇰🇷",
+    "city": "Daejeon",
+    "type": "Public",
+    "website": "https://www.kaist.ac.kr/en/",
+    "acceptanceRate": 20,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": 6.5,
+        "minTOEFL": 83,
+        "minSAT": null,
+        "minGPA": null,
+        "otherTests": [],
+        "notes": "STEM focused. English-taught undergrad available."
+      },
+      "S2": {
+        "minIELTS": 6.5,
+        "minTOEFL": 83,
+        "minGPA": 3,
+        "workExperience": "None",
+        "notes": ""
+      },
+      "S3": {
+        "minIELTS": 6.5,
+        "minTOEFL": 83,
+        "minGPA": 3,
+        "researchProposal": true,
+        "supervisorRequired": true,
+        "notes": ""
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "Engineering",
+        "subjectRank": 15,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Materials Science",
+        "subjectRank": 12,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Computer Science",
+        "subjectRank": 29,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      }
+    ],
+    "intakeMonths": [
+      "March",
+      "September"
+    ],
+    "applicationDeadline": {
+      "S1": "October (Early) / January (Regular)",
+      "S2": "September / April",
+      "S3": "September / April"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia",
+      "kgsp-korea"
+    ]
+  },
+  {
+    "id": "ntu-sg",
+    "rank": 25,
+    "name": "Nanyang Technological University (NTU)",
+    "country": "Singapore",
+    "flag": "🇸🇬",
+    "city": "Singapore",
+    "type": "Public",
+    "website": "https://www.ntu.edu.sg/",
+    "acceptanceRate": 30,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": 6,
+        "minTOEFL": 90,
+        "minSAT": null,
+        "minGPA": null,
+        "otherTests": [
+          "SMA Ujian Nasional / A-Levels"
+        ],
+        "notes": "Indonesian SMA accepted."
+      },
+      "S2": {
+        "minIELTS": 6.5,
+        "minTOEFL": 100,
+        "minGPA": 3,
+        "workExperience": "None",
+        "notes": ""
+      },
+      "S3": {
+        "minIELTS": 6.5,
+        "minTOEFL": 100,
+        "minGPA": 3.5,
+        "researchProposal": true,
+        "supervisorRequired": true,
+        "notes": ""
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "Materials Science",
+        "subjectRank": 5,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Engineering",
+        "subjectRank": 10,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Communication & Media",
+        "subjectRank": 6,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": "Wee Kim Wee School"
+      }
+    ],
+    "intakeMonths": [
+      "August",
+      "January"
+    ],
+    "applicationDeadline": {
+      "S1": "January - February",
+      "S2": "January",
+      "S3": "January"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia",
+      "ntu-research",
+      "asean-undergrad"
+    ]
+  },
+  {
+    "id": "melbourne",
+    "rank": 26,
+    "name": "University of Melbourne",
+    "country": "Australia",
+    "flag": "🇦🇺",
+    "city": "Melbourne",
+    "type": "Public",
+    "website": "https://www.unimelb.edu.au/",
+    "acceptanceRate": 70,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": 6.5,
+        "minTOEFL": 79,
+        "minSAT": null,
+        "minGPA": null,
+        "otherTests": [
+          "Trinity College Foundation / IB"
+        ],
+        "notes": "Indonesian SMA not accepted directly. Needs foundation."
+      },
+      "S2": {
+        "minIELTS": 6.5,
+        "minTOEFL": 79,
+        "minGPA": 3,
+        "workExperience": "None",
+        "notes": ""
+      },
+      "S3": {
+        "minIELTS": 7,
+        "minTOEFL": 94,
+        "minGPA": 3.2,
+        "researchProposal": true,
+        "supervisorRequired": true,
+        "notes": ""
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "Law",
+        "subjectRank": 11,
+        "availableLevels": [
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": "Melbourne JD"
+      },
+      {
+        "name": "Education",
+        "subjectRank": 12,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Anatomy & Physiology",
+        "subjectRank": 12,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      }
+    ],
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "applicationDeadline": {
+      "S1": "December / May",
+      "S2": "October / April",
+      "S3": "Year-round"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia",
+      "australia-awards-aas"
+    ]
+  },
+  {
+    "id": "sydney",
+    "rank": 27,
+    "name": "The University of Sydney",
+    "country": "Australia",
+    "flag": "🇦🇺",
+    "city": "Sydney",
+    "type": "Public",
+    "website": "https://www.sydney.edu.au/",
+    "acceptanceRate": 30,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": 6.5,
+        "minTOEFL": 85,
+        "minSAT": null,
+        "minGPA": null,
+        "otherTests": [
+          "Foundation / IB"
+        ],
+        "notes": "SMA requires foundation year."
+      },
+      "S2": {
+        "minIELTS": 6.5,
+        "minTOEFL": 85,
+        "minGPA": 3,
+        "workExperience": "None",
+        "notes": ""
+      },
+      "S3": {
+        "minIELTS": 7,
+        "minTOEFL": 96,
+        "minGPA": 3.2,
+        "researchProposal": true,
+        "supervisorRequired": true,
+        "notes": ""
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "Nursing",
+        "subjectRank": 13,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Medicine",
+        "subjectRank": 25,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Law",
+        "subjectRank": 16,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      }
+    ],
+    "intakeMonths": [
+      "February",
+      "August"
+    ],
+    "applicationDeadline": {
+      "S1": "January / June",
+      "S2": "January / June",
+      "S3": "Year-round"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia",
+      "australia-awards-aas"
+    ]
+  },
+  {
+    "id": "manchester",
+    "rank": 28,
+    "name": "The University of Manchester",
+    "country": "United Kingdom",
+    "flag": "🇬🇧",
+    "city": "Manchester",
+    "type": "Public",
+    "website": "https://www.manchester.ac.uk/",
+    "acceptanceRate": 56,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": 6,
+        "minTOEFL": 80,
+        "minSAT": null,
+        "minGPA": null,
+        "otherTests": [
+          "A-Levels",
+          "IB"
+        ],
+        "notes": ""
+      },
+      "S2": {
+        "minIELTS": 6.5,
+        "minTOEFL": 90,
+        "minGPA": 3,
+        "workExperience": "None",
+        "notes": ""
+      },
+      "S3": {
+        "minIELTS": 6.5,
+        "minTOEFL": 90,
+        "minGPA": 3,
+        "researchProposal": true,
+        "supervisorRequired": true,
+        "notes": ""
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "Nursing",
+        "subjectRank": 8,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Development Studies",
+        "subjectRank": 14,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Engineering",
+        "subjectRank": 30,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      }
+    ],
+    "intakeMonths": [
+      "September"
+    ],
+    "applicationDeadline": {
+      "S1": "January (UCAS)",
+      "S2": "July",
+      "S3": "Year-round"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia",
+      "chevening-uk"
+    ]
+  },
+  {
+    "id": "amsterdam",
+    "rank": 29,
+    "name": "University of Amsterdam",
+    "country": "Netherlands",
+    "flag": "🇳🇱",
+    "city": "Amsterdam",
+    "type": "Public",
+    "website": "https://www.uva.nl/en",
+    "acceptanceRate": 35,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": 6.5,
+        "minTOEFL": 92,
+        "minSAT": null,
+        "minGPA": null,
+        "otherTests": [],
+        "notes": "Indonesian SMA often requires 1 year of university studies in Indonesia first."
+      },
+      "S2": {
+        "minIELTS": 7,
+        "minTOEFL": 100,
+        "minGPA": 3,
+        "workExperience": "None",
+        "notes": "Strict academic background match required."
+      },
+      "S3": {
+        "minIELTS": 7,
+        "minTOEFL": 100,
+        "minGPA": 3,
+        "researchProposal": true,
+        "supervisorRequired": true,
+        "notes": "PhDs are usually paid employee positions."
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "Communication & Media",
+        "subjectRank": 1,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": "World's #1"
+      },
+      {
+        "name": "Psychology",
+        "subjectRank": 15,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Sociology",
+        "subjectRank": 14,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      }
+    ],
+    "intakeMonths": [
+      "September"
+    ],
+    "applicationDeadline": {
+      "S1": "January / April",
+      "S2": "January / March",
+      "S3": "Year-round"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia",
+      "holland-scholarship"
+    ]
+  },
+  {
+    "id": "delft",
+    "rank": 30,
+    "name": "Delft University of Technology (TU Delft)",
+    "country": "Netherlands",
+    "flag": "🇳🇱",
+    "city": "Delft",
+    "type": "Public",
+    "website": "https://www.tudelft.nl/en/",
+    "acceptanceRate": 55,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": 6.5,
+        "minTOEFL": 90,
+        "minSAT": null,
+        "minGPA": null,
+        "otherTests": [],
+        "notes": "BSc Aerospace & Computer Science have Numerus Fixus (selection exams)."
+      },
+      "S2": {
+        "minIELTS": 6.5,
+        "minTOEFL": 90,
+        "minGPA": 3,
+        "workExperience": "None",
+        "notes": ""
+      },
+      "S3": {
+        "minIELTS": 6.5,
+        "minTOEFL": 90,
+        "minGPA": 3,
+        "researchProposal": true,
+        "supervisorRequired": true,
+        "notes": ""
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "Architecture",
+        "subjectRank": 3,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": "Portfolio required"
+      },
+      {
+        "name": "Civil Engineering",
+        "subjectRank": 2,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Mechanical Engineering",
+        "subjectRank": 5,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      }
+    ],
+    "intakeMonths": [
+      "September"
+    ],
+    "applicationDeadline": {
+      "S1": "January 15 (Numerus Fixus) / April",
+      "S2": "April",
+      "S3": "Year-round"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia",
+      "holland-scholarship"
+    ]
+  },
+  {
+    "id": "copenhagen",
+    "rank": 31,
+    "name": "University of Copenhagen",
+    "country": "Denmark",
+    "flag": "🇩🇰",
+    "city": "Copenhagen",
+    "type": "Public",
+    "website": "https://www.ku.dk/english/",
+    "acceptanceRate": 40,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": 6.5,
+        "minTOEFL": 83,
+        "minSAT": null,
+        "minGPA": null,
+        "otherTests": [],
+        "notes": "Mostly taught in Danish."
+      },
+      "S2": {
+        "minIELTS": 6.5,
+        "minTOEFL": 83,
+        "minGPA": 3,
+        "workExperience": "None",
+        "notes": ""
+      },
+      "S3": {
+        "minIELTS": 6.5,
+        "minTOEFL": 83,
+        "minGPA": 3,
+        "researchProposal": true,
+        "supervisorRequired": true,
+        "notes": ""
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "Veterinary Science",
+        "subjectRank": 10,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Agriculture & Forestry",
+        "subjectRank": 15,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      }
+    ],
+    "intakeMonths": [
+      "September"
+    ],
+    "applicationDeadline": {
+      "S1": "March",
+      "S2": "January",
+      "S3": "Year-round"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia"
+    ]
+  },
+  {
+    "id": "kcl",
+    "rank": 32,
+    "name": "King's College London",
+    "country": "United Kingdom",
+    "flag": "🇬🇧",
+    "city": "London",
+    "type": "Public",
+    "website": "https://www.kcl.ac.uk/",
+    "acceptanceRate": 13,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": 7,
+        "minTOEFL": 100,
+        "minSAT": null,
+        "minGPA": null,
+        "otherTests": [
+          "A-Levels",
+          "IB"
+        ],
+        "notes": ""
+      },
+      "S2": {
+        "minIELTS": 7,
+        "minTOEFL": 100,
+        "minGPA": 3.3,
+        "workExperience": "None",
+        "notes": ""
+      },
+      "S3": {
+        "minIELTS": 7,
+        "minTOEFL": 100,
+        "minGPA": 3.5,
+        "researchProposal": true,
+        "supervisorRequired": true,
+        "notes": ""
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "Nursing",
+        "subjectRank": 2,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Medicine",
+        "subjectRank": 12,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      }
+    ],
+    "intakeMonths": [
+      "September"
+    ],
+    "applicationDeadline": {
+      "S1": "January",
+      "S2": "April",
+      "S3": "Year-round"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia",
+      "chevening-uk"
+    ]
+  },
+  {
+    "id": "mcgill",
+    "rank": 33,
+    "name": "McGill University",
+    "country": "Canada",
+    "flag": "🇨🇦",
+    "city": "Montreal",
+    "type": "Public",
+    "website": "https://www.mcgill.ca/",
+    "acceptanceRate": 38,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": 6.5,
+        "minTOEFL": 90,
+        "minSAT": null,
+        "minGPA": null,
+        "otherTests": [],
+        "notes": "Direct entry possible from SMA."
+      },
+      "S2": {
+        "minIELTS": 6.5,
+        "minTOEFL": 86,
+        "minGPA": 3.2,
+        "workExperience": "None",
+        "notes": ""
+      },
+      "S3": {
+        "minIELTS": 6.5,
+        "minTOEFL": 86,
+        "minGPA": 3.2,
+        "researchProposal": true,
+        "supervisorRequired": true,
+        "notes": ""
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "Anatomy & Physiology",
+        "subjectRank": 7,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Medicine",
+        "subjectRank": 20,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      }
+    ],
+    "intakeMonths": [
+      "September"
+    ],
+    "applicationDeadline": {
+      "S1": "January",
+      "S2": "January",
+      "S3": "January"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia"
+    ]
+  },
+  {
+    "id": "lse",
+    "rank": 34,
+    "name": "London School of Economics (LSE)",
+    "country": "United Kingdom",
+    "flag": "🇬🇧",
+    "city": "London",
+    "type": "Public",
+    "website": "https://www.lse.ac.uk/",
+    "acceptanceRate": 9,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": 7,
+        "minTOEFL": 100,
+        "minSAT": null,
+        "minGPA": null,
+        "otherTests": [
+          "A-Levels",
+          "IB"
+        ],
+        "notes": ""
+      },
+      "S2": {
+        "minIELTS": 7.5,
+        "minTOEFL": 109,
+        "minGPA": 3.5,
+        "workExperience": "None",
+        "notes": "Highly competitive."
+      },
+      "S3": {
+        "minIELTS": 7.5,
+        "minTOEFL": 109,
+        "minGPA": 3.5,
+        "researchProposal": true,
+        "supervisorRequired": true,
+        "notes": ""
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "Economics",
+        "subjectRank": 6,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Social Policy",
+        "subjectRank": 3,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      }
+    ],
+    "intakeMonths": [
+      "September"
+    ],
+    "applicationDeadline": {
+      "S1": "January",
+      "S2": "Rolling",
+      "S3": "Rolling"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia",
+      "chevening-uk"
+    ]
+  },
+  {
+    "id": "bristol",
+    "rank": 35,
+    "name": "University of Bristol",
+    "country": "United Kingdom",
+    "flag": "🇬🇧",
+    "city": "Bristol",
+    "type": "Public",
+    "website": "https://www.bristol.ac.uk/",
+    "acceptanceRate": 67,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": 6.5,
+        "minTOEFL": 88,
+        "minSAT": null,
+        "minGPA": null,
+        "otherTests": [
+          "A-Levels",
+          "IB"
+        ],
+        "notes": ""
+      },
+      "S2": {
+        "minIELTS": 6.5,
+        "minTOEFL": 88,
+        "minGPA": 3,
+        "workExperience": "None",
+        "notes": ""
+      },
+      "S3": {
+        "minIELTS": 6.5,
+        "minTOEFL": 88,
+        "minGPA": 3,
+        "researchProposal": true,
+        "supervisorRequired": true,
+        "notes": ""
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "Veterinary Science",
+        "subjectRank": 16,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Earth & Marine Sciences",
+        "subjectRank": 18,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      }
+    ],
+    "intakeMonths": [
+      "September"
+    ],
+    "applicationDeadline": {
+      "S1": "January",
+      "S2": "July",
+      "S3": "Year-round"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia",
+      "chevening-uk"
+    ]
+  },
+  {
+    "id": "warwick",
+    "rank": 36,
+    "name": "University of Warwick",
+    "country": "United Kingdom",
+    "flag": "🇬🇧",
+    "city": "Coventry",
+    "type": "Public",
+    "website": "https://warwick.ac.uk/",
+    "acceptanceRate": 14,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": 6.5,
+        "minTOEFL": 92,
+        "minSAT": null,
+        "minGPA": null,
+        "otherTests": [
+          "A-Levels",
+          "IB"
+        ],
+        "notes": ""
+      },
+      "S2": {
+        "minIELTS": 7,
+        "minTOEFL": 100,
+        "minGPA": 3,
+        "workExperience": "None",
+        "notes": "Warwick Business School highly ranked."
+      },
+      "S3": {
+        "minIELTS": 7,
+        "minTOEFL": 100,
+        "minGPA": 3,
+        "researchProposal": true,
+        "supervisorRequired": true,
+        "notes": ""
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "Mathematics",
+        "subjectRank": 19,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Business",
+        "subjectRank": 21,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      }
+    ],
+    "intakeMonths": [
+      "September"
+    ],
+    "applicationDeadline": {
+      "S1": "January",
+      "S2": "August",
+      "S3": "Year-round"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia",
+      "chevening-uk"
+    ]
+  },
+  {
+    "id": "uzh",
+    "rank": 37,
+    "name": "University of Zurich",
+    "country": "Switzerland",
+    "flag": "🇨🇭",
+    "city": "Zurich",
+    "type": "Public",
+    "website": "https://www.uzh.ch/en.html",
+    "acceptanceRate": 30,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": 7,
+        "minTOEFL": 100,
+        "minSAT": null,
+        "minGPA": null,
+        "otherTests": [],
+        "notes": "German required for S1."
+      },
+      "S2": {
+        "minIELTS": 7,
+        "minTOEFL": 100,
+        "minGPA": 3,
+        "workExperience": "None",
+        "notes": ""
+      },
+      "S3": {
+        "minIELTS": 7,
+        "minTOEFL": 100,
+        "minGPA": 3,
+        "researchProposal": true,
+        "supervisorRequired": true,
+        "notes": ""
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "Anatomy & Physiology",
+        "subjectRank": 20,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Medicine",
+        "subjectRank": 35,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      }
+    ],
+    "intakeMonths": [
+      "September"
+    ],
+    "applicationDeadline": {
+      "S1": "April",
+      "S2": "April",
+      "S3": "Year-round"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia",
+      "swiss-excellence"
+    ]
+  },
+  {
+    "id": "lmu",
+    "rank": 38,
+    "name": "LMU Munich",
+    "country": "Germany",
+    "flag": "🇩🇪",
+    "city": "Munich",
+    "type": "Public",
+    "website": "https://www.lmu.de/en/",
+    "acceptanceRate": 25,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": 6.5,
+        "minTOEFL": 80,
+        "minSAT": null,
+        "minGPA": null,
+        "otherTests": [],
+        "notes": "German C1 required for almost all."
+      },
+      "S2": {
+        "minIELTS": 6.5,
+        "minTOEFL": 80,
+        "minGPA": 3,
+        "workExperience": "None",
+        "notes": ""
+      },
+      "S3": {
+        "minIELTS": 6.5,
+        "minTOEFL": 80,
+        "minGPA": 3,
+        "researchProposal": true,
+        "supervisorRequired": true,
+        "notes": ""
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "Physics",
+        "subjectRank": 22,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Philosophy",
+        "subjectRank": 14,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      }
+    ],
+    "intakeMonths": [
+      "October"
+    ],
+    "applicationDeadline": {
+      "S1": "July",
+      "S2": "July",
+      "S3": "Year-round"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia",
+      "daad-germany"
+    ]
+  },
+  {
+    "id": "tum",
+    "rank": 39,
+    "name": "Technical University of Munich (TUM)",
+    "country": "Germany",
+    "flag": "🇩🇪",
+    "city": "Munich",
+    "type": "Public",
+    "website": "https://www.tum.de/en/",
+    "acceptanceRate": 15,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": 6.5,
+        "minTOEFL": 88,
+        "minSAT": null,
+        "minGPA": null,
+        "otherTests": [],
+        "notes": "Studienkolleg needed for SMA."
+      },
+      "S2": {
+        "minIELTS": 6.5,
+        "minTOEFL": 88,
+        "minGPA": 3,
+        "workExperience": "None",
+        "notes": ""
+      },
+      "S3": {
+        "minIELTS": 6.5,
+        "minTOEFL": 88,
+        "minGPA": 3,
+        "researchProposal": true,
+        "supervisorRequired": true,
+        "notes": ""
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "Engineering",
+        "subjectRank": 18,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Computer Science",
+        "subjectRank": 29,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      }
+    ],
+    "intakeMonths": [
+      "October"
+    ],
+    "applicationDeadline": {
+      "S1": "July",
+      "S2": "May",
+      "S3": "Year-round"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia",
+      "daad-germany"
+    ]
+  },
+  {
+    "id": "paris-saclay",
+    "rank": 40,
+    "name": "Université Paris-Saclay",
+    "country": "France",
+    "flag": "🇫🇷",
+    "city": "Paris",
+    "type": "Public",
+    "website": "https://www.universite-paris-saclay.fr/en",
+    "acceptanceRate": 30,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": 6,
+        "minTOEFL": 80,
+        "minSAT": null,
+        "minGPA": null,
+        "otherTests": [],
+        "notes": "French B2/C1 required."
+      },
+      "S2": {
+        "minIELTS": 6.5,
+        "minTOEFL": 90,
+        "minGPA": 3,
+        "workExperience": "None",
+        "notes": ""
+      },
+      "S3": {
+        "minIELTS": 6.5,
+        "minTOEFL": 90,
+        "minGPA": 3,
+        "researchProposal": true,
+        "supervisorRequired": true,
+        "notes": ""
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "Mathematics",
+        "subjectRank": 1,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": "World's #1 in ARWU"
+      },
+      {
+        "name": "Physics",
+        "subjectRank": 16,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      }
+    ],
+    "intakeMonths": [
+      "September"
+    ],
+    "applicationDeadline": {
+      "S1": "March",
+      "S2": "April",
+      "S3": "Year-round"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia",
+      "eiffel-france"
+    ]
+  },
+  {
+    "id": "sorbonne",
+    "rank": 41,
+    "name": "Sorbonne University",
+    "country": "France",
+    "flag": "🇫🇷",
+    "city": "Paris",
+    "type": "Public",
+    "website": "https://www.sorbonne-universite.fr/en",
+    "acceptanceRate": 25,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": null,
+        "minTOEFL": null,
+        "minSAT": null,
+        "minGPA": null,
+        "otherTests": [],
+        "notes": "French C1 generally required."
+      },
+      "S2": {
+        "minIELTS": 6.5,
+        "minTOEFL": 90,
+        "minGPA": 3,
+        "workExperience": "None",
+        "notes": ""
+      },
+      "S3": {
+        "minIELTS": 6.5,
+        "minTOEFL": 90,
+        "minGPA": 3,
+        "researchProposal": true,
+        "supervisorRequired": true,
+        "notes": ""
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "Mathematics",
+        "subjectRank": 14,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Classics",
+        "subjectRank": 11,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      }
+    ],
+    "intakeMonths": [
+      "September"
+    ],
+    "applicationDeadline": {
+      "S1": "March",
+      "S2": "May",
+      "S3": "Year-round"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia",
+      "eiffel-france"
+    ]
+  },
+  {
+    "id": "yonsei",
+    "rank": 42,
+    "name": "Yonsei University",
+    "country": "South Korea",
+    "flag": "🇰🇷",
+    "city": "Seoul",
+    "type": "Private",
+    "website": "https://www.yonsei.ac.kr/en_sc/",
+    "acceptanceRate": 20,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": 6.5,
+        "minTOEFL": 80,
+        "minSAT": null,
+        "minGPA": null,
+        "otherTests": [],
+        "notes": "Underwood International College taught in English."
+      },
+      "S2": {
+        "minIELTS": 6.5,
+        "minTOEFL": 80,
+        "minGPA": 3,
+        "workExperience": "None",
+        "notes": ""
+      },
+      "S3": {
+        "minIELTS": 6.5,
+        "minTOEFL": 80,
+        "minGPA": 3,
+        "researchProposal": true,
+        "supervisorRequired": true,
+        "notes": ""
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "Social Policy",
+        "subjectRank": 28,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Business",
+        "subjectRank": 45,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      }
+    ],
+    "intakeMonths": [
+      "March",
+      "September"
+    ],
+    "applicationDeadline": {
+      "S1": "October / April",
+      "S2": "November / May",
+      "S3": "November / May"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia",
+      "kgsp-korea"
+    ]
+  },
+  {
+    "id": "postech",
+    "rank": 43,
+    "name": "POSTECH",
+    "country": "South Korea",
+    "flag": "🇰🇷",
+    "city": "Pohang",
+    "type": "Private",
+    "website": "https://postech.ac.kr/eng/",
+    "acceptanceRate": 15,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": 6,
+        "minTOEFL": 79,
+        "minSAT": null,
+        "minGPA": null,
+        "otherTests": [],
+        "notes": "STEM focused."
+      },
+      "S2": {
+        "minIELTS": 6,
+        "minTOEFL": 79,
+        "minGPA": 3,
+        "workExperience": "None",
+        "notes": ""
+      },
+      "S3": {
+        "minIELTS": 6,
+        "minTOEFL": 79,
+        "minGPA": 3,
+        "researchProposal": true,
+        "supervisorRequired": true,
+        "notes": ""
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "Materials Science",
+        "subjectRank": 24,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Engineering",
+        "subjectRank": 40,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      }
+    ],
+    "intakeMonths": [
+      "March",
+      "September"
+    ],
+    "applicationDeadline": {
+      "S1": "November",
+      "S2": "October",
+      "S3": "October"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia",
+      "kgsp-korea"
+    ]
+  },
+  {
+    "id": "hkust",
+    "rank": 44,
+    "name": "Hong Kong University of Science and Technology (HKUST)",
+    "country": "Hong Kong SAR",
+    "flag": "🇭🇰",
+    "city": "Hong Kong",
+    "type": "Public",
+    "website": "https://hkust.edu.hk/",
+    "acceptanceRate": 25,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": 6,
+        "minTOEFL": 80,
+        "minSAT": null,
+        "minGPA": null,
+        "otherTests": [
+          "SMA Ujian Nasional / A-Levels"
+        ],
+        "notes": ""
+      },
+      "S2": {
+        "minIELTS": 6.5,
+        "minTOEFL": 80,
+        "minGPA": 3,
+        "workExperience": "None",
+        "notes": ""
+      },
+      "S3": {
+        "minIELTS": 6.5,
+        "minTOEFL": 80,
+        "minGPA": 3,
+        "researchProposal": true,
+        "supervisorRequired": true,
+        "notes": ""
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "Computer Science",
+        "subjectRank": 29,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Engineering",
+        "subjectRank": 20,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      }
+    ],
+    "intakeMonths": [
+      "September"
+    ],
+    "applicationDeadline": {
+      "S1": "January",
+      "S2": "March",
+      "S3": "March"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia"
+    ]
+  },
+  {
+    "id": "hku",
+    "rank": 45,
+    "name": "The University of Hong Kong (HKU)",
+    "country": "Hong Kong SAR",
+    "flag": "🇭🇰",
+    "city": "Hong Kong",
+    "type": "Public",
+    "website": "https://hku.hk/",
+    "acceptanceRate": 30,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": 6.5,
+        "minTOEFL": 93,
+        "minSAT": null,
+        "minGPA": null,
+        "otherTests": [
+          "SMA / IB / A-Levels"
+        ],
+        "notes": ""
+      },
+      "S2": {
+        "minIELTS": 6.5,
+        "minTOEFL": 93,
+        "minGPA": 3,
+        "workExperience": "None",
+        "notes": ""
+      },
+      "S3": {
+        "minIELTS": 6.5,
+        "minTOEFL": 93,
+        "minGPA": 3,
+        "researchProposal": true,
+        "supervisorRequired": true,
+        "notes": ""
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "Dentistry",
+        "subjectRank": 3,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Education",
+        "subjectRank": 8,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      }
+    ],
+    "intakeMonths": [
+      "September"
+    ],
+    "applicationDeadline": {
+      "S1": "November / January",
+      "S2": "January - April",
+      "S3": "Year-round"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia"
+    ]
+  },
+  {
+    "id": "cuhk",
+    "rank": 46,
+    "name": "The Chinese University of Hong Kong (CUHK)",
+    "country": "Hong Kong SAR",
+    "flag": "🇭🇰",
+    "city": "Hong Kong",
+    "type": "Public",
+    "website": "https://www.cuhk.edu.hk/english/",
+    "acceptanceRate": 35,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": 6,
+        "minTOEFL": 80,
+        "minSAT": null,
+        "minGPA": null,
+        "otherTests": [
+          "SMA"
+        ],
+        "notes": ""
+      },
+      "S2": {
+        "minIELTS": 6.5,
+        "minTOEFL": 79,
+        "minGPA": 3,
+        "workExperience": "None",
+        "notes": ""
+      },
+      "S3": {
+        "minIELTS": 6.5,
+        "minTOEFL": 79,
+        "minGPA": 3,
+        "researchProposal": true,
+        "supervisorRequired": true,
+        "notes": ""
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "Nursing",
+        "subjectRank": 16,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Communication",
+        "subjectRank": 20,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      }
+    ],
+    "intakeMonths": [
+      "September"
+    ],
+    "applicationDeadline": {
+      "S1": "January",
+      "S2": "February",
+      "S3": "February"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia"
+    ]
+  },
+  {
+    "id": "leiden",
+    "rank": 47,
+    "name": "Leiden University",
+    "country": "Netherlands",
+    "flag": "🇳🇱",
+    "city": "Leiden",
+    "type": "Public",
+    "website": "https://www.universiteitleiden.nl/en",
+    "acceptanceRate": 40,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": 6.5,
+        "minTOEFL": 90,
+        "minSAT": null,
+        "minGPA": null,
+        "otherTests": [],
+        "notes": "Indonesian SMA often requires 1 year Uni in Indonesia."
+      },
+      "S2": {
+        "minIELTS": 6.5,
+        "minTOEFL": 90,
+        "minGPA": 3,
+        "workExperience": "None",
+        "notes": ""
+      },
+      "S3": {
+        "minIELTS": 6.5,
+        "minTOEFL": 90,
+        "minGPA": 3,
+        "researchProposal": true,
+        "supervisorRequired": true,
+        "notes": ""
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "Classics",
+        "subjectRank": 4,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Law",
+        "subjectRank": 25,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      }
+    ],
+    "intakeMonths": [
+      "September"
+    ],
+    "applicationDeadline": {
+      "S1": "April",
+      "S2": "April",
+      "S3": "Year-round"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia",
+      "holland-scholarship"
+    ]
+  },
+  {
+    "id": "utrecht",
+    "rank": 48,
+    "name": "Utrecht University",
+    "country": "Netherlands",
+    "flag": "🇳🇱",
+    "city": "Utrecht",
+    "type": "Public",
+    "website": "https://www.uu.nl/en",
+    "acceptanceRate": 45,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": 6.5,
+        "minTOEFL": 93,
+        "minSAT": null,
+        "minGPA": null,
+        "otherTests": [],
+        "notes": "Requires VWO equivalent."
+      },
+      "S2": {
+        "minIELTS": 6.5,
+        "minTOEFL": 93,
+        "minGPA": 3,
+        "workExperience": "None",
+        "notes": ""
+      },
+      "S3": {
+        "minIELTS": 6.5,
+        "minTOEFL": 93,
+        "minGPA": 3,
+        "researchProposal": true,
+        "supervisorRequired": true,
+        "notes": ""
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "Veterinary Science",
+        "subjectRank": 5,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Geography",
+        "subjectRank": 14,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      }
+    ],
+    "intakeMonths": [
+      "September"
+    ],
+    "applicationDeadline": {
+      "S1": "April",
+      "S2": "April",
+      "S3": "Year-round"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia",
+      "holland-scholarship"
+    ]
+  },
+  {
+    "id": "ghent",
+    "rank": 49,
+    "name": "Ghent University",
+    "country": "Belgium",
+    "flag": "🇧🇪",
+    "city": "Ghent",
+    "type": "Public",
+    "website": "https://www.ugent.be/en",
+    "acceptanceRate": 50,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": 6.5,
+        "minTOEFL": 87,
+        "minSAT": null,
+        "minGPA": null,
+        "otherTests": [],
+        "notes": "Bachelors almost entirely in Dutch."
+      },
+      "S2": {
+        "minIELTS": 6.5,
+        "minTOEFL": 87,
+        "minGPA": 3,
+        "workExperience": "None",
+        "notes": "Many English masters."
+      },
+      "S3": {
+        "minIELTS": 6.5,
+        "minTOEFL": 87,
+        "minGPA": 3,
+        "researchProposal": true,
+        "supervisorRequired": true,
+        "notes": ""
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "Veterinary Science",
+        "subjectRank": 11,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "Agriculture",
+        "subjectRank": 14,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      }
+    ],
+    "intakeMonths": [
+      "September"
+    ],
+    "applicationDeadline": {
+      "S1": "March",
+      "S2": "March",
+      "S3": "Year-round"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia",
+      "erasmus-mundus"
+    ]
+  },
+  {
+    "id": "ucla",
+    "rank": 50,
+    "name": "University of California, Los Angeles (UCLA)",
+    "country": "United States",
+    "flag": "🇺🇸",
+    "city": "Los Angeles",
+    "type": "Public",
+    "website": "https://www.ucla.edu/",
+    "acceptanceRate": 8.6,
+    "generalRequirements": {
+      "S1": {
+        "minIELTS": 7,
+        "minTOEFL": 100,
+        "minSAT": null,
+        "minGPA": null,
+        "otherTests": [],
+        "notes": "Test-blind (does not consider SAT/ACT)."
+      },
+      "S2": {
+        "minIELTS": 7,
+        "minTOEFL": 87,
+        "minGPA": 3,
+        "workExperience": "None",
+        "notes": ""
+      },
+      "S3": {
+        "minIELTS": 7,
+        "minTOEFL": 87,
+        "minGPA": 3,
+        "researchProposal": true,
+        "supervisorRequired": false,
+        "notes": ""
+      }
+    },
+    "popularSubjects": [
+      {
+        "name": "Psychology",
+        "subjectRank": 8,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      },
+      {
+        "name": "English",
+        "subjectRank": 10,
+        "availableLevels": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "additionalNotes": ""
+      }
+    ],
+    "intakeMonths": [
+      "September"
+    ],
+    "applicationDeadline": {
+      "S1": "November",
+      "S2": "December",
+      "S3": "December"
+    },
+    "scholarshipsAvailable": [
+      "lpdp-indonesia",
+      "fulbright-usa"
+    ]
+  }
+]
