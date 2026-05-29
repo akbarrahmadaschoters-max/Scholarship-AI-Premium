@@ -17,8 +17,26 @@ export const MainLayout: React.FC<{ children: React.ReactNode }> = ({ children }
     }
   };
 
+  const handleDiagnosticClick = (e: React.MouseEvent) => {
+    const hasExistingData = localStorage.getItem('diagnostic_progress') || localStorage.getItem('sat_result') || localStorage.getItem('ielts_result');
+    
+    if (hasExistingData) {
+      const confirmRetake = window.confirm("Are you sure you want to start the test? This will override your previous diagnostic test.");
+      if (!confirmRetake) {
+        e.preventDefault();
+        return;
+      }
+      // Clear data to start from beginning
+      localStorage.removeItem('diagnostic_progress');
+      localStorage.removeItem('sat_result');
+      localStorage.removeItem('ielts_result');
+      localStorage.removeItem('daily_study_plan');
+    }
+  };
+
   const navItems = [
     { label: 'Dashboard', path: '/dashboard', icon: '🏠' },
+    { label: 'Diagnostic Test', path: '/diagnostic', icon: '📝', onClick: handleDiagnosticClick },
     { label: 'Universities', path: '/universities', icon: '🎓' },
     { label: 'Scholarships', path: '/scholarships', icon: '🏆' },
     { label: 'Interviews', path: '/interviews', icon: '🎤' },
@@ -28,6 +46,7 @@ export const MainLayout: React.FC<{ children: React.ReactNode }> = ({ children }
   const getPageInfo = () => {
     switch (location.pathname) {
       case '/dashboard': return { title: 'Command Center', subtitle: 'Your personalized AI roadmap for global university admissions.' };
+      case '/diagnostic': return { title: 'Diagnostic Test', subtitle: 'Assess your current level and get personalized recommendations.' };
       case '/universities': return { title: 'Universities Explorer', subtitle: 'Explore the Top 50 global universities and their admission requirements.' };
       case '/scholarships': return { title: 'Scholarships Explorer', subtitle: 'Find the best international scholarships tailored for Indonesian students.' };
       case '/interviews': return { title: 'Interview Simulator', subtitle: 'Practice your interview skills with Voice AI personas.' };
@@ -68,7 +87,10 @@ export const MainLayout: React.FC<{ children: React.ReactNode }> = ({ children }
             <NavLink
               key={item.path}
               to={item.path}
-              onClick={() => setIsMobileMenuOpen(false)}
+              onClick={(e) => {
+                if (item.onClick) item.onClick(e);
+                if (!e.defaultPrevented) setIsMobileMenuOpen(false);
+              }}
               className={({ isActive }) => `
                 flex items-center gap-3 px-3 py-2.5 rounded-[var(--border-radius-md)] transition-[var(--transition-fast)] font-medium text-sm
                 ${isActive 
