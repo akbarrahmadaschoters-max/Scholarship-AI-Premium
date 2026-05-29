@@ -28,22 +28,6 @@ export const UniversitiesPage = () => {
     <div className="min-h-screen bg-slate-50 font-sans pb-20">
       
       {/* Navbar */}
-      <nav className="bg-white border-b border-gray-100 sticky top-0 z-30">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between h-16 items-center">
-            <div className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-indigo-600 rounded-lg flex items-center justify-center text-white font-bold text-xl">S</div>
-              <span className="font-black text-xl tracking-tight text-slate-800">SCHOLAR NOVA</span>
-            </div>
-            <div className="hidden md:flex gap-8 text-sm font-semibold text-slate-500">
-              <Link to="/dashboard" className="hover:text-indigo-600 transition-colors">Dashboard</Link>
-              <Link to="/universities" className="text-indigo-600 border-b-2 border-indigo-600 pb-1">Universities</Link>
-              <Link to="/scholarships" className="hover:text-indigo-600 transition-colors">Scholarships</Link>
-              <Link to="/interviews" className="hover:text-indigo-600 transition-colors">Interviews</Link>
-            </div>
-          </div>
-        </div>
-      </nav>
 
       {/* Hero Section */}
       <div className="bg-slate-900 text-white py-16 relative overflow-hidden">

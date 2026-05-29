@@ -133,32 +133,6 @@ const PremiumDashboardContent = () => {
   return (
     <div className="min-h-screen bg-slate-50 font-sans pb-20">
       {/* Premium Header */}
-      <header className="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-indigo-50/50 shadow-[0_4px_20px_-10px_rgba(0,0,0,0.05)]">
-        <div className="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8 flex justify-between items-center">
-          <div className="flex items-center space-x-3">
-            <div className="h-10 w-10 relative">
-              <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full drop-shadow-md">
-                 <defs>
-                   <linearGradient id="logo-gradient-pd" x1="0%" y1="0%" x2="100%" y2="100%">
-                     <stop offset="0%" stopColor="#818cf8" />
-                     <stop offset="100%" stopColor="#4f46e5" />
-                   </linearGradient>
-                 </defs>
-                 <path d="M70,30 C70,15 50,15 50,15 C50,15 30,15 30,30 C30,45 70,55 70,70 C70,85 50,85 50,85 C50,85 30,85 30,70" stroke="url(#logo-gradient-pd)" strokeWidth="18" strokeLinecap="round" strokeLinejoin="round" />
-                 <path d="M70,30 C70,15 50,15 50,15 C50,15 30,15 30,30 C30,45 70,55 70,70 C70,85 50,85 50,85 C50,85 30,85 30,70" stroke="white" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" strokeDasharray="10 30" opacity="0.3" />
-              </svg>
-            </div>
-            <h1 className="text-xl font-extrabold text-slate-800 tracking-wider">SCHOLAR NOVA</h1>
-            <span className="hidden sm:inline-block ml-2 px-2 py-0.5 bg-indigo-50 text-indigo-600 text-[10px] font-bold uppercase tracking-wider rounded-full border border-indigo-100">Premium</span>
-          </div>
-          <div className="flex items-center gap-4">
-            <span className="px-2 py-1 bg-green-500 text-white text-xs font-bold rounded">PREMIUM DASHBOARD ACTIVE</span>
-            <Button variant="outline" size="sm" onClick={() => navigate('/dashboard')} className="border-slate-700 text-slate-300 hover:bg-slate-800">
-              Exit Premium
-            </Button>
-          </div>
-        </div>
-      </header>
 
       <main className="max-w-7xl mx-auto pt-8 px-4 sm:px-6 lg:px-8 space-y-8">
         
