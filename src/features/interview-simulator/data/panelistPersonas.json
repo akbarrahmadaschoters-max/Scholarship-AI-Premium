@@ -1,0 +1,68 @@
+[
+  {
+    "id": "persona_1",
+    "name": "Dr. Sarah Mitchell",
+    "title": "Senior Academic",
+    "institution": "University of Edinburgh",
+    "nationality": "Scottish",
+    "avatarUrl": "https://api.dicebear.com/7.x/personas/svg?seed=Dr.SarahMitchell",
+    "personality": "warm and encouraging",
+    "quote": "I am looking forward to hearing your unique perspective and how you plan to contribute to the global community.",
+    "assignedTo": ["Chevening_S2"]
+  },
+  {
+    "id": "persona_2",
+    "name": "Prof. James Hartono",
+    "title": "Research Director",
+    "institution": "Australian National University",
+    "nationality": "Australian-Indonesian",
+    "avatarUrl": "https://api.dicebear.com/7.x/personas/svg?seed=Prof.JamesHartono",
+    "personality": "analytical and detail-oriented",
+    "quote": "Let's dive into the specifics of your plan. How do you intend to execute and measure these goals?",
+    "assignedTo": ["AAS_S2"]
+  },
+  {
+    "id": "persona_3",
+    "name": "Dr. Emma van Berg",
+    "title": "International Programs Coordinator",
+    "institution": "Leiden University",
+    "nationality": "Dutch",
+    "avatarUrl": "https://api.dicebear.com/7.x/personas/svg?seed=Dr.EmmavanBerg",
+    "personality": "structured and precise",
+    "quote": "Clarity is key. Please explain your research framework and how it aligns with European standards.",
+    "assignedTo": ["Erasmus_S2", "Erasmus_S3"]
+  },
+  {
+    "id": "persona_4",
+    "name": "Dr. Michael Chen",
+    "title": "Fulbright Program Officer",
+    "institution": "Washington DC",
+    "nationality": "American",
+    "avatarUrl": "https://api.dicebear.com/7.x/personas/svg?seed=Dr.MichaelChen",
+    "personality": "direct and intellectually curious",
+    "quote": "Why this path? What drives your intellectual curiosity, and how does it foster cross-cultural exchange?",
+    "assignedTo": ["Fulbright_S1", "Fulbright_S2", "Fulbright_S3"]
+  },
+  {
+    "id": "persona_5",
+    "name": "Dr. Putri Wulandari",
+    "title": "Senior Evaluator",
+    "institution": "LPDP Kementerian Keuangan",
+    "nationality": "Indonesian",
+    "avatarUrl": "https://api.dicebear.com/7.x/personas/svg?seed=Dr.PutriWulandari",
+    "personality": "formal and mission-driven",
+    "quote": "What is your concrete plan to return and contribute to Indonesia's development after your studies?",
+    "assignedTo": ["LPDP_S2", "LPDP_S3"]
+  },
+  {
+    "id": "persona_6",
+    "name": "Prof. Robert Hayes",
+    "title": "Admissions Director",
+    "institution": "Global University",
+    "nationality": "British",
+    "avatarUrl": "https://api.dicebear.com/7.x/personas/svg?seed=Prof.RobertHayes",
+    "personality": "professional and thorough",
+    "quote": "We seek students who will thrive in our academic environment. Tell me why you are the perfect fit for us.",
+    "assignedTo": ["UNIVERSITY_S1", "UNIVERSITY_S2", "UNIVERSITY_S3"]
+  }
+]

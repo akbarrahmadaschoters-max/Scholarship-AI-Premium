@@ -2,7 +2,7 @@ import { useAuth } from '../context/AuthContext';
 import { Card } from '../components/Card';
 import { Button } from '../components/Button';
 import { UniversityCard } from '../components/UniversityCard';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import type { SatResult, IeltsResult, DayPlan } from '../context/DiagnosticContext';
 import { generatePDFReport } from '../utils/generatePDF';
@@ -116,10 +116,10 @@ export const Dashboard = () => {
           
           <div className="flex items-center space-x-5">
             <div className="hidden md:flex space-x-6 mr-4 text-sm font-semibold text-slate-600">
-              <a href="#" className="text-indigo-600">Dashboard</a>
+              <Link to="/dashboard" className="text-indigo-600">Dashboard</Link>
               <a href="#" className="hover:text-indigo-600 transition-colors">Universities</a>
               <a href="#" className="hover:text-indigo-600 transition-colors">Scholarships</a>
-              <a href="#" className="hover:text-indigo-600 transition-colors">Interviews</a>
+              <Link to="/interviews" className="hover:text-indigo-600 transition-colors">Interviews</Link>
             </div>
             <span className="text-sm font-semibold text-slate-700 hidden sm:inline-block">
               {currentUser?.displayName || currentUser?.email}

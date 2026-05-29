@@ -1,0 +1,24 @@
+{
+  "types": {
+    "LPDP": {
+      "label": "LPDP",
+      "availableLevels": ["S2", "S3"],
+      "subtypes": null
+    },
+    "INTERNATIONAL": {
+      "label": "International Scholarship",
+      "subtypes": {
+        "Erasmus": ["S2", "S3"],
+        "AAS": ["S2"],
+        "Fulbright": ["S1", "S2", "S3"],
+        "Chevening": ["S2"]
+      }
+    },
+    "UNIVERSITY": {
+      "label": "University Admission",
+      "availableLevels": ["S1", "S2", "S3"],
+      "subtypes": null
+    }
+  },
+  "fields": ["Saintek", "Soshum", "Bahasa", "Bisnis", "Seni", "Lainnya"]
+}

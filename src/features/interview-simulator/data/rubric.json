@@ -1,0 +1,9 @@
+{
+  "dimensions": [
+    { "id": "clarity", "label": "Clarity & Structure", "weight": 20 },
+    { "id": "relevance", "label": "Answer Relevance", "weight": 20 },
+    { "id": "depth", "label": "Depth & Specificity", "weight": 25 },
+    { "id": "authenticity", "label": "Authenticity", "weight": 20 },
+    { "id": "impact", "label": "Impact Orientation", "weight": 15 }
+  ]
+}

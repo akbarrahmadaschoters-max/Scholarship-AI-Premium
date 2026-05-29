@@ -5,6 +5,7 @@ import { Diagnostic } from '../pages/Diagnostic';
 import { Outcome } from '../pages/Outcome';
 import { Profiling } from '../pages/Profiling';
 import { PremiumDashboard } from '../pages/PremiumDashboard';
+import { InterviewPage } from '../pages/InterviewPage';
 import { ProtectedRoute } from '../components/ProtectedRoute';
 import { useAuth } from '../context/AuthContext';
 
@@ -23,6 +24,7 @@ export const AppRoutes = () => {
         <Route path="/profiling" element={<Profiling />} />
         <Route path="/outcome" element={<Outcome />} />
         <Route path="/premium-dashboard" element={<PremiumDashboard />} />
+        <Route path="/interviews" element={<InterviewPage />} />
       </Route>
 
       

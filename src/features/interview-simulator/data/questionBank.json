@@ -1,0 +1,4070 @@
+{
+  "LPDP_S2": {
+    "clusters": [
+      {
+        "id": "c1",
+        "name": "Motivation & Study Plan",
+        "weight": 25,
+        "questions": [
+          {
+            "id": "LPDP_S2_c1_q1",
+            "text": "What is your primary motivation for applying to this specific program and scholarship?",
+            "probing": [
+              "Could you provide a specific example of motivation & study plan?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to motivation & study plan?",
+              "Soshum": "How does your social sciences background shape your perspective on motivation & study plan?"
+            }
+          },
+          {
+            "id": "LPDP_S2_c1_q2",
+            "text": "How does this study plan align with your long-term career aspirations?",
+            "probing": [
+              "Could you provide a specific example of motivation & study plan?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to motivation & study plan?",
+              "Soshum": "How does your social sciences background shape your perspective on motivation & study plan?"
+            }
+          },
+          {
+            "id": "LPDP_S2_c1_q3",
+            "text": "Can you elaborate on your experience regarding motivation & study plan?",
+            "probing": [
+              "Could you provide a specific example of motivation & study plan?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to motivation & study plan?",
+              "Soshum": "How does your social sciences background shape your perspective on motivation & study plan?"
+            }
+          },
+          {
+            "id": "LPDP_S2_c1_q4",
+            "text": "Can you elaborate on your experience regarding motivation & study plan?",
+            "probing": [
+              "Could you provide a specific example of motivation & study plan?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to motivation & study plan?",
+              "Soshum": "How does your social sciences background shape your perspective on motivation & study plan?"
+            }
+          },
+          {
+            "id": "LPDP_S2_c1_q5",
+            "text": "Can you elaborate on your experience regarding motivation & study plan?",
+            "probing": [
+              "Could you provide a specific example of motivation & study plan?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to motivation & study plan?",
+              "Soshum": "How does your social sciences background shape your perspective on motivation & study plan?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "Academic Substance",
+        "weight": 25,
+        "questions": [
+          {
+            "id": "LPDP_S2_c2_q1",
+            "text": "Can you elaborate on your experience regarding academic substance?",
+            "probing": [
+              "Could you provide a specific example of academic substance?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic substance?",
+              "Soshum": "How does your social sciences background shape your perspective on academic substance?"
+            }
+          },
+          {
+            "id": "LPDP_S2_c2_q2",
+            "text": "Can you elaborate on your experience regarding academic substance?",
+            "probing": [
+              "Could you provide a specific example of academic substance?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic substance?",
+              "Soshum": "How does your social sciences background shape your perspective on academic substance?"
+            }
+          },
+          {
+            "id": "LPDP_S2_c2_q3",
+            "text": "Can you elaborate on your experience regarding academic substance?",
+            "probing": [
+              "Could you provide a specific example of academic substance?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic substance?",
+              "Soshum": "How does your social sciences background shape your perspective on academic substance?"
+            }
+          },
+          {
+            "id": "LPDP_S2_c2_q4",
+            "text": "Can you elaborate on your experience regarding academic substance?",
+            "probing": [
+              "Could you provide a specific example of academic substance?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic substance?",
+              "Soshum": "How does your social sciences background shape your perspective on academic substance?"
+            }
+          },
+          {
+            "id": "LPDP_S2_c2_q5",
+            "text": "Can you elaborate on your experience regarding academic substance?",
+            "probing": [
+              "Could you provide a specific example of academic substance?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic substance?",
+              "Soshum": "How does your social sciences background shape your perspective on academic substance?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "Contribution Plan",
+        "weight": 20,
+        "questions": [
+          {
+            "id": "LPDP_S2_c3_q1",
+            "text": "How do you plan to contribute to your home country upon completing your studies?",
+            "probing": [
+              "Could you provide a specific example of contribution plan?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to contribution plan?",
+              "Soshum": "How does your social sciences background shape your perspective on contribution plan?"
+            }
+          },
+          {
+            "id": "LPDP_S2_c3_q2",
+            "text": "What specific societal issues are you aiming to solve with your new knowledge?",
+            "probing": [
+              "Could you provide a specific example of contribution plan?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to contribution plan?",
+              "Soshum": "How does your social sciences background shape your perspective on contribution plan?"
+            }
+          },
+          {
+            "id": "LPDP_S2_c3_q3",
+            "text": "Can you elaborate on your experience regarding contribution plan?",
+            "probing": [
+              "Could you provide a specific example of contribution plan?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to contribution plan?",
+              "Soshum": "How does your social sciences background shape your perspective on contribution plan?"
+            }
+          },
+          {
+            "id": "LPDP_S2_c3_q4",
+            "text": "Can you elaborate on your experience regarding contribution plan?",
+            "probing": [
+              "Could you provide a specific example of contribution plan?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to contribution plan?",
+              "Soshum": "How does your social sciences background shape your perspective on contribution plan?"
+            }
+          },
+          {
+            "id": "LPDP_S2_c3_q5",
+            "text": "Can you elaborate on your experience regarding contribution plan?",
+            "probing": [
+              "Could you provide a specific example of contribution plan?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to contribution plan?",
+              "Soshum": "How does your social sciences background shape your perspective on contribution plan?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "name": "Leadership & Track Record",
+        "weight": 20,
+        "questions": [
+          {
+            "id": "LPDP_S2_c4_q1",
+            "text": "Describe a time when you had to lead a team through a difficult challenge.",
+            "probing": [
+              "Could you provide a specific example of leadership & track record?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to leadership & track record?",
+              "Soshum": "How does your social sciences background shape your perspective on leadership & track record?"
+            }
+          },
+          {
+            "id": "LPDP_S2_c4_q2",
+            "text": "How do you define effective leadership in a multicultural environment?",
+            "probing": [
+              "Could you provide a specific example of leadership & track record?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to leadership & track record?",
+              "Soshum": "How does your social sciences background shape your perspective on leadership & track record?"
+            }
+          },
+          {
+            "id": "LPDP_S2_c4_q3",
+            "text": "Can you elaborate on your experience regarding leadership & track record?",
+            "probing": [
+              "Could you provide a specific example of leadership & track record?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to leadership & track record?",
+              "Soshum": "How does your social sciences background shape your perspective on leadership & track record?"
+            }
+          },
+          {
+            "id": "LPDP_S2_c4_q4",
+            "text": "Can you elaborate on your experience regarding leadership & track record?",
+            "probing": [
+              "Could you provide a specific example of leadership & track record?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to leadership & track record?",
+              "Soshum": "How does your social sciences background shape your perspective on leadership & track record?"
+            }
+          },
+          {
+            "id": "LPDP_S2_c4_q5",
+            "text": "Can you elaborate on your experience regarding leadership & track record?",
+            "probing": [
+              "Could you provide a specific example of leadership & track record?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to leadership & track record?",
+              "Soshum": "How does your social sciences background shape your perspective on leadership & track record?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c5",
+        "name": "Integrity & Commitment",
+        "weight": 10,
+        "questions": [
+          {
+            "id": "LPDP_S2_c5_q1",
+            "text": "Can you elaborate on your experience regarding integrity & commitment?",
+            "probing": [
+              "Could you provide a specific example of integrity & commitment?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to integrity & commitment?",
+              "Soshum": "How does your social sciences background shape your perspective on integrity & commitment?"
+            }
+          },
+          {
+            "id": "LPDP_S2_c5_q2",
+            "text": "Can you elaborate on your experience regarding integrity & commitment?",
+            "probing": [
+              "Could you provide a specific example of integrity & commitment?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to integrity & commitment?",
+              "Soshum": "How does your social sciences background shape your perspective on integrity & commitment?"
+            }
+          },
+          {
+            "id": "LPDP_S2_c5_q3",
+            "text": "Can you elaborate on your experience regarding integrity & commitment?",
+            "probing": [
+              "Could you provide a specific example of integrity & commitment?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to integrity & commitment?",
+              "Soshum": "How does your social sciences background shape your perspective on integrity & commitment?"
+            }
+          },
+          {
+            "id": "LPDP_S2_c5_q4",
+            "text": "Can you elaborate on your experience regarding integrity & commitment?",
+            "probing": [
+              "Could you provide a specific example of integrity & commitment?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to integrity & commitment?",
+              "Soshum": "How does your social sciences background shape your perspective on integrity & commitment?"
+            }
+          },
+          {
+            "id": "LPDP_S2_c5_q5",
+            "text": "Can you elaborate on your experience regarding integrity & commitment?",
+            "probing": [
+              "Could you provide a specific example of integrity & commitment?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to integrity & commitment?",
+              "Soshum": "How does your social sciences background shape your perspective on integrity & commitment?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "LPDP_S3": {
+    "clusters": [
+      {
+        "id": "c1",
+        "name": "Research Proposal",
+        "weight": 30,
+        "questions": [
+          {
+            "id": "LPDP_S3_c1_q1",
+            "text": "Could you summarize your proposed research and its potential impact?",
+            "probing": [
+              "Could you provide a specific example of research proposal?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to research proposal?",
+              "Soshum": "How does your social sciences background shape your perspective on research proposal?"
+            }
+          },
+          {
+            "id": "LPDP_S3_c1_q2",
+            "text": "What specific methodology will you use to address your research questions?",
+            "probing": [
+              "Could you provide a specific example of research proposal?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to research proposal?",
+              "Soshum": "How does your social sciences background shape your perspective on research proposal?"
+            }
+          },
+          {
+            "id": "LPDP_S3_c1_q3",
+            "text": "Can you elaborate on your experience regarding research proposal?",
+            "probing": [
+              "Could you provide a specific example of research proposal?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to research proposal?",
+              "Soshum": "How does your social sciences background shape your perspective on research proposal?"
+            }
+          },
+          {
+            "id": "LPDP_S3_c1_q4",
+            "text": "Can you elaborate on your experience regarding research proposal?",
+            "probing": [
+              "Could you provide a specific example of research proposal?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to research proposal?",
+              "Soshum": "How does your social sciences background shape your perspective on research proposal?"
+            }
+          },
+          {
+            "id": "LPDP_S3_c1_q5",
+            "text": "Can you elaborate on your experience regarding research proposal?",
+            "probing": [
+              "Could you provide a specific example of research proposal?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to research proposal?",
+              "Soshum": "How does your social sciences background shape your perspective on research proposal?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "Academic Ecosystem",
+        "weight": 20,
+        "questions": [
+          {
+            "id": "LPDP_S3_c2_q1",
+            "text": "Can you elaborate on your experience regarding academic ecosystem?",
+            "probing": [
+              "Could you provide a specific example of academic ecosystem?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic ecosystem?",
+              "Soshum": "How does your social sciences background shape your perspective on academic ecosystem?"
+            }
+          },
+          {
+            "id": "LPDP_S3_c2_q2",
+            "text": "Can you elaborate on your experience regarding academic ecosystem?",
+            "probing": [
+              "Could you provide a specific example of academic ecosystem?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic ecosystem?",
+              "Soshum": "How does your social sciences background shape your perspective on academic ecosystem?"
+            }
+          },
+          {
+            "id": "LPDP_S3_c2_q3",
+            "text": "Can you elaborate on your experience regarding academic ecosystem?",
+            "probing": [
+              "Could you provide a specific example of academic ecosystem?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic ecosystem?",
+              "Soshum": "How does your social sciences background shape your perspective on academic ecosystem?"
+            }
+          },
+          {
+            "id": "LPDP_S3_c2_q4",
+            "text": "Can you elaborate on your experience regarding academic ecosystem?",
+            "probing": [
+              "Could you provide a specific example of academic ecosystem?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic ecosystem?",
+              "Soshum": "How does your social sciences background shape your perspective on academic ecosystem?"
+            }
+          },
+          {
+            "id": "LPDP_S3_c2_q5",
+            "text": "Can you elaborate on your experience regarding academic ecosystem?",
+            "probing": [
+              "Could you provide a specific example of academic ecosystem?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic ecosystem?",
+              "Soshum": "How does your social sciences background shape your perspective on academic ecosystem?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "National Impact",
+        "weight": 20,
+        "questions": [
+          {
+            "id": "LPDP_S3_c3_q1",
+            "text": "How do you plan to contribute to your home country upon completing your studies?",
+            "probing": [
+              "Could you provide a specific example of national impact?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to national impact?",
+              "Soshum": "How does your social sciences background shape your perspective on national impact?"
+            }
+          },
+          {
+            "id": "LPDP_S3_c3_q2",
+            "text": "What specific societal issues are you aiming to solve with your new knowledge?",
+            "probing": [
+              "Could you provide a specific example of national impact?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to national impact?",
+              "Soshum": "How does your social sciences background shape your perspective on national impact?"
+            }
+          },
+          {
+            "id": "LPDP_S3_c3_q3",
+            "text": "Can you elaborate on your experience regarding national impact?",
+            "probing": [
+              "Could you provide a specific example of national impact?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to national impact?",
+              "Soshum": "How does your social sciences background shape your perspective on national impact?"
+            }
+          },
+          {
+            "id": "LPDP_S3_c3_q4",
+            "text": "Can you elaborate on your experience regarding national impact?",
+            "probing": [
+              "Could you provide a specific example of national impact?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to national impact?",
+              "Soshum": "How does your social sciences background shape your perspective on national impact?"
+            }
+          },
+          {
+            "id": "LPDP_S3_c3_q5",
+            "text": "Can you elaborate on your experience regarding national impact?",
+            "probing": [
+              "Could you provide a specific example of national impact?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to national impact?",
+              "Soshum": "How does your social sciences background shape your perspective on national impact?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "name": "Research Track Record",
+        "weight": 15,
+        "questions": [
+          {
+            "id": "LPDP_S3_c4_q1",
+            "text": "Could you summarize your proposed research and its potential impact?",
+            "probing": [
+              "Could you provide a specific example of research track record?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to research track record?",
+              "Soshum": "How does your social sciences background shape your perspective on research track record?"
+            }
+          },
+          {
+            "id": "LPDP_S3_c4_q2",
+            "text": "What specific methodology will you use to address your research questions?",
+            "probing": [
+              "Could you provide a specific example of research track record?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to research track record?",
+              "Soshum": "How does your social sciences background shape your perspective on research track record?"
+            }
+          },
+          {
+            "id": "LPDP_S3_c4_q3",
+            "text": "Can you elaborate on your experience regarding research track record?",
+            "probing": [
+              "Could you provide a specific example of research track record?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to research track record?",
+              "Soshum": "How does your social sciences background shape your perspective on research track record?"
+            }
+          },
+          {
+            "id": "LPDP_S3_c4_q4",
+            "text": "Can you elaborate on your experience regarding research track record?",
+            "probing": [
+              "Could you provide a specific example of research track record?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to research track record?",
+              "Soshum": "How does your social sciences background shape your perspective on research track record?"
+            }
+          },
+          {
+            "id": "LPDP_S3_c4_q5",
+            "text": "Can you elaborate on your experience regarding research track record?",
+            "probing": [
+              "Could you provide a specific example of research track record?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to research track record?",
+              "Soshum": "How does your social sciences background shape your perspective on research track record?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c5",
+        "name": "Resilience & Integrity",
+        "weight": 15,
+        "questions": [
+          {
+            "id": "LPDP_S3_c5_q1",
+            "text": "Can you elaborate on your experience regarding resilience & integrity?",
+            "probing": [
+              "Could you provide a specific example of resilience & integrity?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to resilience & integrity?",
+              "Soshum": "How does your social sciences background shape your perspective on resilience & integrity?"
+            }
+          },
+          {
+            "id": "LPDP_S3_c5_q2",
+            "text": "Can you elaborate on your experience regarding resilience & integrity?",
+            "probing": [
+              "Could you provide a specific example of resilience & integrity?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to resilience & integrity?",
+              "Soshum": "How does your social sciences background shape your perspective on resilience & integrity?"
+            }
+          },
+          {
+            "id": "LPDP_S3_c5_q3",
+            "text": "Can you elaborate on your experience regarding resilience & integrity?",
+            "probing": [
+              "Could you provide a specific example of resilience & integrity?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to resilience & integrity?",
+              "Soshum": "How does your social sciences background shape your perspective on resilience & integrity?"
+            }
+          },
+          {
+            "id": "LPDP_S3_c5_q4",
+            "text": "Can you elaborate on your experience regarding resilience & integrity?",
+            "probing": [
+              "Could you provide a specific example of resilience & integrity?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to resilience & integrity?",
+              "Soshum": "How does your social sciences background shape your perspective on resilience & integrity?"
+            }
+          },
+          {
+            "id": "LPDP_S3_c5_q5",
+            "text": "Can you elaborate on your experience regarding resilience & integrity?",
+            "probing": [
+              "Could you provide a specific example of resilience & integrity?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to resilience & integrity?",
+              "Soshum": "How does your social sciences background shape your perspective on resilience & integrity?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "Chevening_S2": {
+    "clusters": [
+      {
+        "id": "c1",
+        "name": "Leadership",
+        "weight": 30,
+        "questions": [
+          {
+            "id": "Chevening_S2_c1_q1",
+            "text": "Describe a time when you had to lead a team through a difficult challenge.",
+            "probing": [
+              "Could you provide a specific example of leadership?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to leadership?",
+              "Soshum": "How does your social sciences background shape your perspective on leadership?"
+            }
+          },
+          {
+            "id": "Chevening_S2_c1_q2",
+            "text": "How do you define effective leadership in a multicultural environment?",
+            "probing": [
+              "Could you provide a specific example of leadership?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to leadership?",
+              "Soshum": "How does your social sciences background shape your perspective on leadership?"
+            }
+          },
+          {
+            "id": "Chevening_S2_c1_q3",
+            "text": "Can you elaborate on your experience regarding leadership?",
+            "probing": [
+              "Could you provide a specific example of leadership?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to leadership?",
+              "Soshum": "How does your social sciences background shape your perspective on leadership?"
+            }
+          },
+          {
+            "id": "Chevening_S2_c1_q4",
+            "text": "Can you elaborate on your experience regarding leadership?",
+            "probing": [
+              "Could you provide a specific example of leadership?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to leadership?",
+              "Soshum": "How does your social sciences background shape your perspective on leadership?"
+            }
+          },
+          {
+            "id": "Chevening_S2_c1_q5",
+            "text": "Can you elaborate on your experience regarding leadership?",
+            "probing": [
+              "Could you provide a specific example of leadership?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to leadership?",
+              "Soshum": "How does your social sciences background shape your perspective on leadership?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "UK-Indonesia Relations",
+        "weight": 20,
+        "questions": [
+          {
+            "id": "Chevening_S2_c2_q1",
+            "text": "Can you elaborate on your experience regarding uk-indonesia relations?",
+            "probing": [
+              "Could you provide a specific example of uk-indonesia relations?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to uk-indonesia relations?",
+              "Soshum": "How does your social sciences background shape your perspective on uk-indonesia relations?"
+            }
+          },
+          {
+            "id": "Chevening_S2_c2_q2",
+            "text": "Can you elaborate on your experience regarding uk-indonesia relations?",
+            "probing": [
+              "Could you provide a specific example of uk-indonesia relations?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to uk-indonesia relations?",
+              "Soshum": "How does your social sciences background shape your perspective on uk-indonesia relations?"
+            }
+          },
+          {
+            "id": "Chevening_S2_c2_q3",
+            "text": "Can you elaborate on your experience regarding uk-indonesia relations?",
+            "probing": [
+              "Could you provide a specific example of uk-indonesia relations?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to uk-indonesia relations?",
+              "Soshum": "How does your social sciences background shape your perspective on uk-indonesia relations?"
+            }
+          },
+          {
+            "id": "Chevening_S2_c2_q4",
+            "text": "Can you elaborate on your experience regarding uk-indonesia relations?",
+            "probing": [
+              "Could you provide a specific example of uk-indonesia relations?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to uk-indonesia relations?",
+              "Soshum": "How does your social sciences background shape your perspective on uk-indonesia relations?"
+            }
+          },
+          {
+            "id": "Chevening_S2_c2_q5",
+            "text": "Can you elaborate on your experience regarding uk-indonesia relations?",
+            "probing": [
+              "Could you provide a specific example of uk-indonesia relations?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to uk-indonesia relations?",
+              "Soshum": "How does your social sciences background shape your perspective on uk-indonesia relations?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "Career Vision",
+        "weight": 20,
+        "questions": [
+          {
+            "id": "Chevening_S2_c3_q1",
+            "text": "Can you elaborate on your experience regarding career vision?",
+            "probing": [
+              "Could you provide a specific example of career vision?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to career vision?",
+              "Soshum": "How does your social sciences background shape your perspective on career vision?"
+            }
+          },
+          {
+            "id": "Chevening_S2_c3_q2",
+            "text": "Can you elaborate on your experience regarding career vision?",
+            "probing": [
+              "Could you provide a specific example of career vision?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to career vision?",
+              "Soshum": "How does your social sciences background shape your perspective on career vision?"
+            }
+          },
+          {
+            "id": "Chevening_S2_c3_q3",
+            "text": "Can you elaborate on your experience regarding career vision?",
+            "probing": [
+              "Could you provide a specific example of career vision?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to career vision?",
+              "Soshum": "How does your social sciences background shape your perspective on career vision?"
+            }
+          },
+          {
+            "id": "Chevening_S2_c3_q4",
+            "text": "Can you elaborate on your experience regarding career vision?",
+            "probing": [
+              "Could you provide a specific example of career vision?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to career vision?",
+              "Soshum": "How does your social sciences background shape your perspective on career vision?"
+            }
+          },
+          {
+            "id": "Chevening_S2_c3_q5",
+            "text": "Can you elaborate on your experience regarding career vision?",
+            "probing": [
+              "Could you provide a specific example of career vision?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to career vision?",
+              "Soshum": "How does your social sciences background shape your perspective on career vision?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "name": "Networking Plans",
+        "weight": 15,
+        "questions": [
+          {
+            "id": "Chevening_S2_c4_q1",
+            "text": "Can you elaborate on your experience regarding networking plans?",
+            "probing": [
+              "Could you provide a specific example of networking plans?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to networking plans?",
+              "Soshum": "How does your social sciences background shape your perspective on networking plans?"
+            }
+          },
+          {
+            "id": "Chevening_S2_c4_q2",
+            "text": "Can you elaborate on your experience regarding networking plans?",
+            "probing": [
+              "Could you provide a specific example of networking plans?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to networking plans?",
+              "Soshum": "How does your social sciences background shape your perspective on networking plans?"
+            }
+          },
+          {
+            "id": "Chevening_S2_c4_q3",
+            "text": "Can you elaborate on your experience regarding networking plans?",
+            "probing": [
+              "Could you provide a specific example of networking plans?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to networking plans?",
+              "Soshum": "How does your social sciences background shape your perspective on networking plans?"
+            }
+          },
+          {
+            "id": "Chevening_S2_c4_q4",
+            "text": "Can you elaborate on your experience regarding networking plans?",
+            "probing": [
+              "Could you provide a specific example of networking plans?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to networking plans?",
+              "Soshum": "How does your social sciences background shape your perspective on networking plans?"
+            }
+          },
+          {
+            "id": "Chevening_S2_c4_q5",
+            "text": "Can you elaborate on your experience regarding networking plans?",
+            "probing": [
+              "Could you provide a specific example of networking plans?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to networking plans?",
+              "Soshum": "How does your social sciences background shape your perspective on networking plans?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c5",
+        "name": "Study Rationale",
+        "weight": 15,
+        "questions": [
+          {
+            "id": "Chevening_S2_c5_q1",
+            "text": "Can you elaborate on your experience regarding study rationale?",
+            "probing": [
+              "Could you provide a specific example of study rationale?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to study rationale?",
+              "Soshum": "How does your social sciences background shape your perspective on study rationale?"
+            }
+          },
+          {
+            "id": "Chevening_S2_c5_q2",
+            "text": "Can you elaborate on your experience regarding study rationale?",
+            "probing": [
+              "Could you provide a specific example of study rationale?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to study rationale?",
+              "Soshum": "How does your social sciences background shape your perspective on study rationale?"
+            }
+          },
+          {
+            "id": "Chevening_S2_c5_q3",
+            "text": "Can you elaborate on your experience regarding study rationale?",
+            "probing": [
+              "Could you provide a specific example of study rationale?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to study rationale?",
+              "Soshum": "How does your social sciences background shape your perspective on study rationale?"
+            }
+          },
+          {
+            "id": "Chevening_S2_c5_q4",
+            "text": "Can you elaborate on your experience regarding study rationale?",
+            "probing": [
+              "Could you provide a specific example of study rationale?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to study rationale?",
+              "Soshum": "How does your social sciences background shape your perspective on study rationale?"
+            }
+          },
+          {
+            "id": "Chevening_S2_c5_q5",
+            "text": "Can you elaborate on your experience regarding study rationale?",
+            "probing": [
+              "Could you provide a specific example of study rationale?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to study rationale?",
+              "Soshum": "How does your social sciences background shape your perspective on study rationale?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "Erasmus_S2": {
+    "clusters": [
+      {
+        "id": "c1",
+        "name": "Academic Excellence",
+        "weight": 25,
+        "questions": [
+          {
+            "id": "Erasmus_S2_c1_q1",
+            "text": "Can you elaborate on your experience regarding academic excellence?",
+            "probing": [
+              "Could you provide a specific example of academic excellence?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic excellence?",
+              "Soshum": "How does your social sciences background shape your perspective on academic excellence?"
+            }
+          },
+          {
+            "id": "Erasmus_S2_c1_q2",
+            "text": "Can you elaborate on your experience regarding academic excellence?",
+            "probing": [
+              "Could you provide a specific example of academic excellence?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic excellence?",
+              "Soshum": "How does your social sciences background shape your perspective on academic excellence?"
+            }
+          },
+          {
+            "id": "Erasmus_S2_c1_q3",
+            "text": "Can you elaborate on your experience regarding academic excellence?",
+            "probing": [
+              "Could you provide a specific example of academic excellence?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic excellence?",
+              "Soshum": "How does your social sciences background shape your perspective on academic excellence?"
+            }
+          },
+          {
+            "id": "Erasmus_S2_c1_q4",
+            "text": "Can you elaborate on your experience regarding academic excellence?",
+            "probing": [
+              "Could you provide a specific example of academic excellence?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic excellence?",
+              "Soshum": "How does your social sciences background shape your perspective on academic excellence?"
+            }
+          },
+          {
+            "id": "Erasmus_S2_c1_q5",
+            "text": "Can you elaborate on your experience regarding academic excellence?",
+            "probing": [
+              "Could you provide a specific example of academic excellence?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic excellence?",
+              "Soshum": "How does your social sciences background shape your perspective on academic excellence?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "European Context",
+        "weight": 20,
+        "questions": [
+          {
+            "id": "Erasmus_S2_c2_q1",
+            "text": "Can you elaborate on your experience regarding european context?",
+            "probing": [
+              "Could you provide a specific example of european context?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to european context?",
+              "Soshum": "How does your social sciences background shape your perspective on european context?"
+            }
+          },
+          {
+            "id": "Erasmus_S2_c2_q2",
+            "text": "Can you elaborate on your experience regarding european context?",
+            "probing": [
+              "Could you provide a specific example of european context?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to european context?",
+              "Soshum": "How does your social sciences background shape your perspective on european context?"
+            }
+          },
+          {
+            "id": "Erasmus_S2_c2_q3",
+            "text": "Can you elaborate on your experience regarding european context?",
+            "probing": [
+              "Could you provide a specific example of european context?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to european context?",
+              "Soshum": "How does your social sciences background shape your perspective on european context?"
+            }
+          },
+          {
+            "id": "Erasmus_S2_c2_q4",
+            "text": "Can you elaborate on your experience regarding european context?",
+            "probing": [
+              "Could you provide a specific example of european context?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to european context?",
+              "Soshum": "How does your social sciences background shape your perspective on european context?"
+            }
+          },
+          {
+            "id": "Erasmus_S2_c2_q5",
+            "text": "Can you elaborate on your experience regarding european context?",
+            "probing": [
+              "Could you provide a specific example of european context?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to european context?",
+              "Soshum": "How does your social sciences background shape your perspective on european context?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "Research or Study Plan",
+        "weight": 25,
+        "questions": [
+          {
+            "id": "Erasmus_S2_c3_q1",
+            "text": "Could you summarize your proposed research and its potential impact?",
+            "probing": [
+              "Could you provide a specific example of research or study plan?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to research or study plan?",
+              "Soshum": "How does your social sciences background shape your perspective on research or study plan?"
+            }
+          },
+          {
+            "id": "Erasmus_S2_c3_q2",
+            "text": "What specific methodology will you use to address your research questions?",
+            "probing": [
+              "Could you provide a specific example of research or study plan?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to research or study plan?",
+              "Soshum": "How does your social sciences background shape your perspective on research or study plan?"
+            }
+          },
+          {
+            "id": "Erasmus_S2_c3_q3",
+            "text": "Can you elaborate on your experience regarding research or study plan?",
+            "probing": [
+              "Could you provide a specific example of research or study plan?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to research or study plan?",
+              "Soshum": "How does your social sciences background shape your perspective on research or study plan?"
+            }
+          },
+          {
+            "id": "Erasmus_S2_c3_q4",
+            "text": "Can you elaborate on your experience regarding research or study plan?",
+            "probing": [
+              "Could you provide a specific example of research or study plan?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to research or study plan?",
+              "Soshum": "How does your social sciences background shape your perspective on research or study plan?"
+            }
+          },
+          {
+            "id": "Erasmus_S2_c3_q5",
+            "text": "Can you elaborate on your experience regarding research or study plan?",
+            "probing": [
+              "Could you provide a specific example of research or study plan?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to research or study plan?",
+              "Soshum": "How does your social sciences background shape your perspective on research or study plan?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "name": "Internationalization",
+        "weight": 15,
+        "questions": [
+          {
+            "id": "Erasmus_S2_c4_q1",
+            "text": "Can you elaborate on your experience regarding internationalization?",
+            "probing": [
+              "Could you provide a specific example of internationalization?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to internationalization?",
+              "Soshum": "How does your social sciences background shape your perspective on internationalization?"
+            }
+          },
+          {
+            "id": "Erasmus_S2_c4_q2",
+            "text": "Can you elaborate on your experience regarding internationalization?",
+            "probing": [
+              "Could you provide a specific example of internationalization?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to internationalization?",
+              "Soshum": "How does your social sciences background shape your perspective on internationalization?"
+            }
+          },
+          {
+            "id": "Erasmus_S2_c4_q3",
+            "text": "Can you elaborate on your experience regarding internationalization?",
+            "probing": [
+              "Could you provide a specific example of internationalization?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to internationalization?",
+              "Soshum": "How does your social sciences background shape your perspective on internationalization?"
+            }
+          },
+          {
+            "id": "Erasmus_S2_c4_q4",
+            "text": "Can you elaborate on your experience regarding internationalization?",
+            "probing": [
+              "Could you provide a specific example of internationalization?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to internationalization?",
+              "Soshum": "How does your social sciences background shape your perspective on internationalization?"
+            }
+          },
+          {
+            "id": "Erasmus_S2_c4_q5",
+            "text": "Can you elaborate on your experience regarding internationalization?",
+            "probing": [
+              "Could you provide a specific example of internationalization?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to internationalization?",
+              "Soshum": "How does your social sciences background shape your perspective on internationalization?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c5",
+        "name": "Impact",
+        "weight": 15,
+        "questions": [
+          {
+            "id": "Erasmus_S2_c5_q1",
+            "text": "How do you plan to contribute to your home country upon completing your studies?",
+            "probing": [
+              "Could you provide a specific example of impact?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to impact?",
+              "Soshum": "How does your social sciences background shape your perspective on impact?"
+            }
+          },
+          {
+            "id": "Erasmus_S2_c5_q2",
+            "text": "What specific societal issues are you aiming to solve with your new knowledge?",
+            "probing": [
+              "Could you provide a specific example of impact?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to impact?",
+              "Soshum": "How does your social sciences background shape your perspective on impact?"
+            }
+          },
+          {
+            "id": "Erasmus_S2_c5_q3",
+            "text": "Can you elaborate on your experience regarding impact?",
+            "probing": [
+              "Could you provide a specific example of impact?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to impact?",
+              "Soshum": "How does your social sciences background shape your perspective on impact?"
+            }
+          },
+          {
+            "id": "Erasmus_S2_c5_q4",
+            "text": "Can you elaborate on your experience regarding impact?",
+            "probing": [
+              "Could you provide a specific example of impact?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to impact?",
+              "Soshum": "How does your social sciences background shape your perspective on impact?"
+            }
+          },
+          {
+            "id": "Erasmus_S2_c5_q5",
+            "text": "Can you elaborate on your experience regarding impact?",
+            "probing": [
+              "Could you provide a specific example of impact?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to impact?",
+              "Soshum": "How does your social sciences background shape your perspective on impact?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "Erasmus_S3": {
+    "clusters": [
+      {
+        "id": "c1",
+        "name": "Academic Excellence",
+        "weight": 25,
+        "questions": [
+          {
+            "id": "Erasmus_S3_c1_q1",
+            "text": "Can you elaborate on your experience regarding academic excellence?",
+            "probing": [
+              "Could you provide a specific example of academic excellence?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic excellence?",
+              "Soshum": "How does your social sciences background shape your perspective on academic excellence?"
+            }
+          },
+          {
+            "id": "Erasmus_S3_c1_q2",
+            "text": "Can you elaborate on your experience regarding academic excellence?",
+            "probing": [
+              "Could you provide a specific example of academic excellence?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic excellence?",
+              "Soshum": "How does your social sciences background shape your perspective on academic excellence?"
+            }
+          },
+          {
+            "id": "Erasmus_S3_c1_q3",
+            "text": "Can you elaborate on your experience regarding academic excellence?",
+            "probing": [
+              "Could you provide a specific example of academic excellence?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic excellence?",
+              "Soshum": "How does your social sciences background shape your perspective on academic excellence?"
+            }
+          },
+          {
+            "id": "Erasmus_S3_c1_q4",
+            "text": "Can you elaborate on your experience regarding academic excellence?",
+            "probing": [
+              "Could you provide a specific example of academic excellence?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic excellence?",
+              "Soshum": "How does your social sciences background shape your perspective on academic excellence?"
+            }
+          },
+          {
+            "id": "Erasmus_S3_c1_q5",
+            "text": "Can you elaborate on your experience regarding academic excellence?",
+            "probing": [
+              "Could you provide a specific example of academic excellence?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic excellence?",
+              "Soshum": "How does your social sciences background shape your perspective on academic excellence?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "European Context",
+        "weight": 20,
+        "questions": [
+          {
+            "id": "Erasmus_S3_c2_q1",
+            "text": "Can you elaborate on your experience regarding european context?",
+            "probing": [
+              "Could you provide a specific example of european context?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to european context?",
+              "Soshum": "How does your social sciences background shape your perspective on european context?"
+            }
+          },
+          {
+            "id": "Erasmus_S3_c2_q2",
+            "text": "Can you elaborate on your experience regarding european context?",
+            "probing": [
+              "Could you provide a specific example of european context?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to european context?",
+              "Soshum": "How does your social sciences background shape your perspective on european context?"
+            }
+          },
+          {
+            "id": "Erasmus_S3_c2_q3",
+            "text": "Can you elaborate on your experience regarding european context?",
+            "probing": [
+              "Could you provide a specific example of european context?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to european context?",
+              "Soshum": "How does your social sciences background shape your perspective on european context?"
+            }
+          },
+          {
+            "id": "Erasmus_S3_c2_q4",
+            "text": "Can you elaborate on your experience regarding european context?",
+            "probing": [
+              "Could you provide a specific example of european context?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to european context?",
+              "Soshum": "How does your social sciences background shape your perspective on european context?"
+            }
+          },
+          {
+            "id": "Erasmus_S3_c2_q5",
+            "text": "Can you elaborate on your experience regarding european context?",
+            "probing": [
+              "Could you provide a specific example of european context?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to european context?",
+              "Soshum": "How does your social sciences background shape your perspective on european context?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "Research or Study Plan",
+        "weight": 25,
+        "questions": [
+          {
+            "id": "Erasmus_S3_c3_q1",
+            "text": "Could you summarize your proposed research and its potential impact?",
+            "probing": [
+              "Could you provide a specific example of research or study plan?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to research or study plan?",
+              "Soshum": "How does your social sciences background shape your perspective on research or study plan?"
+            }
+          },
+          {
+            "id": "Erasmus_S3_c3_q2",
+            "text": "What specific methodology will you use to address your research questions?",
+            "probing": [
+              "Could you provide a specific example of research or study plan?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to research or study plan?",
+              "Soshum": "How does your social sciences background shape your perspective on research or study plan?"
+            }
+          },
+          {
+            "id": "Erasmus_S3_c3_q3",
+            "text": "Can you elaborate on your experience regarding research or study plan?",
+            "probing": [
+              "Could you provide a specific example of research or study plan?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to research or study plan?",
+              "Soshum": "How does your social sciences background shape your perspective on research or study plan?"
+            }
+          },
+          {
+            "id": "Erasmus_S3_c3_q4",
+            "text": "Can you elaborate on your experience regarding research or study plan?",
+            "probing": [
+              "Could you provide a specific example of research or study plan?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to research or study plan?",
+              "Soshum": "How does your social sciences background shape your perspective on research or study plan?"
+            }
+          },
+          {
+            "id": "Erasmus_S3_c3_q5",
+            "text": "Can you elaborate on your experience regarding research or study plan?",
+            "probing": [
+              "Could you provide a specific example of research or study plan?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to research or study plan?",
+              "Soshum": "How does your social sciences background shape your perspective on research or study plan?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "name": "Internationalization",
+        "weight": 15,
+        "questions": [
+          {
+            "id": "Erasmus_S3_c4_q1",
+            "text": "Can you elaborate on your experience regarding internationalization?",
+            "probing": [
+              "Could you provide a specific example of internationalization?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to internationalization?",
+              "Soshum": "How does your social sciences background shape your perspective on internationalization?"
+            }
+          },
+          {
+            "id": "Erasmus_S3_c4_q2",
+            "text": "Can you elaborate on your experience regarding internationalization?",
+            "probing": [
+              "Could you provide a specific example of internationalization?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to internationalization?",
+              "Soshum": "How does your social sciences background shape your perspective on internationalization?"
+            }
+          },
+          {
+            "id": "Erasmus_S3_c4_q3",
+            "text": "Can you elaborate on your experience regarding internationalization?",
+            "probing": [
+              "Could you provide a specific example of internationalization?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to internationalization?",
+              "Soshum": "How does your social sciences background shape your perspective on internationalization?"
+            }
+          },
+          {
+            "id": "Erasmus_S3_c4_q4",
+            "text": "Can you elaborate on your experience regarding internationalization?",
+            "probing": [
+              "Could you provide a specific example of internationalization?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to internationalization?",
+              "Soshum": "How does your social sciences background shape your perspective on internationalization?"
+            }
+          },
+          {
+            "id": "Erasmus_S3_c4_q5",
+            "text": "Can you elaborate on your experience regarding internationalization?",
+            "probing": [
+              "Could you provide a specific example of internationalization?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to internationalization?",
+              "Soshum": "How does your social sciences background shape your perspective on internationalization?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c5",
+        "name": "Impact",
+        "weight": 15,
+        "questions": [
+          {
+            "id": "Erasmus_S3_c5_q1",
+            "text": "How do you plan to contribute to your home country upon completing your studies?",
+            "probing": [
+              "Could you provide a specific example of impact?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to impact?",
+              "Soshum": "How does your social sciences background shape your perspective on impact?"
+            }
+          },
+          {
+            "id": "Erasmus_S3_c5_q2",
+            "text": "What specific societal issues are you aiming to solve with your new knowledge?",
+            "probing": [
+              "Could you provide a specific example of impact?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to impact?",
+              "Soshum": "How does your social sciences background shape your perspective on impact?"
+            }
+          },
+          {
+            "id": "Erasmus_S3_c5_q3",
+            "text": "Can you elaborate on your experience regarding impact?",
+            "probing": [
+              "Could you provide a specific example of impact?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to impact?",
+              "Soshum": "How does your social sciences background shape your perspective on impact?"
+            }
+          },
+          {
+            "id": "Erasmus_S3_c5_q4",
+            "text": "Can you elaborate on your experience regarding impact?",
+            "probing": [
+              "Could you provide a specific example of impact?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to impact?",
+              "Soshum": "How does your social sciences background shape your perspective on impact?"
+            }
+          },
+          {
+            "id": "Erasmus_S3_c5_q5",
+            "text": "Can you elaborate on your experience regarding impact?",
+            "probing": [
+              "Could you provide a specific example of impact?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to impact?",
+              "Soshum": "How does your social sciences background shape your perspective on impact?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "AAS_S2": {
+    "clusters": [
+      {
+        "id": "c1",
+        "name": "Development Focus",
+        "weight": 30,
+        "questions": [
+          {
+            "id": "AAS_S2_c1_q1",
+            "text": "Can you elaborate on your experience regarding development focus?",
+            "probing": [
+              "Could you provide a specific example of development focus?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to development focus?",
+              "Soshum": "How does your social sciences background shape your perspective on development focus?"
+            }
+          },
+          {
+            "id": "AAS_S2_c1_q2",
+            "text": "Can you elaborate on your experience regarding development focus?",
+            "probing": [
+              "Could you provide a specific example of development focus?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to development focus?",
+              "Soshum": "How does your social sciences background shape your perspective on development focus?"
+            }
+          },
+          {
+            "id": "AAS_S2_c1_q3",
+            "text": "Can you elaborate on your experience regarding development focus?",
+            "probing": [
+              "Could you provide a specific example of development focus?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to development focus?",
+              "Soshum": "How does your social sciences background shape your perspective on development focus?"
+            }
+          },
+          {
+            "id": "AAS_S2_c1_q4",
+            "text": "Can you elaborate on your experience regarding development focus?",
+            "probing": [
+              "Could you provide a specific example of development focus?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to development focus?",
+              "Soshum": "How does your social sciences background shape your perspective on development focus?"
+            }
+          },
+          {
+            "id": "AAS_S2_c1_q5",
+            "text": "Can you elaborate on your experience regarding development focus?",
+            "probing": [
+              "Could you provide a specific example of development focus?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to development focus?",
+              "Soshum": "How does your social sciences background shape your perspective on development focus?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "Indonesian Context",
+        "weight": 25,
+        "questions": [
+          {
+            "id": "AAS_S2_c2_q1",
+            "text": "Can you elaborate on your experience regarding indonesian context?",
+            "probing": [
+              "Could you provide a specific example of indonesian context?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to indonesian context?",
+              "Soshum": "How does your social sciences background shape your perspective on indonesian context?"
+            }
+          },
+          {
+            "id": "AAS_S2_c2_q2",
+            "text": "Can you elaborate on your experience regarding indonesian context?",
+            "probing": [
+              "Could you provide a specific example of indonesian context?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to indonesian context?",
+              "Soshum": "How does your social sciences background shape your perspective on indonesian context?"
+            }
+          },
+          {
+            "id": "AAS_S2_c2_q3",
+            "text": "Can you elaborate on your experience regarding indonesian context?",
+            "probing": [
+              "Could you provide a specific example of indonesian context?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to indonesian context?",
+              "Soshum": "How does your social sciences background shape your perspective on indonesian context?"
+            }
+          },
+          {
+            "id": "AAS_S2_c2_q4",
+            "text": "Can you elaborate on your experience regarding indonesian context?",
+            "probing": [
+              "Could you provide a specific example of indonesian context?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to indonesian context?",
+              "Soshum": "How does your social sciences background shape your perspective on indonesian context?"
+            }
+          },
+          {
+            "id": "AAS_S2_c2_q5",
+            "text": "Can you elaborate on your experience regarding indonesian context?",
+            "probing": [
+              "Could you provide a specific example of indonesian context?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to indonesian context?",
+              "Soshum": "How does your social sciences background shape your perspective on indonesian context?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "Leadership",
+        "weight": 20,
+        "questions": [
+          {
+            "id": "AAS_S2_c3_q1",
+            "text": "Describe a time when you had to lead a team through a difficult challenge.",
+            "probing": [
+              "Could you provide a specific example of leadership?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to leadership?",
+              "Soshum": "How does your social sciences background shape your perspective on leadership?"
+            }
+          },
+          {
+            "id": "AAS_S2_c3_q2",
+            "text": "How do you define effective leadership in a multicultural environment?",
+            "probing": [
+              "Could you provide a specific example of leadership?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to leadership?",
+              "Soshum": "How does your social sciences background shape your perspective on leadership?"
+            }
+          },
+          {
+            "id": "AAS_S2_c3_q3",
+            "text": "Can you elaborate on your experience regarding leadership?",
+            "probing": [
+              "Could you provide a specific example of leadership?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to leadership?",
+              "Soshum": "How does your social sciences background shape your perspective on leadership?"
+            }
+          },
+          {
+            "id": "AAS_S2_c3_q4",
+            "text": "Can you elaborate on your experience regarding leadership?",
+            "probing": [
+              "Could you provide a specific example of leadership?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to leadership?",
+              "Soshum": "How does your social sciences background shape your perspective on leadership?"
+            }
+          },
+          {
+            "id": "AAS_S2_c3_q5",
+            "text": "Can you elaborate on your experience regarding leadership?",
+            "probing": [
+              "Could you provide a specific example of leadership?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to leadership?",
+              "Soshum": "How does your social sciences background shape your perspective on leadership?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "name": "Study Plan",
+        "weight": 15,
+        "questions": [
+          {
+            "id": "AAS_S2_c4_q1",
+            "text": "Can you elaborate on your experience regarding study plan?",
+            "probing": [
+              "Could you provide a specific example of study plan?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to study plan?",
+              "Soshum": "How does your social sciences background shape your perspective on study plan?"
+            }
+          },
+          {
+            "id": "AAS_S2_c4_q2",
+            "text": "Can you elaborate on your experience regarding study plan?",
+            "probing": [
+              "Could you provide a specific example of study plan?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to study plan?",
+              "Soshum": "How does your social sciences background shape your perspective on study plan?"
+            }
+          },
+          {
+            "id": "AAS_S2_c4_q3",
+            "text": "Can you elaborate on your experience regarding study plan?",
+            "probing": [
+              "Could you provide a specific example of study plan?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to study plan?",
+              "Soshum": "How does your social sciences background shape your perspective on study plan?"
+            }
+          },
+          {
+            "id": "AAS_S2_c4_q4",
+            "text": "Can you elaborate on your experience regarding study plan?",
+            "probing": [
+              "Could you provide a specific example of study plan?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to study plan?",
+              "Soshum": "How does your social sciences background shape your perspective on study plan?"
+            }
+          },
+          {
+            "id": "AAS_S2_c4_q5",
+            "text": "Can you elaborate on your experience regarding study plan?",
+            "probing": [
+              "Could you provide a specific example of study plan?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to study plan?",
+              "Soshum": "How does your social sciences background shape your perspective on study plan?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c5",
+        "name": "Return Plan",
+        "weight": 10,
+        "questions": [
+          {
+            "id": "AAS_S2_c5_q1",
+            "text": "Can you elaborate on your experience regarding return plan?",
+            "probing": [
+              "Could you provide a specific example of return plan?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to return plan?",
+              "Soshum": "How does your social sciences background shape your perspective on return plan?"
+            }
+          },
+          {
+            "id": "AAS_S2_c5_q2",
+            "text": "Can you elaborate on your experience regarding return plan?",
+            "probing": [
+              "Could you provide a specific example of return plan?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to return plan?",
+              "Soshum": "How does your social sciences background shape your perspective on return plan?"
+            }
+          },
+          {
+            "id": "AAS_S2_c5_q3",
+            "text": "Can you elaborate on your experience regarding return plan?",
+            "probing": [
+              "Could you provide a specific example of return plan?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to return plan?",
+              "Soshum": "How does your social sciences background shape your perspective on return plan?"
+            }
+          },
+          {
+            "id": "AAS_S2_c5_q4",
+            "text": "Can you elaborate on your experience regarding return plan?",
+            "probing": [
+              "Could you provide a specific example of return plan?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to return plan?",
+              "Soshum": "How does your social sciences background shape your perspective on return plan?"
+            }
+          },
+          {
+            "id": "AAS_S2_c5_q5",
+            "text": "Can you elaborate on your experience regarding return plan?",
+            "probing": [
+              "Could you provide a specific example of return plan?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to return plan?",
+              "Soshum": "How does your social sciences background shape your perspective on return plan?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "Fulbright_S1": {
+    "clusters": [
+      {
+        "id": "c1",
+        "name": "Cultural Exchange",
+        "weight": 25,
+        "questions": [
+          {
+            "id": "Fulbright_S1_c1_q1",
+            "text": "Can you elaborate on your experience regarding cultural exchange?",
+            "probing": [
+              "Could you provide a specific example of cultural exchange?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to cultural exchange?",
+              "Soshum": "How does your social sciences background shape your perspective on cultural exchange?"
+            }
+          },
+          {
+            "id": "Fulbright_S1_c1_q2",
+            "text": "Can you elaborate on your experience regarding cultural exchange?",
+            "probing": [
+              "Could you provide a specific example of cultural exchange?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to cultural exchange?",
+              "Soshum": "How does your social sciences background shape your perspective on cultural exchange?"
+            }
+          },
+          {
+            "id": "Fulbright_S1_c1_q3",
+            "text": "Can you elaborate on your experience regarding cultural exchange?",
+            "probing": [
+              "Could you provide a specific example of cultural exchange?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to cultural exchange?",
+              "Soshum": "How does your social sciences background shape your perspective on cultural exchange?"
+            }
+          },
+          {
+            "id": "Fulbright_S1_c1_q4",
+            "text": "Can you elaborate on your experience regarding cultural exchange?",
+            "probing": [
+              "Could you provide a specific example of cultural exchange?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to cultural exchange?",
+              "Soshum": "How does your social sciences background shape your perspective on cultural exchange?"
+            }
+          },
+          {
+            "id": "Fulbright_S1_c1_q5",
+            "text": "Can you elaborate on your experience regarding cultural exchange?",
+            "probing": [
+              "Could you provide a specific example of cultural exchange?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to cultural exchange?",
+              "Soshum": "How does your social sciences background shape your perspective on cultural exchange?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "Academic Merit",
+        "weight": 25,
+        "questions": [
+          {
+            "id": "Fulbright_S1_c2_q1",
+            "text": "Can you elaborate on your experience regarding academic merit?",
+            "probing": [
+              "Could you provide a specific example of academic merit?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic merit?",
+              "Soshum": "How does your social sciences background shape your perspective on academic merit?"
+            }
+          },
+          {
+            "id": "Fulbright_S1_c2_q2",
+            "text": "Can you elaborate on your experience regarding academic merit?",
+            "probing": [
+              "Could you provide a specific example of academic merit?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic merit?",
+              "Soshum": "How does your social sciences background shape your perspective on academic merit?"
+            }
+          },
+          {
+            "id": "Fulbright_S1_c2_q3",
+            "text": "Can you elaborate on your experience regarding academic merit?",
+            "probing": [
+              "Could you provide a specific example of academic merit?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic merit?",
+              "Soshum": "How does your social sciences background shape your perspective on academic merit?"
+            }
+          },
+          {
+            "id": "Fulbright_S1_c2_q4",
+            "text": "Can you elaborate on your experience regarding academic merit?",
+            "probing": [
+              "Could you provide a specific example of academic merit?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic merit?",
+              "Soshum": "How does your social sciences background shape your perspective on academic merit?"
+            }
+          },
+          {
+            "id": "Fulbright_S1_c2_q5",
+            "text": "Can you elaborate on your experience regarding academic merit?",
+            "probing": [
+              "Could you provide a specific example of academic merit?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic merit?",
+              "Soshum": "How does your social sciences background shape your perspective on academic merit?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "US-Indonesia Connection",
+        "weight": 20,
+        "questions": [
+          {
+            "id": "Fulbright_S1_c3_q1",
+            "text": "Can you elaborate on your experience regarding us-indonesia connection?",
+            "probing": [
+              "Could you provide a specific example of us-indonesia connection?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to us-indonesia connection?",
+              "Soshum": "How does your social sciences background shape your perspective on us-indonesia connection?"
+            }
+          },
+          {
+            "id": "Fulbright_S1_c3_q2",
+            "text": "Can you elaborate on your experience regarding us-indonesia connection?",
+            "probing": [
+              "Could you provide a specific example of us-indonesia connection?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to us-indonesia connection?",
+              "Soshum": "How does your social sciences background shape your perspective on us-indonesia connection?"
+            }
+          },
+          {
+            "id": "Fulbright_S1_c3_q3",
+            "text": "Can you elaborate on your experience regarding us-indonesia connection?",
+            "probing": [
+              "Could you provide a specific example of us-indonesia connection?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to us-indonesia connection?",
+              "Soshum": "How does your social sciences background shape your perspective on us-indonesia connection?"
+            }
+          },
+          {
+            "id": "Fulbright_S1_c3_q4",
+            "text": "Can you elaborate on your experience regarding us-indonesia connection?",
+            "probing": [
+              "Could you provide a specific example of us-indonesia connection?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to us-indonesia connection?",
+              "Soshum": "How does your social sciences background shape your perspective on us-indonesia connection?"
+            }
+          },
+          {
+            "id": "Fulbright_S1_c3_q5",
+            "text": "Can you elaborate on your experience regarding us-indonesia connection?",
+            "probing": [
+              "Could you provide a specific example of us-indonesia connection?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to us-indonesia connection?",
+              "Soshum": "How does your social sciences background shape your perspective on us-indonesia connection?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "name": "Future Vision",
+        "weight": 20,
+        "questions": [
+          {
+            "id": "Fulbright_S1_c4_q1",
+            "text": "Can you elaborate on your experience regarding future vision?",
+            "probing": [
+              "Could you provide a specific example of future vision?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to future vision?",
+              "Soshum": "How does your social sciences background shape your perspective on future vision?"
+            }
+          },
+          {
+            "id": "Fulbright_S1_c4_q2",
+            "text": "Can you elaborate on your experience regarding future vision?",
+            "probing": [
+              "Could you provide a specific example of future vision?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to future vision?",
+              "Soshum": "How does your social sciences background shape your perspective on future vision?"
+            }
+          },
+          {
+            "id": "Fulbright_S1_c4_q3",
+            "text": "Can you elaborate on your experience regarding future vision?",
+            "probing": [
+              "Could you provide a specific example of future vision?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to future vision?",
+              "Soshum": "How does your social sciences background shape your perspective on future vision?"
+            }
+          },
+          {
+            "id": "Fulbright_S1_c4_q4",
+            "text": "Can you elaborate on your experience regarding future vision?",
+            "probing": [
+              "Could you provide a specific example of future vision?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to future vision?",
+              "Soshum": "How does your social sciences background shape your perspective on future vision?"
+            }
+          },
+          {
+            "id": "Fulbright_S1_c4_q5",
+            "text": "Can you elaborate on your experience regarding future vision?",
+            "probing": [
+              "Could you provide a specific example of future vision?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to future vision?",
+              "Soshum": "How does your social sciences background shape your perspective on future vision?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c5",
+        "name": "Personal Character",
+        "weight": 10,
+        "questions": [
+          {
+            "id": "Fulbright_S1_c5_q1",
+            "text": "Can you elaborate on your experience regarding personal character?",
+            "probing": [
+              "Could you provide a specific example of personal character?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to personal character?",
+              "Soshum": "How does your social sciences background shape your perspective on personal character?"
+            }
+          },
+          {
+            "id": "Fulbright_S1_c5_q2",
+            "text": "Can you elaborate on your experience regarding personal character?",
+            "probing": [
+              "Could you provide a specific example of personal character?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to personal character?",
+              "Soshum": "How does your social sciences background shape your perspective on personal character?"
+            }
+          },
+          {
+            "id": "Fulbright_S1_c5_q3",
+            "text": "Can you elaborate on your experience regarding personal character?",
+            "probing": [
+              "Could you provide a specific example of personal character?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to personal character?",
+              "Soshum": "How does your social sciences background shape your perspective on personal character?"
+            }
+          },
+          {
+            "id": "Fulbright_S1_c5_q4",
+            "text": "Can you elaborate on your experience regarding personal character?",
+            "probing": [
+              "Could you provide a specific example of personal character?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to personal character?",
+              "Soshum": "How does your social sciences background shape your perspective on personal character?"
+            }
+          },
+          {
+            "id": "Fulbright_S1_c5_q5",
+            "text": "Can you elaborate on your experience regarding personal character?",
+            "probing": [
+              "Could you provide a specific example of personal character?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to personal character?",
+              "Soshum": "How does your social sciences background shape your perspective on personal character?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "Fulbright_S2": {
+    "clusters": [
+      {
+        "id": "c1",
+        "name": "Cultural Exchange",
+        "weight": 25,
+        "questions": [
+          {
+            "id": "Fulbright_S2_c1_q1",
+            "text": "Can you elaborate on your experience regarding cultural exchange?",
+            "probing": [
+              "Could you provide a specific example of cultural exchange?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to cultural exchange?",
+              "Soshum": "How does your social sciences background shape your perspective on cultural exchange?"
+            }
+          },
+          {
+            "id": "Fulbright_S2_c1_q2",
+            "text": "Can you elaborate on your experience regarding cultural exchange?",
+            "probing": [
+              "Could you provide a specific example of cultural exchange?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to cultural exchange?",
+              "Soshum": "How does your social sciences background shape your perspective on cultural exchange?"
+            }
+          },
+          {
+            "id": "Fulbright_S2_c1_q3",
+            "text": "Can you elaborate on your experience regarding cultural exchange?",
+            "probing": [
+              "Could you provide a specific example of cultural exchange?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to cultural exchange?",
+              "Soshum": "How does your social sciences background shape your perspective on cultural exchange?"
+            }
+          },
+          {
+            "id": "Fulbright_S2_c1_q4",
+            "text": "Can you elaborate on your experience regarding cultural exchange?",
+            "probing": [
+              "Could you provide a specific example of cultural exchange?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to cultural exchange?",
+              "Soshum": "How does your social sciences background shape your perspective on cultural exchange?"
+            }
+          },
+          {
+            "id": "Fulbright_S2_c1_q5",
+            "text": "Can you elaborate on your experience regarding cultural exchange?",
+            "probing": [
+              "Could you provide a specific example of cultural exchange?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to cultural exchange?",
+              "Soshum": "How does your social sciences background shape your perspective on cultural exchange?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "Academic Merit",
+        "weight": 25,
+        "questions": [
+          {
+            "id": "Fulbright_S2_c2_q1",
+            "text": "Can you elaborate on your experience regarding academic merit?",
+            "probing": [
+              "Could you provide a specific example of academic merit?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic merit?",
+              "Soshum": "How does your social sciences background shape your perspective on academic merit?"
+            }
+          },
+          {
+            "id": "Fulbright_S2_c2_q2",
+            "text": "Can you elaborate on your experience regarding academic merit?",
+            "probing": [
+              "Could you provide a specific example of academic merit?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic merit?",
+              "Soshum": "How does your social sciences background shape your perspective on academic merit?"
+            }
+          },
+          {
+            "id": "Fulbright_S2_c2_q3",
+            "text": "Can you elaborate on your experience regarding academic merit?",
+            "probing": [
+              "Could you provide a specific example of academic merit?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic merit?",
+              "Soshum": "How does your social sciences background shape your perspective on academic merit?"
+            }
+          },
+          {
+            "id": "Fulbright_S2_c2_q4",
+            "text": "Can you elaborate on your experience regarding academic merit?",
+            "probing": [
+              "Could you provide a specific example of academic merit?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic merit?",
+              "Soshum": "How does your social sciences background shape your perspective on academic merit?"
+            }
+          },
+          {
+            "id": "Fulbright_S2_c2_q5",
+            "text": "Can you elaborate on your experience regarding academic merit?",
+            "probing": [
+              "Could you provide a specific example of academic merit?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic merit?",
+              "Soshum": "How does your social sciences background shape your perspective on academic merit?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "US-Indonesia Connection",
+        "weight": 20,
+        "questions": [
+          {
+            "id": "Fulbright_S2_c3_q1",
+            "text": "Can you elaborate on your experience regarding us-indonesia connection?",
+            "probing": [
+              "Could you provide a specific example of us-indonesia connection?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to us-indonesia connection?",
+              "Soshum": "How does your social sciences background shape your perspective on us-indonesia connection?"
+            }
+          },
+          {
+            "id": "Fulbright_S2_c3_q2",
+            "text": "Can you elaborate on your experience regarding us-indonesia connection?",
+            "probing": [
+              "Could you provide a specific example of us-indonesia connection?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to us-indonesia connection?",
+              "Soshum": "How does your social sciences background shape your perspective on us-indonesia connection?"
+            }
+          },
+          {
+            "id": "Fulbright_S2_c3_q3",
+            "text": "Can you elaborate on your experience regarding us-indonesia connection?",
+            "probing": [
+              "Could you provide a specific example of us-indonesia connection?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to us-indonesia connection?",
+              "Soshum": "How does your social sciences background shape your perspective on us-indonesia connection?"
+            }
+          },
+          {
+            "id": "Fulbright_S2_c3_q4",
+            "text": "Can you elaborate on your experience regarding us-indonesia connection?",
+            "probing": [
+              "Could you provide a specific example of us-indonesia connection?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to us-indonesia connection?",
+              "Soshum": "How does your social sciences background shape your perspective on us-indonesia connection?"
+            }
+          },
+          {
+            "id": "Fulbright_S2_c3_q5",
+            "text": "Can you elaborate on your experience regarding us-indonesia connection?",
+            "probing": [
+              "Could you provide a specific example of us-indonesia connection?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to us-indonesia connection?",
+              "Soshum": "How does your social sciences background shape your perspective on us-indonesia connection?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "name": "Future Vision",
+        "weight": 20,
+        "questions": [
+          {
+            "id": "Fulbright_S2_c4_q1",
+            "text": "Can you elaborate on your experience regarding future vision?",
+            "probing": [
+              "Could you provide a specific example of future vision?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to future vision?",
+              "Soshum": "How does your social sciences background shape your perspective on future vision?"
+            }
+          },
+          {
+            "id": "Fulbright_S2_c4_q2",
+            "text": "Can you elaborate on your experience regarding future vision?",
+            "probing": [
+              "Could you provide a specific example of future vision?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to future vision?",
+              "Soshum": "How does your social sciences background shape your perspective on future vision?"
+            }
+          },
+          {
+            "id": "Fulbright_S2_c4_q3",
+            "text": "Can you elaborate on your experience regarding future vision?",
+            "probing": [
+              "Could you provide a specific example of future vision?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to future vision?",
+              "Soshum": "How does your social sciences background shape your perspective on future vision?"
+            }
+          },
+          {
+            "id": "Fulbright_S2_c4_q4",
+            "text": "Can you elaborate on your experience regarding future vision?",
+            "probing": [
+              "Could you provide a specific example of future vision?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to future vision?",
+              "Soshum": "How does your social sciences background shape your perspective on future vision?"
+            }
+          },
+          {
+            "id": "Fulbright_S2_c4_q5",
+            "text": "Can you elaborate on your experience regarding future vision?",
+            "probing": [
+              "Could you provide a specific example of future vision?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to future vision?",
+              "Soshum": "How does your social sciences background shape your perspective on future vision?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c5",
+        "name": "Personal Character",
+        "weight": 10,
+        "questions": [
+          {
+            "id": "Fulbright_S2_c5_q1",
+            "text": "Can you elaborate on your experience regarding personal character?",
+            "probing": [
+              "Could you provide a specific example of personal character?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to personal character?",
+              "Soshum": "How does your social sciences background shape your perspective on personal character?"
+            }
+          },
+          {
+            "id": "Fulbright_S2_c5_q2",
+            "text": "Can you elaborate on your experience regarding personal character?",
+            "probing": [
+              "Could you provide a specific example of personal character?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to personal character?",
+              "Soshum": "How does your social sciences background shape your perspective on personal character?"
+            }
+          },
+          {
+            "id": "Fulbright_S2_c5_q3",
+            "text": "Can you elaborate on your experience regarding personal character?",
+            "probing": [
+              "Could you provide a specific example of personal character?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to personal character?",
+              "Soshum": "How does your social sciences background shape your perspective on personal character?"
+            }
+          },
+          {
+            "id": "Fulbright_S2_c5_q4",
+            "text": "Can you elaborate on your experience regarding personal character?",
+            "probing": [
+              "Could you provide a specific example of personal character?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to personal character?",
+              "Soshum": "How does your social sciences background shape your perspective on personal character?"
+            }
+          },
+          {
+            "id": "Fulbright_S2_c5_q5",
+            "text": "Can you elaborate on your experience regarding personal character?",
+            "probing": [
+              "Could you provide a specific example of personal character?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to personal character?",
+              "Soshum": "How does your social sciences background shape your perspective on personal character?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "Fulbright_S3": {
+    "clusters": [
+      {
+        "id": "c1",
+        "name": "Cultural Exchange",
+        "weight": 25,
+        "questions": [
+          {
+            "id": "Fulbright_S3_c1_q1",
+            "text": "Can you elaborate on your experience regarding cultural exchange?",
+            "probing": [
+              "Could you provide a specific example of cultural exchange?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to cultural exchange?",
+              "Soshum": "How does your social sciences background shape your perspective on cultural exchange?"
+            }
+          },
+          {
+            "id": "Fulbright_S3_c1_q2",
+            "text": "Can you elaborate on your experience regarding cultural exchange?",
+            "probing": [
+              "Could you provide a specific example of cultural exchange?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to cultural exchange?",
+              "Soshum": "How does your social sciences background shape your perspective on cultural exchange?"
+            }
+          },
+          {
+            "id": "Fulbright_S3_c1_q3",
+            "text": "Can you elaborate on your experience regarding cultural exchange?",
+            "probing": [
+              "Could you provide a specific example of cultural exchange?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to cultural exchange?",
+              "Soshum": "How does your social sciences background shape your perspective on cultural exchange?"
+            }
+          },
+          {
+            "id": "Fulbright_S3_c1_q4",
+            "text": "Can you elaborate on your experience regarding cultural exchange?",
+            "probing": [
+              "Could you provide a specific example of cultural exchange?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to cultural exchange?",
+              "Soshum": "How does your social sciences background shape your perspective on cultural exchange?"
+            }
+          },
+          {
+            "id": "Fulbright_S3_c1_q5",
+            "text": "Can you elaborate on your experience regarding cultural exchange?",
+            "probing": [
+              "Could you provide a specific example of cultural exchange?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to cultural exchange?",
+              "Soshum": "How does your social sciences background shape your perspective on cultural exchange?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "Academic Merit",
+        "weight": 25,
+        "questions": [
+          {
+            "id": "Fulbright_S3_c2_q1",
+            "text": "Can you elaborate on your experience regarding academic merit?",
+            "probing": [
+              "Could you provide a specific example of academic merit?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic merit?",
+              "Soshum": "How does your social sciences background shape your perspective on academic merit?"
+            }
+          },
+          {
+            "id": "Fulbright_S3_c2_q2",
+            "text": "Can you elaborate on your experience regarding academic merit?",
+            "probing": [
+              "Could you provide a specific example of academic merit?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic merit?",
+              "Soshum": "How does your social sciences background shape your perspective on academic merit?"
+            }
+          },
+          {
+            "id": "Fulbright_S3_c2_q3",
+            "text": "Can you elaborate on your experience regarding academic merit?",
+            "probing": [
+              "Could you provide a specific example of academic merit?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic merit?",
+              "Soshum": "How does your social sciences background shape your perspective on academic merit?"
+            }
+          },
+          {
+            "id": "Fulbright_S3_c2_q4",
+            "text": "Can you elaborate on your experience regarding academic merit?",
+            "probing": [
+              "Could you provide a specific example of academic merit?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic merit?",
+              "Soshum": "How does your social sciences background shape your perspective on academic merit?"
+            }
+          },
+          {
+            "id": "Fulbright_S3_c2_q5",
+            "text": "Can you elaborate on your experience regarding academic merit?",
+            "probing": [
+              "Could you provide a specific example of academic merit?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic merit?",
+              "Soshum": "How does your social sciences background shape your perspective on academic merit?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "US-Indonesia Connection",
+        "weight": 20,
+        "questions": [
+          {
+            "id": "Fulbright_S3_c3_q1",
+            "text": "Can you elaborate on your experience regarding us-indonesia connection?",
+            "probing": [
+              "Could you provide a specific example of us-indonesia connection?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to us-indonesia connection?",
+              "Soshum": "How does your social sciences background shape your perspective on us-indonesia connection?"
+            }
+          },
+          {
+            "id": "Fulbright_S3_c3_q2",
+            "text": "Can you elaborate on your experience regarding us-indonesia connection?",
+            "probing": [
+              "Could you provide a specific example of us-indonesia connection?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to us-indonesia connection?",
+              "Soshum": "How does your social sciences background shape your perspective on us-indonesia connection?"
+            }
+          },
+          {
+            "id": "Fulbright_S3_c3_q3",
+            "text": "Can you elaborate on your experience regarding us-indonesia connection?",
+            "probing": [
+              "Could you provide a specific example of us-indonesia connection?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to us-indonesia connection?",
+              "Soshum": "How does your social sciences background shape your perspective on us-indonesia connection?"
+            }
+          },
+          {
+            "id": "Fulbright_S3_c3_q4",
+            "text": "Can you elaborate on your experience regarding us-indonesia connection?",
+            "probing": [
+              "Could you provide a specific example of us-indonesia connection?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to us-indonesia connection?",
+              "Soshum": "How does your social sciences background shape your perspective on us-indonesia connection?"
+            }
+          },
+          {
+            "id": "Fulbright_S3_c3_q5",
+            "text": "Can you elaborate on your experience regarding us-indonesia connection?",
+            "probing": [
+              "Could you provide a specific example of us-indonesia connection?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to us-indonesia connection?",
+              "Soshum": "How does your social sciences background shape your perspective on us-indonesia connection?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "name": "Future Vision",
+        "weight": 20,
+        "questions": [
+          {
+            "id": "Fulbright_S3_c4_q1",
+            "text": "Can you elaborate on your experience regarding future vision?",
+            "probing": [
+              "Could you provide a specific example of future vision?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to future vision?",
+              "Soshum": "How does your social sciences background shape your perspective on future vision?"
+            }
+          },
+          {
+            "id": "Fulbright_S3_c4_q2",
+            "text": "Can you elaborate on your experience regarding future vision?",
+            "probing": [
+              "Could you provide a specific example of future vision?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to future vision?",
+              "Soshum": "How does your social sciences background shape your perspective on future vision?"
+            }
+          },
+          {
+            "id": "Fulbright_S3_c4_q3",
+            "text": "Can you elaborate on your experience regarding future vision?",
+            "probing": [
+              "Could you provide a specific example of future vision?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to future vision?",
+              "Soshum": "How does your social sciences background shape your perspective on future vision?"
+            }
+          },
+          {
+            "id": "Fulbright_S3_c4_q4",
+            "text": "Can you elaborate on your experience regarding future vision?",
+            "probing": [
+              "Could you provide a specific example of future vision?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to future vision?",
+              "Soshum": "How does your social sciences background shape your perspective on future vision?"
+            }
+          },
+          {
+            "id": "Fulbright_S3_c4_q5",
+            "text": "Can you elaborate on your experience regarding future vision?",
+            "probing": [
+              "Could you provide a specific example of future vision?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to future vision?",
+              "Soshum": "How does your social sciences background shape your perspective on future vision?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c5",
+        "name": "Personal Character",
+        "weight": 10,
+        "questions": [
+          {
+            "id": "Fulbright_S3_c5_q1",
+            "text": "Can you elaborate on your experience regarding personal character?",
+            "probing": [
+              "Could you provide a specific example of personal character?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to personal character?",
+              "Soshum": "How does your social sciences background shape your perspective on personal character?"
+            }
+          },
+          {
+            "id": "Fulbright_S3_c5_q2",
+            "text": "Can you elaborate on your experience regarding personal character?",
+            "probing": [
+              "Could you provide a specific example of personal character?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to personal character?",
+              "Soshum": "How does your social sciences background shape your perspective on personal character?"
+            }
+          },
+          {
+            "id": "Fulbright_S3_c5_q3",
+            "text": "Can you elaborate on your experience regarding personal character?",
+            "probing": [
+              "Could you provide a specific example of personal character?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to personal character?",
+              "Soshum": "How does your social sciences background shape your perspective on personal character?"
+            }
+          },
+          {
+            "id": "Fulbright_S3_c5_q4",
+            "text": "Can you elaborate on your experience regarding personal character?",
+            "probing": [
+              "Could you provide a specific example of personal character?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to personal character?",
+              "Soshum": "How does your social sciences background shape your perspective on personal character?"
+            }
+          },
+          {
+            "id": "Fulbright_S3_c5_q5",
+            "text": "Can you elaborate on your experience regarding personal character?",
+            "probing": [
+              "Could you provide a specific example of personal character?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to personal character?",
+              "Soshum": "How does your social sciences background shape your perspective on personal character?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "UNIVERSITY_S1": {
+    "clusters": [
+      {
+        "id": "c1",
+        "name": "Academic Interest",
+        "weight": 30,
+        "questions": [
+          {
+            "id": "UNIVERSITY_S1_c1_q1",
+            "text": "Can you elaborate on your experience regarding academic interest?",
+            "probing": [
+              "Could you provide a specific example of academic interest?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic interest?",
+              "Soshum": "How does your social sciences background shape your perspective on academic interest?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S1_c1_q2",
+            "text": "Can you elaborate on your experience regarding academic interest?",
+            "probing": [
+              "Could you provide a specific example of academic interest?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic interest?",
+              "Soshum": "How does your social sciences background shape your perspective on academic interest?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S1_c1_q3",
+            "text": "Can you elaborate on your experience regarding academic interest?",
+            "probing": [
+              "Could you provide a specific example of academic interest?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic interest?",
+              "Soshum": "How does your social sciences background shape your perspective on academic interest?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S1_c1_q4",
+            "text": "Can you elaborate on your experience regarding academic interest?",
+            "probing": [
+              "Could you provide a specific example of academic interest?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic interest?",
+              "Soshum": "How does your social sciences background shape your perspective on academic interest?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S1_c1_q5",
+            "text": "Can you elaborate on your experience regarding academic interest?",
+            "probing": [
+              "Could you provide a specific example of academic interest?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic interest?",
+              "Soshum": "How does your social sciences background shape your perspective on academic interest?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "Why This University",
+        "weight": 25,
+        "questions": [
+          {
+            "id": "UNIVERSITY_S1_c2_q1",
+            "text": "Can you elaborate on your experience regarding why this university?",
+            "probing": [
+              "Could you provide a specific example of why this university?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to why this university?",
+              "Soshum": "How does your social sciences background shape your perspective on why this university?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S1_c2_q2",
+            "text": "Can you elaborate on your experience regarding why this university?",
+            "probing": [
+              "Could you provide a specific example of why this university?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to why this university?",
+              "Soshum": "How does your social sciences background shape your perspective on why this university?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S1_c2_q3",
+            "text": "Can you elaborate on your experience regarding why this university?",
+            "probing": [
+              "Could you provide a specific example of why this university?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to why this university?",
+              "Soshum": "How does your social sciences background shape your perspective on why this university?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S1_c2_q4",
+            "text": "Can you elaborate on your experience regarding why this university?",
+            "probing": [
+              "Could you provide a specific example of why this university?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to why this university?",
+              "Soshum": "How does your social sciences background shape your perspective on why this university?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S1_c2_q5",
+            "text": "Can you elaborate on your experience regarding why this university?",
+            "probing": [
+              "Could you provide a specific example of why this university?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to why this university?",
+              "Soshum": "How does your social sciences background shape your perspective on why this university?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "Extracurricular",
+        "weight": 20,
+        "questions": [
+          {
+            "id": "UNIVERSITY_S1_c3_q1",
+            "text": "Can you elaborate on your experience regarding extracurricular?",
+            "probing": [
+              "Could you provide a specific example of extracurricular?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to extracurricular?",
+              "Soshum": "How does your social sciences background shape your perspective on extracurricular?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S1_c3_q2",
+            "text": "Can you elaborate on your experience regarding extracurricular?",
+            "probing": [
+              "Could you provide a specific example of extracurricular?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to extracurricular?",
+              "Soshum": "How does your social sciences background shape your perspective on extracurricular?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S1_c3_q3",
+            "text": "Can you elaborate on your experience regarding extracurricular?",
+            "probing": [
+              "Could you provide a specific example of extracurricular?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to extracurricular?",
+              "Soshum": "How does your social sciences background shape your perspective on extracurricular?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S1_c3_q4",
+            "text": "Can you elaborate on your experience regarding extracurricular?",
+            "probing": [
+              "Could you provide a specific example of extracurricular?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to extracurricular?",
+              "Soshum": "How does your social sciences background shape your perspective on extracurricular?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S1_c3_q5",
+            "text": "Can you elaborate on your experience regarding extracurricular?",
+            "probing": [
+              "Could you provide a specific example of extracurricular?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to extracurricular?",
+              "Soshum": "How does your social sciences background shape your perspective on extracurricular?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "name": "Future Goals",
+        "weight": 15,
+        "questions": [
+          {
+            "id": "UNIVERSITY_S1_c4_q1",
+            "text": "Can you elaborate on your experience regarding future goals?",
+            "probing": [
+              "Could you provide a specific example of future goals?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to future goals?",
+              "Soshum": "How does your social sciences background shape your perspective on future goals?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S1_c4_q2",
+            "text": "Can you elaborate on your experience regarding future goals?",
+            "probing": [
+              "Could you provide a specific example of future goals?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to future goals?",
+              "Soshum": "How does your social sciences background shape your perspective on future goals?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S1_c4_q3",
+            "text": "Can you elaborate on your experience regarding future goals?",
+            "probing": [
+              "Could you provide a specific example of future goals?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to future goals?",
+              "Soshum": "How does your social sciences background shape your perspective on future goals?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S1_c4_q4",
+            "text": "Can you elaborate on your experience regarding future goals?",
+            "probing": [
+              "Could you provide a specific example of future goals?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to future goals?",
+              "Soshum": "How does your social sciences background shape your perspective on future goals?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S1_c4_q5",
+            "text": "Can you elaborate on your experience regarding future goals?",
+            "probing": [
+              "Could you provide a specific example of future goals?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to future goals?",
+              "Soshum": "How does your social sciences background shape your perspective on future goals?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c5",
+        "name": "Personal Statement",
+        "weight": 10,
+        "questions": [
+          {
+            "id": "UNIVERSITY_S1_c5_q1",
+            "text": "Can you elaborate on your experience regarding personal statement?",
+            "probing": [
+              "Could you provide a specific example of personal statement?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to personal statement?",
+              "Soshum": "How does your social sciences background shape your perspective on personal statement?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S1_c5_q2",
+            "text": "Can you elaborate on your experience regarding personal statement?",
+            "probing": [
+              "Could you provide a specific example of personal statement?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to personal statement?",
+              "Soshum": "How does your social sciences background shape your perspective on personal statement?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S1_c5_q3",
+            "text": "Can you elaborate on your experience regarding personal statement?",
+            "probing": [
+              "Could you provide a specific example of personal statement?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to personal statement?",
+              "Soshum": "How does your social sciences background shape your perspective on personal statement?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S1_c5_q4",
+            "text": "Can you elaborate on your experience regarding personal statement?",
+            "probing": [
+              "Could you provide a specific example of personal statement?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to personal statement?",
+              "Soshum": "How does your social sciences background shape your perspective on personal statement?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S1_c5_q5",
+            "text": "Can you elaborate on your experience regarding personal statement?",
+            "probing": [
+              "Could you provide a specific example of personal statement?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to personal statement?",
+              "Soshum": "How does your social sciences background shape your perspective on personal statement?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "UNIVERSITY_S2": {
+    "clusters": [
+      {
+        "id": "c1",
+        "name": "Research Interest",
+        "weight": 30,
+        "questions": [
+          {
+            "id": "UNIVERSITY_S2_c1_q1",
+            "text": "Could you summarize your proposed research and its potential impact?",
+            "probing": [
+              "Could you provide a specific example of research interest?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to research interest?",
+              "Soshum": "How does your social sciences background shape your perspective on research interest?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S2_c1_q2",
+            "text": "What specific methodology will you use to address your research questions?",
+            "probing": [
+              "Could you provide a specific example of research interest?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to research interest?",
+              "Soshum": "How does your social sciences background shape your perspective on research interest?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S2_c1_q3",
+            "text": "Can you elaborate on your experience regarding research interest?",
+            "probing": [
+              "Could you provide a specific example of research interest?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to research interest?",
+              "Soshum": "How does your social sciences background shape your perspective on research interest?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S2_c1_q4",
+            "text": "Can you elaborate on your experience regarding research interest?",
+            "probing": [
+              "Could you provide a specific example of research interest?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to research interest?",
+              "Soshum": "How does your social sciences background shape your perspective on research interest?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S2_c1_q5",
+            "text": "Can you elaborate on your experience regarding research interest?",
+            "probing": [
+              "Could you provide a specific example of research interest?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to research interest?",
+              "Soshum": "How does your social sciences background shape your perspective on research interest?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "Professional Experience",
+        "weight": 25,
+        "questions": [
+          {
+            "id": "UNIVERSITY_S2_c2_q1",
+            "text": "Can you elaborate on your experience regarding professional experience?",
+            "probing": [
+              "Could you provide a specific example of professional experience?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to professional experience?",
+              "Soshum": "How does your social sciences background shape your perspective on professional experience?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S2_c2_q2",
+            "text": "Can you elaborate on your experience regarding professional experience?",
+            "probing": [
+              "Could you provide a specific example of professional experience?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to professional experience?",
+              "Soshum": "How does your social sciences background shape your perspective on professional experience?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S2_c2_q3",
+            "text": "Can you elaborate on your experience regarding professional experience?",
+            "probing": [
+              "Could you provide a specific example of professional experience?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to professional experience?",
+              "Soshum": "How does your social sciences background shape your perspective on professional experience?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S2_c2_q4",
+            "text": "Can you elaborate on your experience regarding professional experience?",
+            "probing": [
+              "Could you provide a specific example of professional experience?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to professional experience?",
+              "Soshum": "How does your social sciences background shape your perspective on professional experience?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S2_c2_q5",
+            "text": "Can you elaborate on your experience regarding professional experience?",
+            "probing": [
+              "Could you provide a specific example of professional experience?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to professional experience?",
+              "Soshum": "How does your social sciences background shape your perspective on professional experience?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "Why This Program",
+        "weight": 20,
+        "questions": [
+          {
+            "id": "UNIVERSITY_S2_c3_q1",
+            "text": "Can you elaborate on your experience regarding why this program?",
+            "probing": [
+              "Could you provide a specific example of why this program?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to why this program?",
+              "Soshum": "How does your social sciences background shape your perspective on why this program?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S2_c3_q2",
+            "text": "Can you elaborate on your experience regarding why this program?",
+            "probing": [
+              "Could you provide a specific example of why this program?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to why this program?",
+              "Soshum": "How does your social sciences background shape your perspective on why this program?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S2_c3_q3",
+            "text": "Can you elaborate on your experience regarding why this program?",
+            "probing": [
+              "Could you provide a specific example of why this program?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to why this program?",
+              "Soshum": "How does your social sciences background shape your perspective on why this program?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S2_c3_q4",
+            "text": "Can you elaborate on your experience regarding why this program?",
+            "probing": [
+              "Could you provide a specific example of why this program?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to why this program?",
+              "Soshum": "How does your social sciences background shape your perspective on why this program?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S2_c3_q5",
+            "text": "Can you elaborate on your experience regarding why this program?",
+            "probing": [
+              "Could you provide a specific example of why this program?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to why this program?",
+              "Soshum": "How does your social sciences background shape your perspective on why this program?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "name": "Academic Background",
+        "weight": 15,
+        "questions": [
+          {
+            "id": "UNIVERSITY_S2_c4_q1",
+            "text": "Can you elaborate on your experience regarding academic background?",
+            "probing": [
+              "Could you provide a specific example of academic background?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic background?",
+              "Soshum": "How does your social sciences background shape your perspective on academic background?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S2_c4_q2",
+            "text": "Can you elaborate on your experience regarding academic background?",
+            "probing": [
+              "Could you provide a specific example of academic background?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic background?",
+              "Soshum": "How does your social sciences background shape your perspective on academic background?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S2_c4_q3",
+            "text": "Can you elaborate on your experience regarding academic background?",
+            "probing": [
+              "Could you provide a specific example of academic background?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic background?",
+              "Soshum": "How does your social sciences background shape your perspective on academic background?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S2_c4_q4",
+            "text": "Can you elaborate on your experience regarding academic background?",
+            "probing": [
+              "Could you provide a specific example of academic background?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic background?",
+              "Soshum": "How does your social sciences background shape your perspective on academic background?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S2_c4_q5",
+            "text": "Can you elaborate on your experience regarding academic background?",
+            "probing": [
+              "Could you provide a specific example of academic background?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic background?",
+              "Soshum": "How does your social sciences background shape your perspective on academic background?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c5",
+        "name": "Contribution to Program",
+        "weight": 10,
+        "questions": [
+          {
+            "id": "UNIVERSITY_S2_c5_q1",
+            "text": "How do you plan to contribute to your home country upon completing your studies?",
+            "probing": [
+              "Could you provide a specific example of contribution to program?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to contribution to program?",
+              "Soshum": "How does your social sciences background shape your perspective on contribution to program?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S2_c5_q2",
+            "text": "What specific societal issues are you aiming to solve with your new knowledge?",
+            "probing": [
+              "Could you provide a specific example of contribution to program?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to contribution to program?",
+              "Soshum": "How does your social sciences background shape your perspective on contribution to program?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S2_c5_q3",
+            "text": "Can you elaborate on your experience regarding contribution to program?",
+            "probing": [
+              "Could you provide a specific example of contribution to program?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to contribution to program?",
+              "Soshum": "How does your social sciences background shape your perspective on contribution to program?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S2_c5_q4",
+            "text": "Can you elaborate on your experience regarding contribution to program?",
+            "probing": [
+              "Could you provide a specific example of contribution to program?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to contribution to program?",
+              "Soshum": "How does your social sciences background shape your perspective on contribution to program?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S2_c5_q5",
+            "text": "Can you elaborate on your experience regarding contribution to program?",
+            "probing": [
+              "Could you provide a specific example of contribution to program?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to contribution to program?",
+              "Soshum": "How does your social sciences background shape your perspective on contribution to program?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "UNIVERSITY_S3": {
+    "clusters": [
+      {
+        "id": "c1",
+        "name": "Research Proposal",
+        "weight": 35,
+        "questions": [
+          {
+            "id": "UNIVERSITY_S3_c1_q1",
+            "text": "Could you summarize your proposed research and its potential impact?",
+            "probing": [
+              "Could you provide a specific example of research proposal?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to research proposal?",
+              "Soshum": "How does your social sciences background shape your perspective on research proposal?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S3_c1_q2",
+            "text": "What specific methodology will you use to address your research questions?",
+            "probing": [
+              "Could you provide a specific example of research proposal?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to research proposal?",
+              "Soshum": "How does your social sciences background shape your perspective on research proposal?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S3_c1_q3",
+            "text": "Can you elaborate on your experience regarding research proposal?",
+            "probing": [
+              "Could you provide a specific example of research proposal?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to research proposal?",
+              "Soshum": "How does your social sciences background shape your perspective on research proposal?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S3_c1_q4",
+            "text": "Can you elaborate on your experience regarding research proposal?",
+            "probing": [
+              "Could you provide a specific example of research proposal?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to research proposal?",
+              "Soshum": "How does your social sciences background shape your perspective on research proposal?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S3_c1_q5",
+            "text": "Can you elaborate on your experience regarding research proposal?",
+            "probing": [
+              "Could you provide a specific example of research proposal?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to research proposal?",
+              "Soshum": "How does your social sciences background shape your perspective on research proposal?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "Supervisor Fit",
+        "weight": 25,
+        "questions": [
+          {
+            "id": "UNIVERSITY_S3_c2_q1",
+            "text": "Can you elaborate on your experience regarding supervisor fit?",
+            "probing": [
+              "Could you provide a specific example of supervisor fit?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to supervisor fit?",
+              "Soshum": "How does your social sciences background shape your perspective on supervisor fit?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S3_c2_q2",
+            "text": "Can you elaborate on your experience regarding supervisor fit?",
+            "probing": [
+              "Could you provide a specific example of supervisor fit?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to supervisor fit?",
+              "Soshum": "How does your social sciences background shape your perspective on supervisor fit?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S3_c2_q3",
+            "text": "Can you elaborate on your experience regarding supervisor fit?",
+            "probing": [
+              "Could you provide a specific example of supervisor fit?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to supervisor fit?",
+              "Soshum": "How does your social sciences background shape your perspective on supervisor fit?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S3_c2_q4",
+            "text": "Can you elaborate on your experience regarding supervisor fit?",
+            "probing": [
+              "Could you provide a specific example of supervisor fit?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to supervisor fit?",
+              "Soshum": "How does your social sciences background shape your perspective on supervisor fit?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S3_c2_q5",
+            "text": "Can you elaborate on your experience regarding supervisor fit?",
+            "probing": [
+              "Could you provide a specific example of supervisor fit?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to supervisor fit?",
+              "Soshum": "How does your social sciences background shape your perspective on supervisor fit?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "Academic Track Record",
+        "weight": 20,
+        "questions": [
+          {
+            "id": "UNIVERSITY_S3_c3_q1",
+            "text": "Can you elaborate on your experience regarding academic track record?",
+            "probing": [
+              "Could you provide a specific example of academic track record?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic track record?",
+              "Soshum": "How does your social sciences background shape your perspective on academic track record?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S3_c3_q2",
+            "text": "Can you elaborate on your experience regarding academic track record?",
+            "probing": [
+              "Could you provide a specific example of academic track record?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic track record?",
+              "Soshum": "How does your social sciences background shape your perspective on academic track record?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S3_c3_q3",
+            "text": "Can you elaborate on your experience regarding academic track record?",
+            "probing": [
+              "Could you provide a specific example of academic track record?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic track record?",
+              "Soshum": "How does your social sciences background shape your perspective on academic track record?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S3_c3_q4",
+            "text": "Can you elaborate on your experience regarding academic track record?",
+            "probing": [
+              "Could you provide a specific example of academic track record?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic track record?",
+              "Soshum": "How does your social sciences background shape your perspective on academic track record?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S3_c3_q5",
+            "text": "Can you elaborate on your experience regarding academic track record?",
+            "probing": [
+              "Could you provide a specific example of academic track record?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to academic track record?",
+              "Soshum": "How does your social sciences background shape your perspective on academic track record?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "name": "Research Impact",
+        "weight": 15,
+        "questions": [
+          {
+            "id": "UNIVERSITY_S3_c4_q1",
+            "text": "Could you summarize your proposed research and its potential impact?",
+            "probing": [
+              "Could you provide a specific example of research impact?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to research impact?",
+              "Soshum": "How does your social sciences background shape your perspective on research impact?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S3_c4_q2",
+            "text": "What specific methodology will you use to address your research questions?",
+            "probing": [
+              "Could you provide a specific example of research impact?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to research impact?",
+              "Soshum": "How does your social sciences background shape your perspective on research impact?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S3_c4_q3",
+            "text": "Can you elaborate on your experience regarding research impact?",
+            "probing": [
+              "Could you provide a specific example of research impact?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to research impact?",
+              "Soshum": "How does your social sciences background shape your perspective on research impact?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S3_c4_q4",
+            "text": "Can you elaborate on your experience regarding research impact?",
+            "probing": [
+              "Could you provide a specific example of research impact?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to research impact?",
+              "Soshum": "How does your social sciences background shape your perspective on research impact?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S3_c4_q5",
+            "text": "Can you elaborate on your experience regarding research impact?",
+            "probing": [
+              "Could you provide a specific example of research impact?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to research impact?",
+              "Soshum": "How does your social sciences background shape your perspective on research impact?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c5",
+        "name": "Timeline",
+        "weight": 5,
+        "questions": [
+          {
+            "id": "UNIVERSITY_S3_c5_q1",
+            "text": "Can you elaborate on your experience regarding timeline?",
+            "probing": [
+              "Could you provide a specific example of timeline?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to timeline?",
+              "Soshum": "How does your social sciences background shape your perspective on timeline?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S3_c5_q2",
+            "text": "Can you elaborate on your experience regarding timeline?",
+            "probing": [
+              "Could you provide a specific example of timeline?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to timeline?",
+              "Soshum": "How does your social sciences background shape your perspective on timeline?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S3_c5_q3",
+            "text": "Can you elaborate on your experience regarding timeline?",
+            "probing": [
+              "Could you provide a specific example of timeline?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to timeline?",
+              "Soshum": "How does your social sciences background shape your perspective on timeline?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S3_c5_q4",
+            "text": "Can you elaborate on your experience regarding timeline?",
+            "probing": [
+              "Could you provide a specific example of timeline?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to timeline?",
+              "Soshum": "How does your social sciences background shape your perspective on timeline?"
+            }
+          },
+          {
+            "id": "UNIVERSITY_S3_c5_q5",
+            "text": "Can you elaborate on your experience regarding timeline?",
+            "probing": [
+              "Could you provide a specific example of timeline?",
+              "How did that situation challenge you?"
+            ],
+            "fieldVariant": {
+              "Saintek": "How does your background in STEM influence your approach to timeline?",
+              "Soshum": "How does your social sciences background shape your perspective on timeline?"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
