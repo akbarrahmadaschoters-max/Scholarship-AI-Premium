@@ -6,6 +6,7 @@ import { Outcome } from '../pages/Outcome';
 import { Profiling } from '../pages/Profiling';
 import { PremiumDashboard } from '../pages/PremiumDashboard';
 import { InterviewPage } from '../pages/InterviewPage';
+import { ScholarshipsPage } from '../pages/ScholarshipsPage';
 import { ProtectedRoute } from '../components/ProtectedRoute';
 import { useAuth } from '../context/AuthContext';
 
@@ -25,6 +26,7 @@ export const AppRoutes = () => {
         <Route path="/outcome" element={<Outcome />} />
         <Route path="/premium-dashboard" element={<PremiumDashboard />} />
         <Route path="/interviews" element={<InterviewPage />} />
+        <Route path="/scholarships" element={<ScholarshipsPage />} />
       </Route>
 
       

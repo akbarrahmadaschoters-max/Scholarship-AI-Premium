@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "lpdp-indonesia",
+    "name": "LPDP Scholarship",
+    "provider": "Ministry of Finance, Indonesia",
+    "country": "Global",
+    "flag": "🇮🇩",
+    "levels": ["S2", "S3"],
+    "fields": ["All"],
+    "fundingType": "Full",
+    "benefits": ["Tuition", "Living allowance", "Flight ticket", "Settlement allowance", "Book allowance", "Health insurance", "Visa fees"],
+    "requirements": {
+      "minIELTS": 6.5,
+      "minTOEFL": 80,
+      "minGPA": 3.0,
+      "minSAT": null,
+      "workExperience": "None (Targeted pathways may differ)",
+      "other": ["LoA Unconditional", "Essay", "Return to Indonesia commitment"]
+    },
+    "applicationWindow": {
+      "opensMonth": "January",
+      "closesMonth": "July",
+      "notes": "Usually opens in 2 phases (Phase 1 in Jan-Feb, Phase 2 in Jun-Jul)"
+    },
+    "upcomingDeadlines": [
+      {
+        "year": 2025,
+        "openDate": "2025-01-11",
+        "closeDate": "2025-02-12",
+        "status": "Closed"
+      },
+      {
+        "year": 2026,
+        "openDate": "2026-01-15",
+        "closeDate": "2026-02-15",
+        "status": "Estimated"
+      },
+      {
+        "year": 2027,
+        "openDate": "2027-01-15",
+        "closeDate": "2027-02-15",
+        "status": "Estimated"
+      }
+    ],
+    "officialUrl": "https://lpdp.kemenkeu.go.id/",
+    "difficulty": "Very Competitive",
+    "tags": ["Government", "All Disciplines", "National Contribution"],
+    "preparationTime": "6 months"
+  },
+  {
+    "id": "chevening-uk",
+    "name": "Chevening Scholarship",
+    "provider": "UK Government",
+    "country": "United Kingdom",
+    "flag": "🇬🇧",
+    "levels": ["S2"],
+    "fields": ["All"],
+    "fundingType": "Full",
+    "benefits": ["Tuition", "Living allowance", "Flight ticket", "Visa fees", "Departure allowance", "Arrival allowance"],
+    "requirements": {
+      "minIELTS": 6.5,
+      "minTOEFL": 79,
+      "minGPA": 3.0,
+      "minSAT": null,
+      "workExperience": "2 years (2800 hours)",
+      "other": ["Leadership potential", "Return to home country for 2 years", "4 essays"]
+    },
+    "applicationWindow": {
+      "opensMonth": "August",
+      "closesMonth": "November",
+      "notes": "Interviews usually held in February-April"
+    },
+    "upcomingDeadlines": [
+      {
+        "year": 2025,
+        "openDate": "2025-08-05",
+        "closeDate": "2025-11-05",
+        "status": "Estimated"
+      },
+      {
+        "year": 2026,
+        "openDate": "2026-08-04",
+        "closeDate": "2026-11-04",
+        "status": "Estimated"
+      },
+      {
+        "year": 2027,
+        "openDate": "2027-08-03",
+        "closeDate": "2027-11-03",
+        "status": "Estimated"
+      }
+    ],
+    "officialUrl": "https://www.chevening.org/",
+    "difficulty": "Highly Selective",
+    "tags": ["Government", "Leadership", "Networking", "1-Year Master's"],
+    "preparationTime": "8 months"
+  },
+  {
+    "id": "fulbright-usa",
+    "name": "Fulbright Scholarship",
+    "provider": "US Department of State / AMINEF",
+    "country": "United States",
+    "flag": "🇺🇸",
+    "levels": ["S2", "S3"],
+    "fields": ["All except Medicine/Clinical"],
+    "fundingType": "Full",
+    "benefits": ["Tuition", "Living allowance", "Flight ticket", "Health insurance", "Visa J-1 sponsorship", "Enrichment activities"],
+    "requirements": {
+      "minIELTS": 6.5,
+      "minTOEFL": 80,
+      "minGPA": 3.0,
+      "minSAT": null,
+      "workExperience": "Preferred for specific programs",
+      "other": ["GRE/GMAT (can be taken later)", "Return to Indonesia commitment", "Cultural ambassador potential"]
+    },
+    "applicationWindow": {
+      "opensMonth": "December",
+      "closesMonth": "February",
+      "notes": "Application process is very long, starting ~18 months before departure"
+    },
+    "upcomingDeadlines": [
+      {
+        "year": 2025,
+        "openDate": "2024-12-15",
+        "closeDate": "2025-02-15",
+        "status": "Closed"
+      },
+      {
+        "year": 2026,
+        "openDate": "2025-12-15",
+        "closeDate": "2026-02-15",
+        "status": "Estimated"
+      },
+      {
+        "year": 2027,
+        "openDate": "2026-12-15",
+        "closeDate": "2027-02-15",
+        "status": "Estimated"
+      }
+    ],
+    "officialUrl": "https://www.aminef.or.id/",
+    "difficulty": "Highly Selective",
+    "tags": ["Government", "Cultural Exchange", "Research", "Diplomacy"],
+    "preparationTime": "12 months"
+  },
+  {
+    "id": "erasmus-mundus",
+    "name": "Erasmus Mundus Joint Master Degrees",
+    "provider": "European Union",
+    "country": "Europe (Multiple Countries)",
+    "flag": "🇪🇺",
+    "levels": ["S2"],
+    "fields": ["Specific Joint Programs"],
+    "fundingType": "Full",
+    "benefits": ["Tuition", "Living allowance (1000-1400 EUR/mo)", "Flight ticket", "Installation costs", "Health insurance"],
+    "requirements": {
+      "minIELTS": 6.5,
+      "minTOEFL": 90,
+      "minGPA": 3.0,
+      "minSAT": null,
+      "workExperience": "None",
+      "other": ["Must study in at least 2 different EU countries", "Program-specific requirements"]
+    },
+    "applicationWindow": {
+      "opensMonth": "October",
+      "closesMonth": "January",
+      "notes": "Each consortium has its own exact deadline"
+    },
+    "upcomingDeadlines": [
+      {
+        "year": 2025,
+        "openDate": "2024-10-01",
+        "closeDate": "2025-01-31",
+        "status": "Closed"
+      },
+      {
+        "year": 2026,
+        "openDate": "2025-10-01",
+        "closeDate": "2026-01-31",
+        "status": "Estimated"
+      },
+      {
+        "year": 2027,
+        "openDate": "2026-10-01",
+        "closeDate": "2027-01-31",
+        "status": "Estimated"
+      }
+    ],
+    "officialUrl": "https://erasmus-plus.ec.europa.eu/",
+    "difficulty": "Competitive",
+    "tags": ["EU", "Mobility", "Specialized Fields", "Cultural Exchange"],
+    "preparationTime": "6 months"
+  },
+  {
+    "id": "australia-awards-aas",
+    "name": "Australia Awards Scholarship (AAS)",
+    "provider": "Department of Foreign Affairs and Trade (DFAT), Australia",
+    "country": "Australia",
+    "flag": "🇦🇺",
+    "levels": ["S2", "S3"],
+    "fields": ["Development-related fields (Health, Economy, Education, etc)"],
+    "fundingType": "Full",
+    "benefits": ["Tuition", "Living allowance", "Flight ticket", "Establishment allowance", "Oshc Health Insurance", "Pre-departure training"],
+    "requirements": {
+      "minIELTS": 6.0,
+      "minTOEFL": 78,
+      "minGPA": 2.9,
+      "minSAT": null,
+      "workExperience": "None",
+      "other": ["Development impact potential", "Priority given to target provinces (Eastern Indonesia)"]
+    },
+    "applicationWindow": {
+      "opensMonth": "February",
+      "closesMonth": "April",
+      "notes": "Includes mandatory Pre-Departure Training (PDT) in Indonesia for up to 9 months."
+    },
+    "upcomingDeadlines": [
+      {
+        "year": 2025,
+        "openDate": "2025-02-01",
+        "closeDate": "2025-04-30",
+        "status": "Open"
+      },
+      {
+        "year": 2026,
+        "openDate": "2026-02-01",
+        "closeDate": "2026-04-30",
+        "status": "Estimated"
+      },
+      {
+        "year": 2027,
+        "openDate": "2027-02-01",
+        "closeDate": "2027-04-30",
+        "status": "Estimated"
+      }
+    ],
+    "officialUrl": "https://www.australiaawardsindonesia.org/",
+    "difficulty": "Competitive",
+    "tags": ["Government", "Development", "Public Policy", "Bilateral"],
+    "preparationTime": "6 months"
+  },
+  {
+    "id": "daad-germany",
+    "name": "DAAD EPOS Scholarship",
+    "provider": "German Academic Exchange Service",
+    "country": "Germany",
+    "flag": "🇩🇪",
+    "levels": ["S2", "S3"],
+    "fields": ["Development-Related Postgraduate Courses"],
+    "fundingType": "Full",
+    "benefits": ["Tuition", "Living allowance (934 EUR/mo)", "Flight ticket", "Health insurance", "Study allowance"],
+    "requirements": {
+      "minIELTS": 6.0,
+      "minTOEFL": 80,
+      "minGPA": 3.0,
+      "minSAT": null,
+      "workExperience": "2 years",
+      "other": ["Current employer recommendation", "Degree not older than 6 years"]
+    },
+    "applicationWindow": {
+      "opensMonth": "August",
+      "closesMonth": "October",
+      "notes": "Deadlines vary depending on the chosen university program."
+    },
+    "upcomingDeadlines": [
+      {
+        "year": 2025,
+        "openDate": "2025-08-01",
+        "closeDate": "2025-10-31",
+        "status": "Estimated"
+      },
+      {
+        "year": 2026,
+        "openDate": "2026-08-01",
+        "closeDate": "2026-10-31",
+        "status": "Estimated"
+      },
+      {
+        "year": 2027,
+        "openDate": "2027-08-01",
+        "closeDate": "2027-10-31",
+        "status": "Estimated"
+      }
+    ],
+    "officialUrl": "https://www.daad.de/",
+    "difficulty": "Competitive",
+    "tags": ["Government", "Development", "Professional", "Research"],
+    "preparationTime": "6 months"
+  },
+  {
+    "id": "gates-cambridge",
+    "name": "Gates Cambridge Scholarship",
+    "provider": "Bill and Melinda Gates Foundation",
+    "country": "United Kingdom",
+    "flag": "🇬🇧",
+    "levels": ["S2", "S3"],
+    "fields": ["All"],
+    "fundingType": "Full",
+    "benefits": ["Tuition", "Maintenance allowance (£20k/year)", "Flight ticket", "Visa fees", "Family allowance", "Development funding"],
+    "requirements": {
+      "minIELTS": 7.5,
+      "minTOEFL": 110,
+      "minGPA": 3.7,
+      "minSAT": null,
+      "workExperience": "None",
+      "other": ["Outstanding intellectual ability", "Commitment to improving lives of others", "Leadership potential"]
+    },
+    "applicationWindow": {
+      "opensMonth": "September",
+      "closesMonth": "December",
+      "notes": "Applied concurrently with University of Cambridge admission"
+    },
+    "upcomingDeadlines": [
+      {
+        "year": 2025,
+        "openDate": "2024-09-04",
+        "closeDate": "2024-12-05",
+        "status": "Closed"
+      },
+      {
+        "year": 2026,
+        "openDate": "2025-09-04",
+        "closeDate": "2025-12-05",
+        "status": "Estimated"
+      },
+      {
+        "year": 2027,
+        "openDate": "2026-09-04",
+        "closeDate": "2026-12-05",
+        "status": "Estimated"
+      }
+    ],
+    "officialUrl": "https://www.gatescambridge.org/",
+    "difficulty": "Highly Selective",
+    "tags": ["Foundation", "Cambridge", "Leadership", "Global Impact"],
+    "preparationTime": "12 months"
+  },
+  {
+    "id": "rhodes-scholarship",
+    "name": "Rhodes Scholarship",
+    "provider": "Rhodes Trust",
+    "country": "United Kingdom",
+    "flag": "🇬🇧",
+    "levels": ["S2", "S3"],
+    "fields": ["All"],
+    "fundingType": "Full",
+    "benefits": ["Tuition", "Stipend (£18k/year)", "Flight ticket", "Visa fees", "IHS"],
+    "requirements": {
+      "minIELTS": 7.5,
+      "minTOEFL": 110,
+      "minGPA": 3.7,
+      "minSAT": null,
+      "workExperience": "None",
+      "other": ["Age limit (usually under 24 or 27)", "Literary and scholastic attainments", "Energy to use talents to the full", "Courage and devotion to duty"]
+    },
+    "applicationWindow": {
+      "opensMonth": "June",
+      "closesMonth": "August",
+      "notes": "Indonesians apply through the Global Constituency."
+    },
+    "upcomingDeadlines": [
+      {
+        "year": 2025,
+        "openDate": "2025-06-01",
+        "closeDate": "2025-08-01",
+        "status": "Estimated"
+      },
+      {
+        "year": 2026,
+        "openDate": "2026-06-01",
+        "closeDate": "2026-08-01",
+        "status": "Estimated"
+      },
+      {
+        "year": 2027,
+        "openDate": "2027-06-01",
+        "closeDate": "2027-08-01",
+        "status": "Estimated"
+      }
+    ],
+    "officialUrl": "https://www.rhodeshouse.ox.ac.uk/",
+    "difficulty": "Highly Selective",
+    "tags": ["Oxford", "Leadership", "Prestigious", "Excellence"],
+    "preparationTime": "12 months"
+  },
+  {
+    "id": "mext-japan",
+    "name": "Monbukagakusho (MEXT) Scholarship",
+    "provider": "Government of Japan",
+    "country": "Japan",
+    "flag": "🇯🇵",
+    "levels": ["S1", "S2", "S3"],
+    "fields": ["All"],
+    "fundingType": "Full",
+    "benefits": ["Tuition", "Allowance (117k-145k JPY/mo)", "Flight ticket", "6-month Japanese language course"],
+    "requirements": {
+      "minIELTS": 5.5,
+      "minTOEFL": 72,
+      "minGPA": 3.2,
+      "minSAT": null,
+      "workExperience": "None",
+      "other": ["Age limits apply", "Written exam (Math, English, Japanese/Science)", "Interview at embassy"]
+    },
+    "applicationWindow": {
+      "opensMonth": "April",
+      "closesMonth": "May",
+      "notes": "U to U (University track) opens around Oct-Dec."
+    },
+    "upcomingDeadlines": [
+      {
+        "year": 2025,
+        "openDate": "2025-04-15",
+        "closeDate": "2025-05-15",
+        "status": "Estimated"
+      },
+      {
+        "year": 2026,
+        "openDate": "2026-04-15",
+        "closeDate": "2026-05-15",
+        "status": "Estimated"
+      },
+      {
+        "year": 2027,
+        "openDate": "2027-04-15",
+        "closeDate": "2027-05-15",
+        "status": "Estimated"
+      }
+    ],
+    "officialUrl": "https://www.studyinjapan.go.jp/",
+    "difficulty": "Competitive",
+    "tags": ["Government", "Research", "Language Training", "Undergraduate", "Postgraduate"],
+    "preparationTime": "6 months"
+  },
+  {
+    "id": "kgsp-korea",
+    "name": "Global Korea Scholarship (GKS)",
+    "provider": "Government of South Korea",
+    "country": "South Korea",
+    "flag": "🇰🇷",
+    "levels": ["S1", "S2", "S3"],
+    "fields": ["All"],
+    "fundingType": "Full",
+    "benefits": ["Tuition", "Living allowance (1M KRW/mo)", "Flight ticket", "1-year Korean language course", "Medical insurance", "Research allowance"],
+    "requirements": {
+      "minIELTS": null,
+      "minTOEFL": null,
+      "minGPA": 3.2,
+      "minSAT": null,
+      "workExperience": "None",
+      "other": ["Age limits", "Health certificate", "TOPIK/English scores are optional but highly recommended"]
+    },
+    "applicationWindow": {
+      "opensMonth": "February",
+      "closesMonth": "March",
+      "notes": "Undergraduate usually opens in September. Graduate in Feb/March."
+    },
+    "upcomingDeadlines": [
+      {
+        "year": 2025,
+        "openDate": "2025-02-15",
+        "closeDate": "2025-03-10",
+        "status": "Estimated"
+      },
+      {
+        "year": 2026,
+        "openDate": "2026-02-15",
+        "closeDate": "2026-03-10",
+        "status": "Estimated"
+      },
+      {
+        "year": 2027,
+        "openDate": "2027-02-15",
+        "closeDate": "2027-03-10",
+        "status": "Estimated"
+      }
+    ],
+    "officialUrl": "https://www.studyinkorea.go.kr/",
+    "difficulty": "Competitive",
+    "tags": ["Government", "Language Training", "Cultural Exchange", "Research"],
+    "preparationTime": "6 months"
+  },
+  {
+    "id": "eiffel-france",
+    "name": "Eiffel Excellence Scholarship",
+    "provider": "French Ministry for Europe and Foreign Affairs",
+    "country": "France",
+    "flag": "🇫🇷",
+    "levels": ["S2", "S3"],
+    "fields": ["Engineering, Science, Management, Law, Political Science"],
+    "fundingType": "Partial",
+    "benefits": ["Monthly allowance (1181 EUR for Master, 1700 EUR for PhD)", "Flight ticket", "Health insurance", "Cultural activities"],
+    "requirements": {
+      "minIELTS": null,
+      "minTOEFL": null,
+      "minGPA": 3.5,
+      "minSAT": null,
+      "workExperience": "None",
+      "other": ["Must be nominated by a French higher education institution", "Age limits apply"]
+    },
+    "applicationWindow": {
+      "opensMonth": "October",
+      "closesMonth": "January",
+      "notes": "Tuition fees are NOT covered, but international students often get local fee rates."
+    },
+    "upcomingDeadlines": [
+      {
+        "year": 2025,
+        "openDate": "2024-10-01",
+        "closeDate": "2025-01-08",
+        "status": "Closed"
+      },
+      {
+        "year": 2026,
+        "openDate": "2025-10-01",
+        "closeDate": "2026-01-08",
+        "status": "Estimated"
+      },
+      {
+        "year": 2027,
+        "openDate": "2026-10-01",
+        "closeDate": "2027-01-08",
+        "status": "Estimated"
+      }
+    ],
+    "officialUrl": "https://www.campusfrance.org/en/eiffel-scholarship-program-of-excellence",
+    "difficulty": "Very Competitive",
+    "tags": ["Government", "Nomination Required", "Excellence"],
+    "preparationTime": "8 months"
+  },
+  {
+    "id": "holland-scholarship",
+    "name": "NL Scholarship (formerly Holland Scholarship)",
+    "provider": "Dutch Ministry of Education",
+    "country": "Netherlands",
+    "flag": "🇳🇱",
+    "levels": ["S1", "S2"],
+    "fields": ["All"],
+    "fundingType": "Partial",
+    "benefits": ["One-time grant of € 5,000, € 10,000 or € 15,000"],
+    "requirements": {
+      "minIELTS": 6.0,
+      "minTOEFL": 80,
+      "minGPA": 3.0,
+      "minSAT": null,
+      "workExperience": "None",
+      "other": ["Non-EEA nationality", "Applying for full-time program at participating Dutch institution"]
+    },
+    "applicationWindow": {
+      "opensMonth": "November",
+      "closesMonth": "May",
+      "notes": "Deadlines vary depending on the Dutch host institution (usually Feb 1 or May 1)."
+    },
+    "upcomingDeadlines": [
+      {
+        "year": 2025,
+        "openDate": "2024-11-01",
+        "closeDate": "2025-05-01",
+        "status": "Open"
+      },
+      {
+        "year": 2026,
+        "openDate": "2025-11-01",
+        "closeDate": "2026-05-01",
+        "status": "Estimated"
+      },
+      {
+        "year": 2027,
+        "openDate": "2026-11-01",
+        "closeDate": "2027-05-01",
+        "status": "Estimated"
+      }
+    ],
+    "officialUrl": "https://www.studyinnl.org/finances/nl-scholarship",
+    "difficulty": "Competitive",
+    "tags": ["Government", "Partial", "One-off grant"],
+    "preparationTime": "3 months"
+  },
+  {
+    "id": "swiss-excellence",
+    "name": "Swiss Government Excellence Scholarships",
+    "provider": "Federal Commission for Scholarships for Foreign Students (FCS)",
+    "country": "Switzerland",
+    "flag": "🇨🇭",
+    "levels": ["S3", "Postdoc", "Research"],
+    "fields": ["All"],
+    "fundingType": "Full",
+    "benefits": ["Monthly stipend (1920 CHF)", "Mandatory Swiss health insurance", "Flight ticket allowance", "Housing allowance (one-time)"],
+    "requirements": {
+      "minIELTS": null,
+      "minTOEFL": null,
+      "minGPA": 3.5,
+      "minSAT": null,
+      "workExperience": "None",
+      "other": ["Letter of invitation from a professor at a Swiss university", "Research proposal"]
+    },
+    "applicationWindow": {
+      "opensMonth": "August",
+      "closesMonth": "December",
+      "notes": "Targeted primarily at PhD, Postdoc, and research stays."
+    },
+    "upcomingDeadlines": [
+      {
+        "year": 2025,
+        "openDate": "2024-08-01",
+        "closeDate": "2024-12-10",
+        "status": "Closed"
+      },
+      {
+        "year": 2026,
+        "openDate": "2025-08-01",
+        "closeDate": "2025-12-10",
+        "status": "Estimated"
+      },
+      {
+        "year": 2027,
+        "openDate": "2026-08-01",
+        "closeDate": "2026-12-10",
+        "status": "Estimated"
+      }
+    ],
+    "officialUrl": "https://www.sbfi.admin.ch/",
+    "difficulty": "Very Competitive",
+    "tags": ["Government", "Research", "PhD", "Postdoc"],
+    "preparationTime": "9 months"
+  },
+  {
+    "id": "endeavour-leadership",
+    "name": "Endeavour Leadership Program",
+    "provider": "Australian Government",
+    "country": "Australia",
+    "flag": "🇦🇺",
+    "levels": ["S2", "S3"],
+    "fields": ["All"],
+    "fundingType": "Full",
+    "benefits": ["Tuition", "Travel allowance", "Establishment allowance", "Monthly stipend ($3000 AUD)", "Health insurance"],
+    "requirements": {
+      "minIELTS": 6.5,
+      "minTOEFL": 79,
+      "minGPA": 3.0,
+      "minSAT": null,
+      "workExperience": "None",
+      "other": ["Leadership record", "No citizenship/PR of Australia"]
+    },
+    "applicationWindow": {
+      "opensMonth": "September",
+      "closesMonth": "November",
+      "notes": "Program is currently paused/under review by the Aus Gov, historically highly prestigious."
+    },
+    "upcomingDeadlines": [
+      {
+        "year": 2025,
+        "openDate": "2025-09-01",
+        "closeDate": "2025-11-15",
+        "status": "Estimated"
+      },
+      {
+        "year": 2026,
+        "openDate": "2026-09-01",
+        "closeDate": "2026-11-15",
+        "status": "Estimated"
+      },
+      {
+        "year": 2027,
+        "openDate": "2027-09-01",
+        "closeDate": "2027-11-15",
+        "status": "Estimated"
+      }
+    ],
+    "officialUrl": "https://internationaleducation.gov.au/",
+    "difficulty": "Highly Selective",
+    "tags": ["Government", "Leadership", "Merit-based"],
+    "preparationTime": "6 months"
+  },
+  {
+    "id": "commonwealth-scholarship",
+    "name": "Commonwealth Scholarship",
+    "provider": "UK Department for International Development",
+    "country": "United Kingdom",
+    "flag": "🇬🇧",
+    "levels": ["S2", "S3"],
+    "fields": ["Science, Tech, Health, Development"],
+    "fundingType": "Full",
+    "benefits": ["Tuition", "Stipend (£1300+/mo)", "Flight ticket", "Warm clothing allowance", "Study travel grant"],
+    "requirements": {
+      "minIELTS": 6.5,
+      "minTOEFL": null,
+      "minGPA": 3.0,
+      "minSAT": null,
+      "workExperience": "None",
+      "other": ["Must apply through nominating agency", "Development impact focus"]
+    },
+    "applicationWindow": {
+      "opensMonth": "September",
+      "closesMonth": "October",
+      "notes": "Not all Commonwealth countries are eligible for all tracks every year."
+    },
+    "upcomingDeadlines": [
+      {
+        "year": 2025,
+        "openDate": "2024-09-10",
+        "closeDate": "2024-10-15",
+        "status": "Closed"
+      },
+      {
+        "year": 2026,
+        "openDate": "2025-09-10",
+        "closeDate": "2025-10-15",
+        "status": "Estimated"
+      },
+      {
+        "year": 2027,
+        "openDate": "2026-09-10",
+        "closeDate": "2026-10-15",
+        "status": "Estimated"
+      }
+    ],
+    "officialUrl": "https://cscuk.fcdo.gov.uk/",
+    "difficulty": "Competitive",
+    "tags": ["Government", "Commonwealth", "Development"],
+    "preparationTime": "6 months"
+  },
+  {
+    "id": "okp-netherlands",
+    "name": "Orange Knowledge Programme (OKP)",
+    "provider": "Nuffic",
+    "country": "Netherlands",
+    "flag": "🇳🇱",
+    "levels": ["S2", "Short Courses"],
+    "fields": ["Priority themes for Indonesia (Water, Food Security, Rule of Law, etc)"],
+    "fundingType": "Full",
+    "benefits": ["Tuition", "Living allowance", "Flight ticket", "Visa", "Insurance"],
+    "requirements": {
+      "minIELTS": 6.0,
+      "minTOEFL": 80,
+      "minGPA": 3.0,
+      "minSAT": null,
+      "workExperience": "2 years",
+      "other": ["Employer statement", "Government statement (if applicable)"]
+    },
+    "applicationWindow": {
+      "opensMonth": "February",
+      "closesMonth": "March",
+      "notes": "Has multiple rounds per year for short courses."
+    },
+    "upcomingDeadlines": [
+      {
+        "year": 2025,
+        "openDate": "2025-02-01",
+        "closeDate": "2025-03-30",
+        "status": "Estimated"
+      },
+      {
+        "year": 2026,
+        "openDate": "2026-02-01",
+        "closeDate": "2026-03-30",
+        "status": "Estimated"
+      },
+      {
+        "year": 2027,
+        "openDate": "2027-02-01",
+        "closeDate": "2027-03-30",
+        "status": "Estimated"
+      }
+    ],
+    "officialUrl": "https://www.studyinnl.org/finances/orange-knowledge-programme",
+    "difficulty": "Competitive",
+    "tags": ["Government", "Professionals", "Development", "Short Courses"],
+    "preparationTime": "4 months"
+  },
+  {
+    "id": "nus-research",
+    "name": "NUS Research Scholarship",
+    "provider": "National University of Singapore",
+    "country": "Singapore",
+    "flag": "🇸🇬",
+    "levels": ["S3"],
+    "fields": ["Research"],
+    "fundingType": "Full",
+    "benefits": ["Tuition", "Monthly stipend (S$2200-S$2700)"],
+    "requirements": {
+      "minIELTS": 6.5,
+      "minTOEFL": 85,
+      "minGPA": 3.5,
+      "minSAT": null,
+      "workExperience": "None",
+      "other": ["GRE/GMAT for some faculties", "Good research potential"]
+    },
+    "applicationWindow": {
+      "opensMonth": "May",
+      "closesMonth": "November",
+      "notes": "Deadlines vary by faculty (August intake vs January intake)."
+    },
+    "upcomingDeadlines": [
+      {
+        "year": 2025,
+        "openDate": "2024-05-01",
+        "closeDate": "2024-11-15",
+        "status": "Closed"
+      },
+      {
+        "year": 2026,
+        "openDate": "2025-05-01",
+        "closeDate": "2025-11-15",
+        "status": "Estimated"
+      },
+      {
+        "year": 2027,
+        "openDate": "2026-05-01",
+        "closeDate": "2026-11-15",
+        "status": "Estimated"
+      }
+    ],
+    "officialUrl": "https://nus.edu.sg/admissions/graduate-studies/scholarships",
+    "difficulty": "Competitive",
+    "tags": ["University", "Research", "PhD", "Asia"],
+    "preparationTime": "6 months"
+  },
+  {
+    "id": "ntu-research",
+    "name": "NTU Research Scholarship",
+    "provider": "Nanyang Technological University",
+    "country": "Singapore",
+    "flag": "🇸🇬",
+    "levels": ["S3"],
+    "fields": ["Research"],
+    "fundingType": "Full",
+    "benefits": ["Tuition", "Monthly stipend (S$2200-S$2700)"],
+    "requirements": {
+      "minIELTS": 6.5,
+      "minTOEFL": 85,
+      "minGPA": 3.5,
+      "minSAT": null,
+      "workExperience": "None",
+      "other": ["GRE/GATE scores may be required depending on school"]
+    },
+    "applicationWindow": {
+      "opensMonth": "October",
+      "closesMonth": "January",
+      "notes": "For August intake."
+    },
+    "upcomingDeadlines": [
+      {
+        "year": 2025,
+        "openDate": "2024-10-01",
+        "closeDate": "2025-01-31",
+        "status": "Closed"
+      },
+      {
+        "year": 2026,
+        "openDate": "2025-10-01",
+        "closeDate": "2026-01-31",
+        "status": "Estimated"
+      },
+      {
+        "year": 2027,
+        "openDate": "2026-10-01",
+        "closeDate": "2027-01-31",
+        "status": "Estimated"
+      }
+    ],
+    "officialUrl": "https://www.ntu.edu.sg/admissions/graduate/financial-matters/scholarships",
+    "difficulty": "Competitive",
+    "tags": ["University", "Research", "PhD", "Asia"],
+    "preparationTime": "6 months"
+  },
+  {
+    "id": "eth-zurich-excellence",
+    "name": "ETH Zurich Excellence Scholarship",
+    "provider": "ETH Zurich",
+    "country": "Switzerland",
+    "flag": "🇨🇭",
+    "levels": ["S2"],
+    "fields": ["STEM, Architecture, Management"],
+    "fundingType": "Full",
+    "benefits": ["Tuition waiver", "Living & study expenses (CHF 12k/sem)"],
+    "requirements": {
+      "minIELTS": 7.0,
+      "minTOEFL": 100,
+      "minGPA": 3.8,
+      "minSAT": null,
+      "workExperience": "None",
+      "other": ["Top 10% of Bachelor's program", "Pre-proposal for Master's thesis"]
+    },
+    "applicationWindow": {
+      "opensMonth": "November",
+      "closesMonth": "December",
+      "notes": "Highly competitive, only for prospective Master's students at ETH."
+    },
+    "upcomingDeadlines": [
+      {
+        "year": 2025,
+        "openDate": "2024-11-01",
+        "closeDate": "2024-12-15",
+        "status": "Closed"
+      },
+      {
+        "year": 2026,
+        "openDate": "2025-11-01",
+        "closeDate": "2025-12-15",
+        "status": "Estimated"
+      },
+      {
+        "year": 2027,
+        "openDate": "2026-11-01",
+        "closeDate": "2026-12-15",
+        "status": "Estimated"
+      }
+    ],
+    "officialUrl": "https://ethz.ch/students/en/studies/financial/scholarships/excellencescholarship.html",
+    "difficulty": "Highly Selective",
+    "tags": ["University", "Merit-based", "STEM", "Europe"],
+    "preparationTime": "8 months"
+  },
+  {
+    "id": "schwarzman-scholars",
+    "name": "Schwarzman Scholars",
+    "provider": "Schwarzman College, Tsinghua University",
+    "country": "China",
+    "flag": "🇨🇳",
+    "levels": ["S2"],
+    "fields": ["Global Affairs, Leadership, Business, Policy"],
+    "fundingType": "Full",
+    "benefits": ["Tuition", "Room and board", "Travel to/from Beijing", "In-country study tour", "Required course books", "Stipend", "Health insurance"],
+    "requirements": {
+      "minIELTS": 7.0,
+      "minTOEFL": 100,
+      "minGPA": 3.5,
+      "minSAT": null,
+      "workExperience": "None",
+      "other": ["Age 18-28", "Outstanding leadership qualities", "Strong English"]
+    },
+    "applicationWindow": {
+      "opensMonth": "April",
+      "closesMonth": "September",
+      "notes": "For the class starting the following year."
+    },
+    "upcomingDeadlines": [
+      {
+        "year": 2025,
+        "openDate": "2025-04-15",
+        "closeDate": "2025-09-15",
+        "status": "Estimated"
+      },
+      {
+        "year": 2026,
+        "openDate": "2026-04-15",
+        "closeDate": "2026-09-15",
+        "status": "Estimated"
+      },
+      {
+        "year": 2027,
+        "openDate": "2027-04-15",
+        "closeDate": "2027-09-15",
+        "status": "Estimated"
+      }
+    ],
+    "officialUrl": "https://www.schwarzmanscholars.org/",
+    "difficulty": "Highly Selective",
+    "tags": ["Foundation", "Leadership", "China", "Global Affairs", "1-Year Master's"],
+    "preparationTime": "9 months"
+  },
+  {
+    "id": "mastercard-foundation",
+    "name": "MasterCard Foundation Scholars Program",
+    "provider": "MasterCard Foundation",
+    "country": "Global (US, UK, Canada, Africa)",
+    "flag": "🌍",
+    "levels": ["S1", "S2"],
+    "fields": ["All"],
+    "fundingType": "Full",
+    "benefits": ["Tuition", "Accommodation", "Books", "Stipend", "Transport", "Mentoring"],
+    "requirements": {
+      "minIELTS": 6.0,
+      "minTOEFL": 80,
+      "minGPA": 3.0,
+      "minSAT": null,
+      "workExperience": "None",
+      "other": ["Economically disadvantaged background", "Leadership potential", "Commitment to give back to Africa/home community"]
+    },
+    "applicationWindow": {
+      "opensMonth": "September",
+      "closesMonth": "January",
+      "notes": "Applied directly through partner universities."
+    },
+    "upcomingDeadlines": [
+      {
+        "year": 2025,
+        "openDate": "2024-09-01",
+        "closeDate": "2025-01-31",
+        "status": "Closed"
+      },
+      {
+        "year": 2026,
+        "openDate": "2025-09-01",
+        "closeDate": "2026-01-31",
+        "status": "Estimated"
+      },
+      {
+        "year": 2027,
+        "openDate": "2026-09-01",
+        "closeDate": "2027-01-31",
+        "status": "Estimated"
+      }
+    ],
+    "officialUrl": "https://mastercardfdn.org/all/scholars/",
+    "difficulty": "Competitive",
+    "tags": ["Foundation", "Need-based", "Leadership", "Global"],
+    "preparationTime": "6 months"
+  },
+  {
+    "id": "aga-khan",
+    "name": "Aga Khan Foundation Scholarship",
+    "provider": "Aga Khan Foundation",
+    "country": "Global",
+    "flag": "🌍",
+    "levels": ["S2", "S3"],
+    "fields": ["All"],
+    "fundingType": "Partial",
+    "benefits": ["50% Grant, 50% Loan (Tuition and Living expenses)"],
+    "requirements": {
+      "minIELTS": null,
+      "minTOEFL": null,
+      "minGPA": 3.0,
+      "minSAT": null,
+      "workExperience": "Preferred",
+      "other": ["Demonstrated financial need", "Under 30 years of age preferred", "Excellent academic record"]
+    },
+    "applicationWindow": {
+      "opensMonth": "January",
+      "closesMonth": "March",
+      "notes": "Applications handled by local AKF offices."
+    },
+    "upcomingDeadlines": [
+      {
+        "year": 2025,
+        "openDate": "2025-01-01",
+        "closeDate": "2025-03-31",
+        "status": "Open"
+      },
+      {
+        "year": 2026,
+        "openDate": "2026-01-01",
+        "closeDate": "2026-03-31",
+        "status": "Estimated"
+      },
+      {
+        "year": 2027,
+        "openDate": "2027-01-01",
+        "closeDate": "2027-03-31",
+        "status": "Estimated"
+      }
+    ],
+    "officialUrl": "https://the.akdn/en/how-we-work/our-agencies/aga-khan-foundation/international-scholarship-programme",
+    "difficulty": "Competitive",
+    "tags": ["Foundation", "Need-based", "Grant/Loan Hybrid"],
+    "preparationTime": "4 months"
+  },
+  {
+    "id": "jjwbgsp",
+    "name": "Joint Japan/World Bank Graduate Scholarship",
+    "provider": "World Bank & Gov of Japan",
+    "country": "Global (US, Europe, Japan)",
+    "flag": "🌍",
+    "levels": ["S2"],
+    "fields": ["Development-related fields"],
+    "fundingType": "Full",
+    "benefits": ["Tuition", "Monthly stipend", "Round-trip air travel", "Health insurance", "Travel allowance"],
+    "requirements": {
+      "minIELTS": 6.5,
+      "minTOEFL": 80,
+      "minGPA": 3.0,
+      "minSAT": null,
+      "workExperience": "3 years",
+      "other": ["Must return to home country", "Employed in development-related work", "Not a dual citizen of developed country"]
+    },
+    "applicationWindow": {
+      "opensMonth": "January",
+      "closesMonth": "May",
+      "notes": "Has two application windows depending on the university program."
+    },
+    "upcomingDeadlines": [
+      {
+        "year": 2025,
+        "openDate": "2025-01-15",
+        "closeDate": "2025-05-24",
+        "status": "Estimated"
+      },
+      {
+        "year": 2026,
+        "openDate": "2026-01-15",
+        "closeDate": "2026-05-24",
+        "status": "Estimated"
+      },
+      {
+        "year": 2027,
+        "openDate": "2027-01-15",
+        "closeDate": "2027-05-24",
+        "status": "Estimated"
+      }
+    ],
+    "officialUrl": "https://www.worldbank.org/en/programs/scholarships",
+    "difficulty": "Very Competitive",
+    "tags": ["Development", "World Bank", "Professionals"],
+    "preparationTime": "6 months"
+  },
+  {
+    "id": "asialink-leaders",
+    "name": "AsiaLink Leaders Program",
+    "provider": "Asialink (University of Melbourne)",
+    "country": "Australia",
+    "flag": "🇦🇺",
+    "levels": ["S2", "Professional"],
+    "fields": ["Leadership, Asia-Australia relations"],
+    "fundingType": "Partial",
+    "benefits": ["Subsidized program fees", "Networking events", "Mentorship"],
+    "requirements": {
+      "minIELTS": null,
+      "minTOEFL": null,
+      "minGPA": null,
+      "minSAT": null,
+      "workExperience": "5+ years",
+      "other": ["Professional leadership track record", "Interest in Asia-Australia engagement"]
+    },
+    "applicationWindow": {
+      "opensMonth": "August",
+      "closesMonth": "October",
+      "notes": "More of a professional fellowship/leadership program than a traditional degree scholarship."
+    },
+    "upcomingDeadlines": [
+      {
+        "year": 2025,
+        "openDate": "2025-08-01",
+        "closeDate": "2025-10-31",
+        "status": "Estimated"
+      },
+      {
+        "year": 2026,
+        "openDate": "2026-08-01",
+        "closeDate": "2026-10-31",
+        "status": "Estimated"
+      },
+      {
+        "year": 2027,
+        "openDate": "2027-08-01",
+        "closeDate": "2027-10-31",
+        "status": "Estimated"
+      }
+    ],
+    "officialUrl": "https://asialink.unimelb.edu.au/leaders",
+    "difficulty": "Competitive",
+    "tags": ["Professional", "Leadership", "Fellowship"],
+    "preparationTime": "3 months"
+  },
+  {
+    "id": "heinrich-boll",
+    "name": "Heinrich Böll Foundation Scholarship",
+    "provider": "Heinrich Böll Foundation",
+    "country": "Germany",
+    "flag": "🇩🇪",
+    "levels": ["S2", "S3"],
+    "fields": ["All (STEM especially encouraged)"],
+    "fundingType": "Full",
+    "benefits": ["Stipend (934 EUR for Master, 1200 EUR for PhD)", "Various allowances", "Extensive seminar program"],
+    "requirements": {
+      "minIELTS": 6.0,
+      "minTOEFL": 80,
+      "minGPA": 3.2,
+      "minSAT": null,
+      "workExperience": "None",
+      "other": ["German language proficiency (B2 minimum)", "Identification with Green political values (ecology, sustainability, democracy)"]
+    },
+    "applicationWindow": {
+      "opensMonth": "January",
+      "closesMonth": "March",
+      "notes": "Deadlines typically March 1 and September 1 every year."
+    },
+    "upcomingDeadlines": [
+      {
+        "year": 2025,
+        "openDate": "2025-01-15",
+        "closeDate": "2025-03-01",
+        "status": "Estimated"
+      },
+      {
+        "year": 2026,
+        "openDate": "2026-01-15",
+        "closeDate": "2026-03-01",
+        "status": "Estimated"
+      },
+      {
+        "year": 2027,
+        "openDate": "2027-01-15",
+        "closeDate": "2027-03-01",
+        "status": "Estimated"
+      }
+    ],
+    "officialUrl": "https://www.boell.de/en/foundation/scholarships",
+    "difficulty": "Competitive",
+    "tags": ["Foundation", "Germany", "Sustainability", "Green Politics"],
+    "preparationTime": "6 months"
+  },
+  {
+    "id": "konrad-adenauer",
+    "name": "Konrad-Adenauer-Stiftung Scholarship",
+    "provider": "KAS Foundation",
+    "country": "Germany",
+    "flag": "🇩🇪",
+    "levels": ["S2", "S3"],
+    "fields": ["All"],
+    "fundingType": "Full",
+    "benefits": ["Stipend (934 EUR Master, 1400 EUR PhD)", "Health insurance allowance", "Family allowance"],
+    "requirements": {
+      "minIELTS": null,
+      "minTOEFL": null,
+      "minGPA": 3.3,
+      "minSAT": null,
+      "workExperience": "None",
+      "other": ["German language proficiency (B2)", "Social/political commitment", "Above-average academic performance"]
+    },
+    "applicationWindow": {
+      "opensMonth": "May",
+      "closesMonth": "July",
+      "notes": "Application deadline for international students is usually July 15."
+    },
+    "upcomingDeadlines": [
+      {
+        "year": 2025,
+        "openDate": "2025-05-15",
+        "closeDate": "2025-07-15",
+        "status": "Estimated"
+      },
+      {
+        "year": 2026,
+        "openDate": "2026-05-15",
+        "closeDate": "2026-07-15",
+        "status": "Estimated"
+      },
+      {
+        "year": 2027,
+        "openDate": "2027-05-15",
+        "closeDate": "2027-07-15",
+        "status": "Estimated"
+      }
+    ],
+    "officialUrl": "https://www.kas.de/en/web/begabtenfoerderung-und-kultur/foreign-students",
+    "difficulty": "Competitive",
+    "tags": ["Foundation", "Germany", "Politics", "Leadership"],
+    "preparationTime": "6 months"
+  },
+  {
+    "id": "taiwan-icdf",
+    "name": "Taiwan ICDF Scholarship",
+    "provider": "International Cooperation and Development Fund",
+    "country": "Taiwan",
+    "flag": "🇹🇼",
+    "levels": ["S1", "S2", "S3"],
+    "fields": ["Agriculture, STEM, Public Health, Business"],
+    "fundingType": "Full",
+    "benefits": ["Tuition", "Housing", "Flight ticket", "Insurance", "Textbook allowance", "Monthly allowance (NT$15k-20k)"],
+    "requirements": {
+      "minIELTS": 6.0,
+      "minTOEFL": 75,
+      "minGPA": 3.0,
+      "minSAT": null,
+      "workExperience": "None",
+      "other": ["Must apply to specific partner universities in Taiwan"]
+    },
+    "applicationWindow": {
+      "opensMonth": "January",
+      "closesMonth": "March",
+      "notes": "Applies through ROC (Taiwan) Embassy or Representative Office."
+    },
+    "upcomingDeadlines": [
+      {
+        "year": 2025,
+        "openDate": "2025-01-01",
+        "closeDate": "2025-03-15",
+        "status": "Open"
+      },
+      {
+        "year": 2026,
+        "openDate": "2026-01-01",
+        "closeDate": "2026-03-15",
+        "status": "Estimated"
+      },
+      {
+        "year": 2027,
+        "openDate": "2027-01-01",
+        "closeDate": "2027-03-15",
+        "status": "Estimated"
+      }
+    ],
+    "officialUrl": "https://www.icdf.org.tw/wSite/np?ctNode=31561&mp=2",
+    "difficulty": "Competitive",
+    "tags": ["Government", "Asia", "Development", "STEM"],
+    "preparationTime": "4 months"
+  },
+  {
+    "id": "turkiye-burslari",
+    "name": "Türkiye Scholarships",
+    "provider": "Government of Turkey",
+    "country": "Turkey",
+    "flag": "🇹🇷",
+    "levels": ["S1", "S2", "S3"],
+    "fields": ["All"],
+    "fundingType": "Full",
+    "benefits": ["Tuition", "Monthly stipend", "Flight ticket", "Health insurance", "Accommodation", "1-year Turkish language course"],
+    "requirements": {
+      "minIELTS": null,
+      "minTOEFL": null,
+      "minGPA": 3.0,
+      "minSAT": null,
+      "workExperience": "None",
+      "other": ["Age limits: Under 21 for S1, Under 30 for S2, Under 35 for S3", "Academic achievement (70% min for general, 90% for Med)"]
+    },
+    "applicationWindow": {
+      "opensMonth": "January",
+      "closesMonth": "February",
+      "notes": "All applications are online via the official portal."
+    },
+    "upcomingDeadlines": [
+      {
+        "year": 2025,
+        "openDate": "2025-01-10",
+        "closeDate": "2025-02-20",
+        "status": "Closed"
+      },
+      {
+        "year": 2026,
+        "openDate": "2026-01-10",
+        "closeDate": "2026-02-20",
+        "status": "Estimated"
+      },
+      {
+        "year": 2027,
+        "openDate": "2027-01-10",
+        "closeDate": "2027-02-20",
+        "status": "Estimated"
+      }
+    ],
+    "officialUrl": "https://turkiyescholarships.gov.tr/",
+    "difficulty": "Very Competitive",
+    "tags": ["Government", "Language Training", "Middle East"],
+    "preparationTime": "4 months"
+  },
+  {
+    "id": "csc-china",
+    "name": "Chinese Government Scholarship (CSC)",
+    "provider": "China Scholarship Council",
+    "country": "China",
+    "flag": "🇨🇳",
+    "levels": ["S1", "S2", "S3"],
+    "fields": ["All"],
+    "fundingType": "Full",
+    "benefits": ["Tuition", "Accommodation", "Stipend (2500-3500 RMB/mo)", "Medical insurance"],
+    "requirements": {
+      "minIELTS": 6.0,
+      "minTOEFL": 80,
+      "minGPA": 3.0,
+      "minSAT": null,
+      "workExperience": "None",
+      "other": ["Age limits apply", "Physical examination form", "Can apply for English or Chinese taught programs"]
+    },
+    "applicationWindow": {
+      "opensMonth": "December",
+      "closesMonth": "March",
+      "notes": "Applications can be through the Chinese Embassy (Type A) or University directly (Type B)."
+    },
+    "upcomingDeadlines": [
+      {
+        "year": 2025,
+        "openDate": "2024-12-01",
+        "closeDate": "2025-03-31",
+        "status": "Open"
+      },
+      {
+        "year": 2026,
+        "openDate": "2025-12-01",
+        "closeDate": "2026-03-31",
+        "status": "Estimated"
+      },
+      {
+        "year": 2027,
+        "openDate": "2026-12-01",
+        "closeDate": "2027-03-31",
+        "status": "Estimated"
+      }
+    ],
+    "officialUrl": "https://www.campuschina.org/",
+    "difficulty": "Competitive",
+    "tags": ["Government", "Asia", "Research", "Undergraduate", "Postgraduate"],
+    "preparationTime": "5 months"
+  },
+  {
+    "id": "aun-seed",
+    "name": "ASEAN University Network (AUN/SEED-Net)",
+    "provider": "AUN/SEED-Net & JICA",
+    "country": "ASEAN Region & Japan",
+    "flag": "🌏",
+    "levels": ["S2", "S3"],
+    "fields": ["Engineering"],
+    "fundingType": "Full",
+    "benefits": ["Tuition", "Living allowance", "Flight ticket", "Health insurance", "Research support", "Study trip to Japan"],
+    "requirements": {
+      "minIELTS": 6.0,
+      "minTOEFL": 80,
+      "minGPA": 3.0,
+      "minSAT": null,
+      "workExperience": "None",
+      "other": ["Must be faculty member or prospective faculty member of member institutions", "Strong engineering research proposal"]
+    },
+    "applicationWindow": {
+      "opensMonth": "September",
+      "closesMonth": "October",
+      "notes": "Targeted specifically at young academics in engineering in ASEAN."
+    },
+    "upcomingDeadlines": [
+      {
+        "year": 2025,
+        "openDate": "2025-09-01",
+        "closeDate": "2025-10-31",
+        "status": "Estimated"
+      },
+      {
+        "year": 2026,
+        "openDate": "2026-09-01",
+        "closeDate": "2026-10-31",
+        "status": "Estimated"
+      },
+      {
+        "year": 2027,
+        "openDate": "2027-09-01",
+        "closeDate": "2027-10-31",
+        "status": "Estimated"
+      }
+    ],
+    "officialUrl": "https://seed-net.org/",
+    "difficulty": "Competitive",
+    "tags": ["Engineering", "ASEAN", "Japan", "Academic Career"],
+    "preparationTime": "6 months"
+  }
+]

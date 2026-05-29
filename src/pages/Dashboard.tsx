@@ -118,7 +118,7 @@ export const Dashboard = () => {
             <div className="hidden md:flex space-x-6 mr-4 text-sm font-semibold text-slate-600">
               <Link to="/dashboard" className="text-indigo-600">Dashboard</Link>
               <a href="#" className="hover:text-indigo-600 transition-colors">Universities</a>
-              <a href="#" className="hover:text-indigo-600 transition-colors">Scholarships</a>
+              <Link to="/scholarships" className="hover:text-indigo-600 transition-colors">Scholarships</Link>
               <Link to="/interviews" className="hover:text-indigo-600 transition-colors">Interviews</Link>
             </div>
             <span className="text-sm font-semibold text-slate-700 hidden sm:inline-block">
