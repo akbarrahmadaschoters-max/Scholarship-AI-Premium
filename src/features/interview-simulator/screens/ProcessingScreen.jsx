@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { callAI } from '../utils/aiClient';
+import rubric from '../data/rubric.json';
 
-const ProcessingScreen = ({ transcript, config, panelist, timeRemaining = 0, onComplete }) => {
+const ProcessingScreen = ({ transcript, clusters = [], config, panelist, timeRemaining = 0, onComplete }) => {
   const [statusIndex, setStatusIndex] = useState(0);
   const [error, setError] = useState(null);
 
@@ -35,6 +36,9 @@ const ProcessingScreen = ({ transcript, config, panelist, timeRemaining = 0, onC
         const durationMinutes = Math.floor((2700 - timeRemaining) / 60);
         const duration = durationMinutes > 0 ? `${durationMinutes} minutes` : "Unknown duration";
 
+        const clusterInfo = clusters.map(c => `- ${c.name} (Weight: ${c.weight}%)`).join('\n');
+        const rubricInfo = rubric.dimensions.map(d => `- ${d.label} (Weight: ${d.weight}%)`).join('\n');
+
         const feedbackPrompt = `
 You are an expert scholarship and university admission interview evaluator.
 
@@ -45,10 +49,19 @@ Interview Details:
 - Interviewer: ${panelist.name}, ${panelist.title}
 - Duration: ${duration}
 
+Evaluation Criteria (Scoring Weights):
+1. Topic Clusters (Content Mastery):
+${clusterInfo || '- General (Weight: 100%)'}
+
+2. Assessment Rubric (Delivery & Quality):
+${rubricInfo}
+
 Full Interview Transcript:
 ${transcriptText}
 
-Evaluate the candidate thoroughly and objectively.
+Evaluate the candidate thoroughly and objectively based on BOTH the Topic Clusters weights and the Assessment Rubric weights. 
+Calculate the overallScore (0-100) mathematically by combining their performance across these weighted criteria.
+
 Reply ONLY with a valid JSON object. No markdown, no backticks, no explanation.
 Just the raw JSON:
 
@@ -58,7 +71,7 @@ Just the raw JSON:
   "gradeLabel": <"Excellent" or "Good" or "Satisfactory" or "Needs Improvement">,
   "clusterScores": [
     {
-      "clusterId": <string>,
+      "clusterId": <string, e.g. "Motivation">,
       "clusterName": <string>,
       "score": <number 1-5>,
       "comment": <string, 2-3 sentences in English>

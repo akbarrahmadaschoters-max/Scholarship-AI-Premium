@@ -49,6 +49,7 @@ const InterviewSimulator = () => {
   const [interviewConfig, setInterviewConfig] = useState(null);
   const [panelist, setPanelist] = useState(null);
   const [transcript, setTranscript] = useState([]);
+  const [clusters, setClusters] = useState([]); // Store fetched clusters
   const [feedbackData, setFeedbackData] = useState(null);
   const [transitioning, setTransitioning] = useState(false);
 
@@ -83,8 +84,9 @@ const InterviewSimulator = () => {
     setScreen('interview');
   };
 
-  const handleCompleteInterview = (finalTranscript) => {
+  const handleCompleteInterview = (finalTranscript, fetchedClusters) => {
     setTranscript(finalTranscript);
+    setClusters(fetchedClusters || []);
     setScreen('processing');
   };
 
@@ -121,7 +123,7 @@ const InterviewSimulator = () => {
       case 'interview':
         return <InterviewScreen config={interviewConfig} panelist={panelist} onComplete={handleCompleteInterview} />;
       case 'processing':
-        return <ProcessingScreen transcript={transcript} config={interviewConfig} panelist={panelist} onComplete={handleCompleteProcessing} />;
+        return <ProcessingScreen transcript={transcript} clusters={clusters} config={interviewConfig} panelist={panelist} onComplete={handleCompleteProcessing} />;
       case 'feedback':
         return <FeedbackScreen feedbackData={feedbackData} config={interviewConfig} panelist={panelist} onRestart={handleRestart} />;
       default:

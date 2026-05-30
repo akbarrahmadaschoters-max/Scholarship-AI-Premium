@@ -1,5 +1,3 @@
-import questionBank from '../data/questionBank.json';
-
 // Utility for Fisher-Yates shuffle
 function shuffleArray(array) {
   const arr = [...array];
@@ -10,22 +8,10 @@ function shuffleArray(array) {
   return arr;
 }
 
-export function selectQuestions(config) {
-  let key = "";
-  if (config.type === "LPDP") {
-    key = "LPDP_" + config.level;
-  } else if (config.type === "INTERNATIONAL") {
-    key = config.scholarship + "_" + config.level;
-  } else if (config.type === "UNIVERSITY") {
-    key = "UNIVERSITY_" + config.level;
+export function selectQuestions(config, clusters) {
+  if (!clusters || clusters.length === 0) {
+    return []; // Return empty if invalid or missing
   }
-
-  const bankEntry = questionBank[key];
-  if (!bankEntry || !bankEntry.clusters) {
-    return []; // Return empty if invalid config key
-  }
-
-  const clusters = bankEntry.clusters;
   const TOTAL_QUESTIONS = 17;
   
   // Calculate question distribution based on weights

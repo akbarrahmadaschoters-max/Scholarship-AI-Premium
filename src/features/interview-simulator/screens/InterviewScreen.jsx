@@ -2,17 +2,20 @@ import React, { useState, useEffect, useRef } from 'react';
 import { callAI } from '../utils/aiClient';
 import { selectQuestions, buildSystemPrompt } from '../utils/questionSelector';
 
+import { fetchQuestionsFromFirestore } from '../../../services/interviewService';
+
 const InterviewScreen = ({ config, panelist, onComplete }) => {
   // State
   const [selectedQuestions, setSelectedQuestions] = useState([]);
   const [systemPrompt, setSystemPrompt] = useState('');
   const [conversationHistory, setConversationHistory] = useState([]);
   const [transcript, setTranscript] = useState([]);
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(true); // Start loading immediately
   const [currentQuestionCount, setCurrentQuestionCount] = useState(1);
   const [isInterviewDone, setIsInterviewDone] = useState(false);
   const [timeRemaining, setTimeRemaining] = useState(2700);
   const [error, setError] = useState(null);
+  const [fetchedClusters, setFetchedClusters] = useState([]);
 
   // New Voice States
   const [isRecording, setIsRecording] = useState(false);
@@ -76,11 +79,21 @@ const InterviewScreen = ({ config, panelist, onComplete }) => {
     }
 
     const initInterview = async () => {
-      const questions = selectQuestions(config);
-      const prompt = buildSystemPrompt(config, panelist, questions);
-      
-      setSelectedQuestions(questions);
-      setSystemPrompt(prompt);
+      try {
+        // Fetch from Firestore
+        const clusters = await fetchQuestionsFromFirestore(config.type, config.scholarship, config.level);
+        if (!isMounted) return;
+
+        if (!clusters || clusters.length === 0) {
+          throw new Error("No questions found for this category in database.");
+        }
+
+        setFetchedClusters(clusters);
+        const questions = selectQuestions(config, clusters);
+        const prompt = buildSystemPrompt(config, panelist, questions);
+        
+        setSelectedQuestions(questions);
+        setSystemPrompt(prompt);
 
       setIsLoading(true);
       try {
@@ -104,6 +117,13 @@ const InterviewScreen = ({ config, panelist, onComplete }) => {
         if (isMounted) setError(err.message || "Connection error. Failed to start interview.");
       } finally {
         if (isMounted) setIsLoading(false);
+      }
+      } catch (outerErr) {
+        console.error(outerErr);
+        if (isMounted) {
+          setError(outerErr.message || "Failed to load questions from database.");
+          setIsLoading(false);
+        }
       }
     };
 
@@ -234,7 +254,7 @@ const InterviewScreen = ({ config, panelist, onComplete }) => {
       if (isDone) {
         setIsInterviewDone(true);
         setTimeout(() => {
-          onComplete(finalTranscript);
+          onComplete(finalTranscript, fetchedClusters); 
         }, 5000); // Give some time for TTS to finish before completing
       }
     } catch (err) {
