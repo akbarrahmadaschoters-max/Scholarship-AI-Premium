@@ -1,7 +1,207 @@
-import { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { useAuth } from '../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
-import { Button } from '../components/Button';
+
+const AnimatedNumber = ({ target, suffix = '', delayMs = 2000 }: { target: number, suffix?: string, delayMs?: number }) => {
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    let intervalId: any;
+    let current = 0;
+    const step = Math.ceil(target / 50);
+
+    const timer = setTimeout(() => {
+      intervalId = setInterval(() => {
+        current += step;
+        if (current >= target) {
+          setCount(target);
+          clearInterval(intervalId);
+        } else {
+          setCount(current);
+        }
+      }, 20);
+    }, delayMs);
+
+    return () => {
+      clearTimeout(timer);
+      if (intervalId) clearInterval(intervalId);
+    };
+  }, [target, delayMs]);
+
+  return <>{count}{suffix && <span style={{ color: '#B8AEFF' }}>{suffix}</span>}</>;
+};
+
+const JourneyCanvas = () => {
+  const canvasRef = useRef<HTMLCanvasElement>(null);
+
+  useEffect(() => {
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (prefersReducedMotion) return;
+
+    const canvas = canvasRef.current;
+    if (!canvas) return;
+    const ctx = canvas.getContext('2d');
+    if (!ctx) return;
+
+    let animationFrameId: number;
+    let width = 0;
+    let height = 0;
+    const startTime = performance.now();
+
+    const resize = () => {
+      width = canvas.offsetWidth;
+      height = canvas.offsetHeight;
+      canvas.width = width;
+      canvas.height = height;
+    };
+    window.addEventListener('resize', resize);
+    resize();
+
+    const destinations = [
+      {name:'Oxford',    x:0.72, y:0.18, color:'#4A7FBA', pulseOffset:0},
+      {name:'Cambridge', x:0.55, y:0.08, color:'#9B2335', pulseOffset:0.5},
+      {name:'Harvard',   x:0.82, y:0.32, color:'#A41034', pulseOffset:1},
+      {name:'MIT',       x:0.88, y:0.52, color:'#8A8B8C', pulseOffset:1.5},
+      {name:'Stanford',  x:0.78, y:0.70, color:'#8C1515', pulseOffset:2},
+      {name:'NUS',       x:0.60, y:0.82, color:'#003D7C', pulseOffset:2.5},
+    ];
+
+    const getBezierPoint = (t: number, p0: any, p1: any, p2: any, p3: any) => {
+      const cX = 3 * (p1.x - p0.x), bX = 3 * (p2.x - p1.x) - cX, aX = p3.x - p0.x - cX - bX;
+      const cY = 3 * (p1.y - p0.y), bY = 3 * (p2.y - p1.y) - cY, aY = p3.y - p0.y - cY - bY;
+      const x = (aX * Math.pow(t, 3)) + (bX * Math.pow(t, 2)) + (cX * t) + p0.x;
+      const y = (aY * Math.pow(t, 3)) + (bY * Math.pow(t, 2)) + (cY * t) + p0.y;
+      return {x, y};
+    };
+
+    const paths = destinations.map((dest, i) => ({
+      ...dest,
+      progress: 0,
+      travelerT: 0,
+      activeTime: 1600 + i * 400
+    }));
+
+    const draw = (timestamp: DOMHighResTimeStamp) => {
+      const time = timestamp - startTime;
+      ctx.clearRect(0, 0, width, height);
+
+      ctx.fillStyle = 'rgba(255,255,255,0.018)';
+      for(let x = 0; x < width; x += 28) {
+        for(let y = 0; y < height; y += 28) {
+          ctx.beginPath();
+          ctx.arc(x, y, 1, 0, Math.PI*2);
+          ctx.fill();
+        }
+      }
+
+      const origin = { x: width * 0.12, y: height * 0.78 };
+
+      paths.forEach(path => {
+        if (time > path.activeTime) {
+          path.progress = Math.min(path.progress + 0.008, 1.0);
+        }
+
+        if (path.progress > 0) {
+          const dest = { x: path.x * width, y: path.y * height };
+          const p1 = { x: origin.x + (dest.x - origin.x)*0.3 + 0.08*width, y: origin.y - 0.25*height };
+          const p2 = { x: origin.x + (dest.x - origin.x)*0.7 - 0.05*width, y: dest.y - 0.15*height };
+
+          ctx.beginPath();
+          ctx.moveTo(origin.x, origin.y);
+          const steps = Math.floor(80 * path.progress);
+          for(let i=1; i<=steps; i++) {
+            const t = i / 80;
+            const pt = getBezierPoint(t, origin, p1, p2, dest);
+            ctx.lineTo(pt.x, pt.y);
+          }
+          const grad = ctx.createLinearGradient(origin.x, origin.y, dest.x, dest.y);
+          grad.addColorStop(0, 'rgba(232,201,122,0.15)');
+          grad.addColorStop(1, path.color + '55');
+          
+          ctx.strokeStyle = grad;
+          ctx.lineWidth = 1.5;
+          ctx.setLineDash([4,6]);
+          ctx.lineDashOffset = -time * 0.03;
+          ctx.stroke();
+          ctx.setLineDash([]);
+
+          if (path.progress > 0.3) {
+            path.travelerT += 0.004;
+            if (path.travelerT > 1) path.travelerT = 0;
+            const t = path.travelerT;
+            const pt = getBezierPoint(t, origin, p1, p2, dest);
+
+            const glow = ctx.createRadialGradient(pt.x, pt.y, 0, pt.x, pt.y, 10);
+            glow.addColorStop(0, 'rgba(255,255,255,0.5)');
+            glow.addColorStop(1, 'rgba(255,255,255,0)');
+            ctx.fillStyle = glow;
+            ctx.beginPath(); ctx.arc(pt.x, pt.y, 10, 0, Math.PI*2); ctx.fill();
+
+            ctx.fillStyle = 'rgba(255,255,255,0.9)';
+            ctx.beginPath(); ctx.arc(pt.x, pt.y, 3.5, 0, Math.PI*2); ctx.fill();
+
+            for(let i=1; i<=6; i++) {
+              let tt = t - i*0.006;
+              if(tt > 0) {
+                const tailPt = getBezierPoint(tt, origin, p1, p2, dest);
+                ctx.fillStyle = `rgba(255,255,255,${Math.max(0, 0.3 - i*0.04)})`;
+                ctx.beginPath(); ctx.arc(tailPt.x, tailPt.y, Math.max(0, 3.5 - i*0.4), 0, Math.PI*2); ctx.fill();
+              }
+            }
+          }
+
+          if (path.progress > 0.85) {
+            let appear = (path.progress - 0.85) / 0.15;
+            appear = Math.max(0, Math.min(appear, 1));
+            
+            ctx.fillStyle = path.color + '14'; 
+            ctx.beginPath(); ctx.arc(dest.x, dest.y, 14 + Math.sin(time*0.003 + path.pulseOffset)*6, 0, Math.PI*2); ctx.fill();
+
+            ctx.fillStyle = path.color;
+            ctx.beginPath(); ctx.arc(dest.x, dest.y, 10 * appear, 0, Math.PI*2); ctx.fill();
+
+            ctx.fillStyle = 'rgba(255,255,255,0.92)';
+            ctx.beginPath(); ctx.arc(dest.x, dest.y, 6 * appear, 0, Math.PI*2); ctx.fill();
+
+            if (appear > 0.7) {
+              ctx.font = `600 ${11*appear}px "DM Sans", sans-serif`;
+              ctx.fillStyle = `rgba(255,255,255,${appear * 0.85})`;
+              ctx.textAlign = 'center';
+              const ly = path.y < 0.4 ? dest.y - 20 : dest.y + 24;
+              ctx.fillText(path.name, dest.x, ly);
+            }
+          }
+        }
+      });
+
+      const pulse = Math.sin(time * 0.002);
+      ctx.fillStyle = `rgba(232,201,122,${0.06 + pulse*0.06})`;
+      ctx.beginPath(); ctx.arc(origin.x, origin.y, 12 + pulse*8, 0, Math.PI*2); ctx.fill();
+      
+      ctx.fillStyle = 'rgba(232,201,122,0.9)';
+      ctx.beginPath(); ctx.arc(origin.x, origin.y, 6, 0, Math.PI*2); ctx.fill();
+      
+      ctx.fillStyle = '#fff';
+      ctx.beginPath(); ctx.arc(origin.x, origin.y, 3, 0, Math.PI*2); ctx.fill();
+
+      ctx.font = '11px "DM Sans", sans-serif';
+      ctx.fillStyle = 'rgba(232,201,122,0.8)';
+      ctx.textAlign = 'center';
+      ctx.fillText('Indonesia 🇮🇩', origin.x, origin.y + 22);
+
+      animationFrameId = requestAnimationFrame(draw);
+    };
+
+    animationFrameId = requestAnimationFrame(draw);
+
+    return () => {
+      window.removeEventListener('resize', resize);
+      cancelAnimationFrame(animationFrameId);
+    };
+  }, []);
+
+  return <canvas ref={canvasRef} className="absolute inset-0 z-10 pointer-events-none w-full h-full" />;
+};
 
 export const Login = () => {
   const [email, setEmail] = useState('');
@@ -51,213 +251,283 @@ export const Login = () => {
     }
   };
 
+  const headlineLines = [
+    { text: 'Your path to', isElite: false },
+    { text: 'elite', isElite: true },
+    { text: 'universities,', isElite: false },
+    { text: 'starts here.', isElite: false }
+  ];
+
   return (
-    <div className="min-h-screen bg-slate-50 flex flex-col md:flex-row font-sans">
-      {/* Left side - Hero / Landing Content */}
-      <div className="md:w-3/5 bg-[#F8F9FE] text-slate-800 p-10 lg:p-20 flex flex-col justify-between relative overflow-hidden">
-        {/* Abstract Background Decoration */}
-        <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0">
-          <div className="absolute top-[-10%] right-[-10%] w-[50%] h-[50%] rounded-full bg-indigo-200/50 blur-[100px]"></div>
-          <div className="absolute bottom-[-10%] left-[-10%] w-[60%] h-[60%] rounded-full bg-blue-200/40 blur-[120px]"></div>
+    <>
+      <style>{`
+        body {
+          font-family: 'DM Sans', sans-serif;
+          background: radial-gradient(ellipse at 15% 60%, #1E1245 0%, #0A0618 45%, #050310 100%);
+        }
+        body::before {
+          content: '';
+          position: fixed;
+          top: 0; right: 0; bottom: 0; left: 0;
+          background: 
+            radial-gradient(ellipse at 100% 0%, rgba(255,190,100,0.06) 0%, transparent 50%),
+            radial-gradient(ellipse at 0% 100%, rgba(100,80,255,0.08) 0%, transparent 50%);
+          pointer-events: none;
+          z-index: -1;
+        }
+        @keyframes fadeUp {
+          from { opacity: 0; transform: translateY(16px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes fadeDown {
+          from { opacity: 0; transform: translateY(-10px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes wordIn {
+          from { opacity: 0; transform: translateY(18px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes blink {
+          0%, 100% { transform: scale(1); opacity: 1; }
+          50% { transform: scale(0.8); opacity: 0.4; }
+        }
+        @keyframes glowPulse {
+          0%, 100% { box-shadow: 0 0 20px rgba(136,117,255,0.5); }
+          50% { box-shadow: 0 0 42px rgba(136,117,255,0.7); }
+        }
+        .anim-fadeUp { animation: fadeUp ease forwards; opacity: 0; }
+        .anim-fadeDown { animation: fadeDown ease forwards; opacity: 0; }
+        .anim-wordIn { animation: wordIn ease forwards; opacity: 0; }
+        
+        @media (prefers-reduced-motion: reduce) {
+          *, ::before, ::after {
+            animation: none !important;
+            transition: none !important;
+            opacity: 1 !important;
+            transform: none !important;
+          }
+        }
+
+        .right-separator::before {
+          content: '';
+          position: absolute;
+          top: 0; left: 0;
+          width: 100%; height: 3px;
+          background: linear-gradient(90deg, #8875FF, #B8AEFF, #C9A455);
+        }
+        .right-separator::after {
+          content: '';
+          position: absolute;
+          top: 0; left: 0;
+          width: 1px; height: 100%;
+          background: linear-gradient(to bottom, transparent, rgba(136,117,255,0.2) 30%, rgba(136,117,255,0.2) 70%, transparent);
+        }
+      `}</style>
+      
+      <div style={{ display: 'grid', gridTemplateColumns: '1fr 420px', height: '100vh', overflow: 'hidden' }}>
+        
+        {/* SISI KIRI */}
+        <div style={{ padding: '44px 52px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', position: 'relative', overflow: 'hidden' }}>
+          
+          <JourneyCanvas />
+
+          {/* Logo */}
+          <div className="anim-fadeDown flex items-center gap-[11px] relative z-20" style={{ animationDuration: '0.6s', animationDelay: '0.1s' }}>
+            <div style={{ width: '38px', height: '38px', borderRadius: '10px', background: 'linear-gradient(135deg, #8875FF, #B8AEFF)', boxShadow: '0 0 28px rgba(136,117,255,0.5)', fontFamily: "'Instrument Serif', serif", fontSize: '17px', fontWeight: 'bold', color: 'white', display: 'flex', alignItems: 'center', justifyContent: 'center', animation: 'glowPulse 3s ease-in-out infinite' }}>
+              S
+            </div>
+            <span style={{ fontSize: '14px', fontWeight: 600, letterSpacing: '0.08em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.8)' }}>
+              SCHOLAR NOVA
+            </span>
+          </div>
+
+          {/* Hero Content */}
+          <div className="relative z-20">
+            <div className="anim-fadeUp flex items-center gap-[7px]" style={{ background: 'rgba(201,164,85,0.1)', border: '1px solid rgba(201,164,85,0.25)', borderRadius: '20px', padding: '5px 14px', marginBottom: '24px', display: 'inline-flex', animationDuration: '0.5s', animationDelay: '0.4s' }}>
+              <div style={{ width: '6px', height: '6px', borderRadius: '50%', background: '#E8C97A', animation: 'blink 2s infinite' }}></div>
+              <span style={{ fontSize: '11px', textTransform: 'uppercase', color: '#E8C97A', fontWeight: 600, letterSpacing: '0.05em' }}>PREMIUM ACCESS</span>
+            </div>
+
+            <h1 style={{ fontFamily: "'Instrument Serif', serif", fontSize: '54px', lineHeight: 1.06, letterSpacing: '-0.03em', color: 'white', marginBottom: '20px' }}>
+              {headlineLines.map((line, i) => (
+                <React.Fragment key={i}>
+                  <span className="anim-wordIn inline-block" style={{ animationDuration: '0.5s', animationDelay: `${0.5 + (i * 0.13)}s` }}>
+                    {line.isElite ? (
+                      <em style={{ fontStyle: 'italic', background: 'linear-gradient(110deg, #B8AEFF, #E8C97A)', WebkitBackgroundClip: 'text', color: 'transparent' }}>{line.text}</em>
+                    ) : (
+                      line.text
+                    )}
+                  </span>
+                  <br />
+                </React.Fragment>
+              ))}
+            </h1>
+
+            <p className="anim-fadeUp" style={{ fontSize: '14.5px', color: 'rgba(255,255,255,0.45)', lineHeight: 1.7, maxWidth: '340px', animationDuration: '0.5s', animationDelay: '1.1s' }}>
+              Personalized matching, gap analysis, and interview prep —
+              built for students who aim for the world's best.
+            </p>
+          </div>
+
+          {/* Stats Row */}
+          <div className="anim-fadeUp flex relative z-20" style={{ borderTop: '1px solid rgba(255,255,255,0.07)', paddingTop: '26px', animationDuration: '0.5s', animationDelay: '1.9s' }}>
+            <div style={{ flex: 1 }}>
+              <div style={{ fontFamily: "'Instrument Serif', serif", fontSize: '30px', color: 'white', lineHeight: 1 }}>
+                <AnimatedNumber target={50} suffix="+" />
+              </div>
+              <div style={{ fontSize: '11px', color: 'rgba(255,255,255,0.42)', marginTop: '4px' }}>Top universities</div>
+            </div>
+            <div style={{ width: '1px', background: 'rgba(255,255,255,0.07)' }}></div>
+            <div style={{ flex: 1, paddingLeft: '24px' }}>
+              <div style={{ fontFamily: "'Instrument Serif', serif", fontSize: '30px', color: 'white', lineHeight: 1 }}>
+                <AnimatedNumber target={30} suffix="+" />
+              </div>
+              <div style={{ fontSize: '11px', color: 'rgba(255,255,255,0.42)', marginTop: '4px' }}>Scholarships tracked</div>
+            </div>
+            <div style={{ width: '1px', background: 'rgba(255,255,255,0.07)' }}></div>
+            <div style={{ flex: 1, paddingLeft: '24px' }}>
+              <div style={{ fontFamily: "'Instrument Serif', serif", fontSize: '30px', color: 'white', lineHeight: 1 }}>
+                <AnimatedNumber target={95} suffix="%" />
+              </div>
+              <div style={{ fontSize: '11px', color: 'rgba(255,255,255,0.42)', marginTop: '4px' }}>Match accuracy</div>
+            </div>
+          </div>
         </div>
 
-        <div className="relative z-10 flex items-center space-x-3 mb-12">
-          <div className="h-10 w-10 relative">
-              <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full drop-shadow-md">
-                 <defs>
-                   <linearGradient id="logo-gradient-login" x1="0%" y1="0%" x2="100%" y2="100%">
-                     <stop offset="0%" stopColor="#818cf8" />
-                     <stop offset="100%" stopColor="#4f46e5" />
-                   </linearGradient>
-                 </defs>
-                 <path d="M70,30 C70,15 50,15 50,15 C50,15 30,15 30,30 C30,45 70,55 70,70 C70,85 50,85 50,85 C50,85 30,85 30,70" stroke="url(#logo-gradient-login)" strokeWidth="18" strokeLinecap="round" strokeLinejoin="round" />
-                 <path d="M70,30 C70,15 50,15 50,15 C50,15 30,15 30,30 C30,45 70,55 70,70 C70,85 50,85 50,85 C50,85 30,85 30,70" stroke="white" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" strokeDasharray="10 30" opacity="0.3" />
-              </svg>
-          </div>
-          <span className="text-xl font-extrabold tracking-wider text-slate-800">SCHOLAR NOVA</span>
-        </div>
-
-        <div className="relative z-10 max-w-2xl mt-auto mb-auto">
-          <span className="inline-block px-3 py-1 bg-indigo-100 border border-indigo-200 rounded-full text-indigo-700 text-sm font-bold tracking-wide mb-6">
-            P R E M I U M   A C C E S S
-          </span>
-          <h1 className="text-4xl lg:text-6xl font-extrabold tracking-tight leading-[1.1] mb-6 text-slate-900">
-            AI premium scholarship consulting partner
-          </h1>
-          <p className="text-lg lg:text-xl text-slate-600 leading-relaxed mb-10 max-w-xl font-medium">
-            Dapatkan bimbingan beasiswa terbaik dengan AI. Persiapan lebih cerdas, peluang lebih besar.
-          </p>
-
-          {/* AI Feature Highlight */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <div className="flex items-start space-x-3 bg-white p-4 rounded-2xl shadow-sm border border-indigo-50">
-              <div className="text-indigo-500 mt-1 bg-indigo-50 p-2 rounded-full">
-                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
-                </svg>
-              </div>
-              <div>
-                <h4 className="font-bold text-slate-800">AI University Match</h4>
-                <p className="text-sm text-slate-500 mt-0.5">Find global programs matching your profile.</p>
-              </div>
+        {/* SISI KANAN */}
+        <div className="right-separator relative z-20" style={{ background: 'rgba(251,251,253,0.98)', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '48px 52px' }}>
+          <div className="w-full max-w-[310px] anim-fadeUp" style={{ animationDuration: '0.7s', animationDelay: '0.35s' }}>
+            <div className="text-center">
+              <h2 style={{ fontFamily: "'Instrument Serif', serif", fontSize: '27px', color: '#0A0618', letterSpacing: '-0.02em', marginBottom: '4px' }}>
+                {isSignUp ? 'Create an Account' : 'Welcome back'}
+              </h2>
+              <p style={{ fontSize: '13px', color: '#8892A4', marginBottom: '26px' }}>
+                {isSignUp ? 'Start your scholarship journey today.' : 'Continue your scholarship journey.'}
+              </p>
             </div>
-            <div className="flex items-start space-x-3 bg-white p-4 rounded-2xl shadow-sm border border-indigo-50">
-              <div className="text-indigo-500 mt-1 bg-indigo-50 p-2 rounded-full">
-                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
-              <div>
-                <h4 className="font-bold text-slate-800">Profile Gap Analysis</h4>
-                <p className="text-sm text-slate-500 mt-0.5">Identify areas to improve for scholarships.</p>
-              </div>
-            </div>
-            <div className="flex items-start space-x-3 bg-white p-4 rounded-2xl shadow-sm border border-indigo-50">
-              <div className="text-indigo-500 mt-1 bg-indigo-50 p-2 rounded-full">
-                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
-                </svg>
-              </div>
-              <div>
-                <h4 className="font-bold text-slate-800">Essay & Interview</h4>
-                <p className="text-sm text-slate-500 mt-0.5">Mock interviews with real-time AI feedback.</p>
-              </div>
-            </div>
-            <div className="flex items-start space-x-3 bg-white p-4 rounded-2xl shadow-sm border border-indigo-50">
-              <div className="text-indigo-500 mt-1 bg-indigo-50 p-2 rounded-full">
-                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                </svg>
-              </div>
-              <div>
-                <h4 className="font-bold text-slate-800">Timeline Planner</h4>
-                <p className="text-sm text-slate-500 mt-0.5">Stay on track with IELTS, SAT, and deadlines.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
-      {/* Right side - Login Form */}
-      <div className="md:w-2/5 flex flex-col justify-center px-8 sm:px-16 lg:px-24 py-12 bg-white relative">
-        <div className="w-full max-w-sm mx-auto">
-          <div className="mb-10 text-center">
-            <h2 className="text-3xl font-bold text-gray-900 mb-2">{isSignUp ? 'Create an Account' : 'Welcome Back'}</h2>
-            <p className="text-gray-500 font-medium">{isSignUp ? 'Start your scholarship journey today.' : 'Continue your scholarship journey.'}</p>
-          </div>
-
-          {errorMsg && (
-            <div className="mb-6 p-3 bg-red-50 border border-red-200 text-red-600 text-sm rounded-lg text-center font-medium">
-              {errorMsg}
-            </div>
-          )}
-
-          <Button 
-            type="button"
-            variant="outline" 
-            className="w-full h-12 text-base font-semibold mb-6 flex items-center justify-center space-x-2 border-gray-300 text-gray-700 hover:bg-gray-50"
-            onClick={handleGoogleLogin}
-            disabled={isSubmitting}
-          >
-            <svg className="w-5 h-5" viewBox="0 0 24 24">
-              <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
-              <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
-              <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/>
-              <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
-            </svg>
-            <span>Continue with Google</span>
-          </Button>
-
-          <div className="relative mb-6">
-            <div className="absolute inset-0 flex items-center">
-              <div className="w-full border-t border-gray-200"></div>
-            </div>
-            <div className="relative flex justify-center text-sm">
-              <span className="px-4 bg-white text-gray-500 font-medium">Or continue with email</span>
-            </div>
-          </div>
-
-          <form onSubmit={(e) => handleLogin(e, false)} className="space-y-5">
-            {isSignUp && (
-              <div>
-                <label className="block text-sm font-semibold text-gray-700 mb-1">Full Name</label>
-                <input
-                  type="text"
-                  required={isSignUp}
-                  value={displayName}
-                  onChange={(e) => setDisplayName(e.target.value)}
-                  className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 focus:bg-white transition-colors"
-                  placeholder="John Doe"
-                />
+            {errorMsg && (
+              <div className="mb-4 p-3 bg-red-50 border border-red-200 text-red-600 text-sm rounded-lg text-center font-medium">
+                {errorMsg}
               </div>
             )}
-            <div>
-              <label className="block text-sm font-semibold text-gray-700 mb-1">Email address</label>
-              <input
-                type="email"
-                required
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 focus:bg-white transition-colors"
-                placeholder="student@example.com"
-              />
-            </div>
 
-            <div>
-              <div className="flex justify-between mb-1">
-                <label className="block text-sm font-semibold text-gray-700">Password</label>
-                <a href="#" className="text-sm text-indigo-600 hover:text-indigo-500 font-medium">Forgot password?</a>
-              </div>
-              <input
-                type="password"
-                required
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-                className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 focus:bg-white transition-colors"
-                placeholder="••••••••"
-              />
-            </div>
-
-            <div className="pt-2">
-              <Button type="submit" isLoading={isSubmitting} className="w-full h-12 text-base font-bold shadow-lg shadow-indigo-200">
-                {isSignUp ? 'Sign Up' : 'Sign In'}
-              </Button>
-            </div>
-          </form>
-
-          <div className="mt-8 relative">
-            <div className="absolute inset-0 flex items-center">
-              <div className="w-full border-t border-gray-200"></div>
-            </div>
-            <div className="relative flex justify-center text-sm">
-              <span className="px-4 bg-white text-gray-500 font-medium">Or try the platform</span>
-            </div>
-          </div>
-
-          <div className="mt-8">
-            <Button 
+            <button 
               type="button"
-              variant="outline" 
-              className="w-full h-12 text-base font-semibold"
-              onClick={() => handleLogin(undefined, true)}
+              className="w-full flex items-center justify-center gap-2 bg-white transition-all hover:-translate-y-[1px]"
+              style={{ border: '1.5px solid #E4E7ED', borderRadius: '10px', padding: '12px 20px', fontSize: '14px', fontWeight: 500, color: '#1E2532', boxShadow: '0 1px 3px rgba(0,0,0,0.05)', marginBottom: '20px' }}
+              onClick={handleGoogleLogin}
               disabled={isSubmitting}
             >
-              Access Demo Dashboard
-            </Button>
-          </div>
-          
-          <p className="mt-10 text-center text-sm text-gray-500 font-medium">
-            {isSignUp ? 'Already have an account? ' : "Don't have an account? "}
-            <button 
-              type="button" 
-              onClick={() => { setIsSignUp(!isSignUp); setErrorMsg(''); }} 
-              className="text-indigo-600 hover:text-indigo-500 font-bold"
-            >
-              {isSignUp ? 'Sign in' : 'Apply now'}
+              <svg className="w-[18px] h-[18px]" viewBox="0 0 24 24">
+                <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+                <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+                <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/>
+                <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
+              </svg>
+              <span>Continue with Google</span>
             </button>
-          </p>
+
+            <div className="relative mb-5">
+              <div className="absolute inset-0 flex items-center">
+                <div className="w-full border-t border-[#E8EBF0]"></div>
+              </div>
+              <div className="relative flex justify-center text-[13px]">
+                <span className="px-4 bg-[#FBFBFD] text-[#8892A4]">Or continue with email</span>
+              </div>
+            </div>
+
+            <form onSubmit={(e) => handleLogin(e, false)} className="space-y-3.5">
+              {isSignUp && (
+                <div>
+                  <input
+                    type="text"
+                    required={isSignUp}
+                    value={displayName}
+                    onChange={(e) => setDisplayName(e.target.value)}
+                    className="w-full bg-white text-[14px] text-[#0A0618] transition-all focus:outline-none placeholder:text-[#B8BEC9]"
+                    style={{ fontFamily: "'DM Sans', sans-serif", borderRadius: '9px', border: '1.5px solid #E4E7ED', padding: '11px 14px', boxShadow: 'none' }}
+                    placeholder="Full Name"
+                    onFocus={(e) => { e.target.style.borderColor = '#8875FF'; e.target.style.boxShadow = '0 0 0 3px rgba(136,117,255,0.1)'; }}
+                    onBlur={(e) => { e.target.style.borderColor = '#E4E7ED'; e.target.style.boxShadow = 'none'; }}
+                  />
+                </div>
+              )}
+              <div>
+                <input
+                  type="email"
+                  required
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  className="w-full bg-white text-[14px] text-[#0A0618] transition-all focus:outline-none placeholder:text-[#B8BEC9]"
+                  style={{ fontFamily: "'DM Sans', sans-serif", borderRadius: '9px', border: '1.5px solid #E4E7ED', padding: '11px 14px', boxShadow: 'none' }}
+                  placeholder="Email address"
+                  onFocus={(e) => { e.target.style.borderColor = '#8875FF'; e.target.style.boxShadow = '0 0 0 3px rgba(136,117,255,0.1)'; }}
+                  onBlur={(e) => { e.target.style.borderColor = '#E4E7ED'; e.target.style.boxShadow = 'none'; }}
+                />
+              </div>
+
+              <div>
+                <input
+                  type="password"
+                  required
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                  className="w-full bg-white text-[14px] text-[#0A0618] transition-all focus:outline-none placeholder:text-[#B8BEC9]"
+                  style={{ fontFamily: "'DM Sans', sans-serif", borderRadius: '9px', border: '1.5px solid #E4E7ED', padding: '11px 14px', boxShadow: 'none' }}
+                  placeholder="Password"
+                  onFocus={(e) => { e.target.style.borderColor = '#8875FF'; e.target.style.boxShadow = '0 0 0 3px rgba(136,117,255,0.1)'; }}
+                  onBlur={(e) => { e.target.style.borderColor = '#E4E7ED'; e.target.style.boxShadow = 'none'; }}
+                />
+              </div>
+
+              <div className="pt-1.5">
+                <button 
+                  type="submit" 
+                  disabled={isSubmitting} 
+                  className="w-full text-white transition-all hover:-translate-y-[1px] relative overflow-hidden group"
+                  style={{ 
+                    background: 'linear-gradient(135deg, #8875FF, #5B4FCC)', borderRadius: '10px', padding: '13px', 
+                    fontSize: '15px', fontWeight: 600, boxShadow: '0 4px 18px rgba(136,117,255,0.4)', border: 'none' 
+                  }}
+                >
+                  <div className="absolute inset-0 bg-white/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                  <span className="relative z-10">{isSubmitting ? 'Processing...' : (isSignUp ? 'Sign Up' : 'Sign In')}</span>
+                </button>
+              </div>
+            </form>
+
+            <div className="mt-5">
+              <button 
+                type="button"
+                className="w-full group flex items-center justify-center gap-1 transition-all"
+                style={{ 
+                  background: 'transparent', border: '1.5px solid #E4E7ED', borderRadius: '10px', 
+                  padding: '12px 13px', fontSize: '13.5px', fontWeight: 500, color: '#4A5568' 
+                }}
+                onMouseEnter={(e) => { e.currentTarget.style.borderColor = '#8875FF'; e.currentTarget.style.color = '#8875FF'; e.currentTarget.style.background = 'rgba(136,117,255,0.04)'; e.currentTarget.style.transform = 'translateY(-1px)'; }}
+                onMouseLeave={(e) => { e.currentTarget.style.borderColor = '#E4E7ED'; e.currentTarget.style.color = '#4A5568'; e.currentTarget.style.background = 'transparent'; e.currentTarget.style.transform = 'translateY(0)'; }}
+                onClick={() => handleLogin(undefined, true)}
+                disabled={isSubmitting}
+              >
+                Access Demo Dashboard <span className="group-hover:translate-x-[3px] transition-transform">→</span>
+              </button>
+            </div>
+            
+            <p className="mt-7 text-center text-[13px] text-gray-500">
+              {isSignUp ? 'Already have an account? ' : "Don't have an account? "}
+              <button 
+                type="button" 
+                onClick={() => { setIsSignUp(!isSignUp); setErrorMsg(''); }} 
+                style={{ color: '#8875FF', fontWeight: 600 }}
+                className="hover:underline"
+              >
+                {isSignUp ? 'Sign in' : 'Apply now'}
+              </button>
+            </p>
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
